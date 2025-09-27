@@ -47,7 +47,7 @@ function generateBadge(badges) {
   return '';
 }
 
-// Function để tạo HTML cho một sản phẩm
+// Function để tạo HTML cho một sản phẩm (loại bỏ fallback image)
 function createProductHTML(product, delay = '0.1s') {
   const category = productData.categories.find(cat => cat.id === product.category_id);
   const categoryName = category ? category.name : 'Ắc quy';
@@ -58,12 +58,17 @@ function createProductHTML(product, delay = '0.1s') {
   const badge = generateBadge(product.badges);
   const stars = generateStars(product.rating);
   
+  // Sử dụng hình ảnh từ data hoặc placeholder đơn giản
+  const imageUrl = product.main_image || product.pro_image || 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg==';
+  
   return `
     <div class="col-md-6 col-lg-4 col-xl-3">
       <div class="product-item rounded wow fadeInUp" data-wow-delay="${delay}">
         <div class="product-item-inner border rounded">
           <div class="product-item-inner-item">
-            <img src="${product.main_image}" class="img-fluid w-100 rounded-top" alt="${product.name}">
+            <img src="${imageUrl}" 
+                 class="img-fluid w-100 rounded-top" 
+                 alt="${product.name}">
             ${badge}
             <div class="product-details">
               <a href="#" onclick="viewProduct(${product.id})"><i class="fa fa-eye fa-1x"></i></a>
@@ -106,20 +111,16 @@ function createProductHTML(product, delay = '0.1s') {
   `;
 }
 
-// Function để render tất cả sản phẩm
+// Function cơ bản để render sản phẩm - THIẾU FUNCTION NÀY
 function renderProducts(products = null, containerId = 'products-container') {
-  if (!productData) {
-    console.error('Dữ liệu sản phẩm chưa được load');
-    return;
-  }
+  if (!productData) return;
   
   const container = document.getElementById(containerId);
-  if (!container) {
-    console.error(`Container với id "${containerId}" không tồn tại`);
-    return;
-  }
+  if (!container) return;
   
+  // Nếu không truyền products, sử dụng tất cả sản phẩm
   const productsToRender = products || productData.products;
+  
   let html = '';
   const delays = ['0.1s', '0.3s', '0.5s', '0.7s'];
   
@@ -131,11 +132,61 @@ function renderProducts(products = null, containerId = 'products-container') {
   container.innerHTML = html;
 }
 
-// Function để render sản phẩm theo danh mục
-function renderProductsByCategory(categoryId, containerId = 'products-container') {
-  if (!productData) return;
+// Function để render sản phẩm cho tab active với debug và ngăn chặn infinite loop
+function renderProductsForActiveTab(categoryId) {
+  
+  if (!productData) {
+    console.error('productData is null or undefined');
+    return;
+  }
+  
+  // Tìm tab đang active
+  const activeTab = document.querySelector('.tab-pane.active');
+  if (!activeTab) {
+    console.error('No active tab found');
+    return;
+  }
+  
+  // Tìm container .row trong tab đó
+  const container = activeTab.querySelector('.row');
+  if (!container) {
+    console.error('No .row container found in active tab');
+    return;
+  }
+  
+  // Kiểm tra xem container đã có sản phẩm chưa để tránh render lặp lại
+  if (container.dataset.rendered === String(categoryId)) {
+    return;
+  }
+  
   const filteredProducts = productData.products.filter(product => product.category_id === categoryId);
-  renderProducts(filteredProducts, containerId);
+  
+  if (filteredProducts.length === 0) {
+    container.innerHTML = '<div class="col-12"><p class="text-center">Không có sản phẩm nào trong danh mục này.</p></div>';
+    container.dataset.rendered = String(categoryId);
+    return;
+  }
+  
+  // Render trực tiếp vào container
+  let html = '';
+  const delays = ['0.1s', '0.3s', '0.5s', '0.7s'];
+  
+  filteredProducts.forEach((product, index) => {
+    const delay = delays[index % delays.length];
+    html += createProductHTML(product, delay);
+  });
+  
+  container.innerHTML = html;
+  container.dataset.rendered = String(categoryId); // Đánh dấu đã render
+}
+
+// Function để render sản phẩm theo danh mục (sử dụng renderProductsForActiveTab)
+function renderProductsByCategory(categoryId) {
+  
+  // Đợi một chút để tab mới được active
+  setTimeout(() => {
+    renderProductsForActiveTab(categoryId);
+  }, 100);
 }
 
 // Function để tìm kiếm sản phẩm
@@ -160,30 +211,163 @@ function viewProduct(productId) {
 function addToCart(productId) {
   const product = productData.products.find(p => p.id === productId);
   if (product) {
-    console.log('Thêm vào giỏ hàng:', product);
-    alert(`Đã thêm "${product.name}" vào giỏ hàng!`);
+    showProductModal(product);
+  }
+}
+
+function showProductModal(product) {
+  const category = productData.categories.find(cat => cat.id === product.category_id);
+  const categoryName = category ? category.name : 'Ắc quy';
+  const originalPriceHTML = product.original_price ? 
+    `<del class="text-muted">${formatPrice(product.original_price)}</del>` : '';
+  
+  const modalHTML = `
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Chi tiết sản phẩm</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="${product.main_image}" class="img-fluid rounded" alt="${product.name}">
+              </div>
+              <div class="col-md-6">
+                <h4>${product.name}</h4>
+                <p class="text-muted">${categoryName}</p>
+                <p>${product.short_description}</p>
+                <div class="mb-3">
+                  ${originalPriceHTML}
+                  <span class="h4 text-primary">${formatPrice(product.price)}</span>
+                </div>
+                <div class="mb-3">
+                  <strong>Thông số kỹ thuật:</strong><br>
+                  Điện áp: ${product.voltage}<br>
+                  Dung lượng: ${product.capacity}
+                </div>
+                <form id="orderForm">
+                  <div class="mb-3">
+                    <label class="form-label">Họ tên *</label>
+                    <input type="text" class="form-control" name="customerName" required>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Số điện thoại *</label>
+                    <input type="tel" class="form-control" name="customerPhone" required>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Địa chỉ</label>
+                    <textarea class="form-control" name="customerAddress" rows="2"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Ghi chú</label>
+                    <textarea class="form-control" name="note" rows="2"></textarea>
+                  </div>
+                  <input type="hidden" name="productId" value="${product.id}">
+                  <input type="hidden" name="productName" value="${product.name}">
+                  <input type="hidden" name="productPrice" value="${product.price}">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <button type="button" class="btn btn-primary" onclick="submitOrder()">
+              <i class="fas fa-phone me-2"></i>Gửi yêu cầu tư vấn
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  
+  // Remove existing modal if any
+  const existingModal = document.getElementById('productModal');
+  if (existingModal) {
+    existingModal.remove();
+  }
+  
+  // Add modal to body
+  document.body.insertAdjacentHTML('beforeend', modalHTML);
+  
+  // Show modal
+  const modal = new bootstrap.Modal(document.getElementById('productModal'));
+  modal.show();
+}
+
+function submitOrder() {
+  const form = document.getElementById('orderForm');
+  const formData = new FormData(form);
+  
+  if (form.checkValidity()) {
+    // Thu thập dữ liệu form
+    const orderData = {
+      customerName: formData.get('customerName'),
+      customerPhone: formData.get('customerPhone'),
+      customerAddress: formData.get('customerAddress'),
+      note: formData.get('note'),
+      productId: formData.get('productId'),
+      productName: formData.get('productName'),
+      productPrice: formData.get('productPrice')
+    };
+    
+    alert('Cảm ơn bạn! Chúng tôi sẽ liên hệ trong vòng 15 phút.');
+    
+    // Đóng modal
+    const modal = bootstrap.Modal.getInstance(document.getElementById('productModal'));
+    modal.hide();
+  } else {
+    form.reportValidity();
   }
 }
 
 // Khởi tạo khi trang load
 document.addEventListener('DOMContentLoaded', async function() {
+  
   // Load dữ liệu từ file JSON
   await loadProductData();
   
   if (productData) {
-    // Render sản phẩm
-    const productContainer = document.querySelector('#tab-1 .row');
-    if (productContainer) {
-      productContainer.id = 'products-container';
-      renderProducts();
-    }
+    
+    // Render sản phẩm cho tab đầu tiên (category_id = 1)
+    setTimeout(() => {
+      renderProductsForActiveTab(1);
+    }, 500);
+    
+    // Thêm event listener cho Bootstrap tabs - CHỈ THÊM MỘT LẦN
+    const tabLinks = document.querySelectorAll('[data-bs-toggle="pill"]');
+    tabLinks.forEach(link => {
+      // Loại bỏ event listener cũ nếu có
+      link.removeEventListener('shown.bs.tab', handleTabSwitch);
+      
+      // Thêm event listener mới
+      link.addEventListener('shown.bs.tab', handleTabSwitch);
+    });
+  } else {
+    console.error('Failed to load product data');
   }
 });
 
-// Export các function
+// Function xử lý chuyển tab - tách riêng để dễ quản lý
+function handleTabSwitch(e) {
+  
+  // Lấy category ID từ data attribute
+  const categoryId = parseInt(e.target.getAttribute('data-category-id'));
+  if (categoryId) {
+    
+    // Đợi một chút để tab được active hoàn toàn
+    setTimeout(() => {
+      renderProductsForActiveTab(categoryId);
+    }, 50); // Giảm timeout xuống
+  }
+}
+
+// Export các function để sử dụng từ bên ngoài
 window.productRenderer = {
   loadProductData,
   renderProducts,
   renderProductsByCategory,
+  renderProductsForActiveTab,
   searchProducts
 };
