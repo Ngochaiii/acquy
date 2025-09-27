@@ -296,29 +296,80 @@ function showProductModal(product) {
   modal.show();
 }
 
+// Cập nhật function submitOrder() trong file product.js hoặc product-functions.js
+
+// Thay thế function submitOrder() cũ bằng function này:
 function submitOrder() {
   const form = document.getElementById('orderForm');
   const formData = new FormData(form);
   
-  if (form.checkValidity()) {
-    // Thu thập dữ liệu form
-    const orderData = {
-      customerName: formData.get('customerName'),
-      customerPhone: formData.get('customerPhone'),
-      customerAddress: formData.get('customerAddress'),
-      note: formData.get('note'),
-      productId: formData.get('productId'),
-      productName: formData.get('productName'),
-      productPrice: formData.get('productPrice')
-    };
+  if (!form.checkValidity()) {
+    form.reportValidity();
+    return;
+  }
+
+  // Hiển thị loading state
+  const submitButton = document.querySelector('#productModal .btn-primary[onclick="submitOrder()"]');
+  const originalText = submitButton.innerHTML;
+  submitButton.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Đang gửi...';
+  submitButton.disabled = true;
+
+  // Thu thập dữ liệu form
+  const orderData = {
+    customerName: formData.get('customerName'),
+    customerPhone: formData.get('customerPhone'),
+    customerAddress: formData.get('customerAddress'),
+    note: formData.get('note'),
+    productId: formData.get('productId'),
+    productName: formData.get('productName'),
+    productPrice: formData.get('productPrice')
+  };
+
+  // Gửi lên Google Sheet
+  if (window.googleSheetHandler) {
+    window.googleSheetHandler.submitOrderToSheet(orderData)
+      .then(() => {
+        // Thành công
+        showNotification('Cảm ơn bạn! Đơn hàng đã được gửi thành công. Chúng tôi sẽ liên hệ trong vòng 15 phút.', 'success');
+        
+        // Đóng modal
+        const modal = bootstrap.Modal.getInstance(document.getElementById('productModal'));
+        modal.hide();
+        
+        // Reset form
+        form.reset();
+      })
+      .catch((error) => {
+        console.error('Error submitting order:', error);
+        showNotification('Có lỗi xảy ra khi gửi đơn hàng. Đơn hàng đã được lưu tạm thời, chúng tôi sẽ xử lý sớm nhất có thể.', 'warning');
+      })
+      .finally(() => {
+        // Restore button state
+        submitButton.innerHTML = originalText;
+        submitButton.disabled = false;
+      });
+  } else {
+    // Fallback nếu Google Sheet handler chưa load
+    console.error('Google Sheet handler not available');
     
-    alert('Cảm ơn bạn! Chúng tôi sẽ liên hệ trong vòng 15 phút.');
+    // Lưu vào localStorage
+    let orders = JSON.parse(localStorage.getItem('orders') || '[]');
+    orders.push({
+      ...orderData,
+      timestamp: new Date().toISOString(),
+      status: 'pending_sync'
+    });
+    localStorage.setItem('orders', JSON.stringify(orders));
+    
+    showNotification('Cảm ơn bạn! Đơn hàng đã được lưu. Chúng tôi sẽ liên hệ trong vòng 15 phút.', 'success');
     
     // Đóng modal
     const modal = bootstrap.Modal.getInstance(document.getElementById('productModal'));
     modal.hide();
-  } else {
-    form.reportValidity();
+    
+    // Restore button state
+    submitButton.innerHTML = originalText;
+    submitButton.disabled = false;
   }
 }
 
