@@ -1,0 +1,648 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ắc quy Ô tô",
+      "slug": "ac-quy-o-to",
+      "icon": "car-icon.png",
+      "description": "Ắc quy dành cho ô tô các loại",
+      "subcategories": []
+    },
+    {
+      "id": 2,
+      "name": "Ắc quy Xe Tải",
+      "slug": "ac-quy-xe-tai",
+      "icon": "truck-icon.png",
+      "description": "Ắc quy chuyên dụng cho xe tải",
+      "subcategories": []
+    },
+    {
+      "id": 3,
+      "name": "Ắc quy Tàu thuyền",
+      "slug": "ac-quy-tau-thuyen",
+      "icon": "boat-icon.png",
+      "description": "Ắc quy chuyên dụng cho tàu thuyền",
+      "subcategories": []
+    },
+    {
+      "id": 4,
+      "name": "Ắc quy Xe Máy",
+      "slug": "ac-quy-xe-may",
+      "icon": "motorbike-icon.png",
+      "description": "Ắc quy dành cho xe máy",
+      "subcategories": []
+    },
+    {
+      "id": 5,
+      "name": "Ắc quy Xe Điện",
+      "slug": "ac-quy-xe-dien",
+      "icon": "electric-bike-icon.png",
+      "description": "Ắc quy cho xe điện, xe đạp điện",
+      "subcategories": []
+    },
+    {
+      "id": 6,
+      "name": "Ắc quy Dân Dụng",
+      "slug": "ac-quy-dan-dung",
+      "icon": "residential-icon.png",
+      "description": "Ắc quy cho các thiết bị dân dụng",
+      "subcategories": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ắc quy Ô tô Động Nai CMF DIN75 (L3) - 12V - 75Ah",
+      "slug": "ac-quy-o-to-dong-nai-cmf-din75-l3-12v-75ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1800000,
+      "original_price": 1950000,
+      "currency": "VND",
+      "capacity": "75Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/acquydongnai1.jpg",
+        "img/products/acquydongnai2.jpg"
+      ],
+      "main_image": "img/products/acquydongnai1.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.1,
+      "reviews_count": 18,
+      "short_description": "Ắc quy ô tô Động Nai CMF DIN75 12V - 75Ah, tiêu chuẩn châu Âu cho xe du lịch",
+      "detailed_description": {
+        "overview": "Ắc quy Động Nai CMF DIN75 với tiêu chuẩn châu Âu, phù hợp cho các dòng xe du lịch cỡ nhỏ và vừa.",
+        "features": [
+          "Tiêu chuẩn DIN châu Âu",
+          "Không cần bảo dưỡng (CMF)",
+          "Kích thước nhỏ gọn",
+          "Phù hợp xe du lịch"
+        ],
+        "specifications": {
+          "type": "CMF (Calcium Maintenance Free)",
+          "voltage": "12V",
+          "capacity": "75Ah",
+          "CCA": "640A",
+          "dimensions": "278 x 175 x 190mm",
+          "weight": "20kg",
+          "brand": "Động Nai"
+        },
+        "usage": "Dành cho xe du lịch cỡ nhỏ và vừa, xe sedan"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ắc quy Ô tô Động Nai N150 - 12V - 150Ah",
+      "slug": "ac-quy-o-to-dong-nai-n150-12v-150ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2800000,
+      "original_price": null,
+      "currency": "VND",
+      "capacity": "150Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-dongnai-3.png",
+        "img/products/ac-quy-dongnai-4.png"
+      ],
+      "main_image": "img/products/ac-quy-dongnai-3.png",
+      "badges": [
+        "new"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 25,
+      "short_description": "Ắc quy ô tô Động Nai N150 12V - 150Ah, dành cho xe hơi các loại với hiệu suất cao",
+      "detailed_description": {
+        "overview": "Ắc quy Động Nai N150 được thiết kế chuyên dụng cho ô tô với khả năng khởi động mạnh mẽ và ổn định.",
+        "features": [
+          "Khả năng khởi động mạnh mẽ",
+          "Dung lượng 150Ah lớn",
+          "Tương thích với nhiều loại xe",
+          "Bảo hành 12 tháng"
+        ],
+        "specifications": {
+          "type": "Starting Battery",
+          "voltage": "12V",
+          "capacity": "150Ah",
+          "CCA": "950A",
+          "dimensions": "513 x 223 x 223mm",
+          "weight": "45kg",
+          "brand": "Động Nai"
+        },
+        "usage": "Dành cho ô tô, xe tải nhỏ, xe khách"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ắc quy Xe Tải Động Nai N200 - 12V - 200Ah",
+      "slug": "ac-quy-xe-tai-dong-nai-n200-12v-200ah",
+      "category_id": 2,
+      "subcategory_id": null,
+      "price": 3500000,
+      "original_price": null,
+      "currency": "VND",
+      "capacity": "200Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-xe-tai-dong-nai-n200-1.jpg",
+        "img/products/ac-quy-xe-tai-dong-nai-n200-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-xe-tai-dong-nai-n200-1.jpg",
+      "badges": [
+        "new"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.4,
+      "reviews_count": 16,
+      "short_description": "Ắc quy xe tải Động Nai N200 12V - 200Ah, chuyên dụng cho xe tải hạng nặng",
+      "detailed_description": {
+        "overview": "Ắc quy Động Nai N200 được thiết kế chuyên dụng cho xe tải với khả năng chịu tải cao và bền bỉ.",
+        "features": [
+          "Chuyên dụng cho xe tải",
+          "Dung lượng lớn 200Ah",
+          "Khả năng chịu tải cao",
+          "Tuổi thọ cao"
+        ],
+        "specifications": {
+          "type": "Heavy Duty",
+          "voltage": "12V",
+          "capacity": "200Ah",
+          "CCA": "1100A",
+          "dimensions": "518 x 273 x 242mm",
+          "weight": "58kg",
+          "brand": "Động Nai"
+        },
+        "usage": "Dành cho xe tải hạng nặng, xe buýt, máy phát điện"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Ắc quy Xe Tải Động Nai CMF N180 - 12V - 180Ah",
+      "slug": "ac-quy-xe-tai-dong-nai-cmf-n180-12v-180ah",
+      "category_id": 2,
+      "subcategory_id": null,
+      "price": 3200000,
+      "original_price": 3400000,
+      "currency": "VND",
+      "capacity": "180Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-xe-tai-dong-nai-cmf-n180-1.jpg",
+        "img/products/ac-quy-xe-tai-dong-nai-cmf-n180-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-xe-tai-dong-nai-cmf-n180-1.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.2,
+      "reviews_count": 12,
+      "short_description": "Ắc quy xe tải Động Nai CMF N180 12V - 180Ah, không cần bảo dưỡng",
+      "detailed_description": {
+        "overview": "Ắc quy Động Nai CMF N180 với công nghệ không cần bảo dưỡng, phù hợp cho xe tải cỡ vừa.",
+        "features": [
+          "Công nghệ CMF",
+          "Không cần bảo dưỡng",
+          "Dung lượng 180Ah",
+          "Phù hợp xe tải cỡ vừa"
+        ],
+        "specifications": {
+          "type": "CMF (Calcium Maintenance Free)",
+          "voltage": "12V",
+          "capacity": "180Ah",
+          "CCA": "1000A",
+          "dimensions": "513 x 223 x 223mm",
+          "weight": "50kg",
+          "brand": "Động Nai"
+        },
+        "usage": "Dành cho xe tải cỡ vừa, xe khách, xe container"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Ắc quy Tàu thuyền Động Nai N200 Đen - 12V - 210Ah",
+      "slug": "ac-quy-tau-thuyen-dong-nai-n200-den-12v-210ah",
+      "category_id": 3,
+      "subcategory_id": null,
+      "price": 4400000,
+      "original_price": null,
+      "currency": "VND",
+      "capacity": "210Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-tau-thuyen-dong-nai-1.jpg",
+        "img/products/ac-quy-tau-thuyen-dong-nai-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-tau-thuyen-dong-nai-1.jpg",
+      "badges": [
+        "new"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.5,
+      "reviews_count": 12,
+      "short_description": "Ắc quy tàu thuyền Động Nai N200 12V - 210Ah, chuyên dụng cho tàu thuyền với độ bền cao",
+      "detailed_description": {
+        "overview": "Ắc quy Động Nai N200 được thiết kế chuyên dụng cho tàu thuyền với khả năng chịu được môi trường khắc nghiệt trên biển.",
+        "features": [
+          "Chịu được môi trường khắc nghiệt",
+          "Dung lượng lớn 210Ah",
+          "Tuổi thọ cao",
+          "Công nghệ chống tự phóng"
+        ],
+        "specifications": {
+          "type": "Deep Cycle",
+          "voltage": "12V",
+          "capacity": "210Ah",
+          "dimensions": "518 x 276 x 242mm",
+          "weight": "65kg",
+          "brand": "Động Nai"
+        },
+        "usage": "Chuyên dụng cho tàu thuyền, thúng chai, xuồng máy các loại"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ắc quy Tàu thuyền Động Nai N240S - 12V - 165Ah",
+      "slug": "ac-quy-tau-thuyen-dong-nai-n240s-12v-165ah",
+      "category_id": 3,
+      "subcategory_id": null,
+      "price": 3900000,
+      "original_price": 4200000,
+      "currency": "VND",
+      "capacity": "165Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-tau-thuyen-dong-nai-n240s-1.jpg",
+        "img/products/ac-quy-tau-thuyen-dong-nai-n240s-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-tau-thuyen-dong-nai-n240s-1.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.2,
+      "reviews_count": 8,
+      "short_description": "Ắc quy tàu thuyền Động Nai N240S 12V - 165Ah, hiệu suất cao cho tàu thuyền cỡ vừa",
+      "detailed_description": {
+        "overview": "Ắc quy Động Nai N240S với dung lượng 165Ah, phù hợp cho các tàu thuyền cỡ vừa và nhỏ.",
+        "features": [
+          "Dung lượng 165Ah phù hợp",
+          "Giá cả hợp lý",
+          "Chất lượng ổn định",
+          "Bảo hành chính hãng"
+        ],
+        "specifications": {
+          "type": "Deep Cycle",
+          "voltage": "12V",
+          "capacity": "165Ah",
+          "dimensions": "485 x 240 x 242mm",
+          "weight": "52kg",
+          "brand": "Động Nai"
+        },
+        "usage": "Phù hợp cho tàu thuyền cỡ nhỏ và vừa, thúng chai"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Ắc quy Xe Máy GS GTZ5S-BS - 12V - 4Ah",
+      "slug": "ac-quy-xe-may-gs-gtz5s-bs-12v-4ah",
+      "category_id": 4,
+      "subcategory_id": null,
+      "price": 450000,
+      "original_price": null,
+      "currency": "VND",
+      "capacity": "4Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-xe-may-gs-gtz5s-1.jpg",
+        "img/products/ac-quy-xe-may-gs-gtz5s-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-xe-may-gs-gtz5s-1.jpg",
+      "badges": [
+        "new"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.6,
+      "reviews_count": 35,
+      "short_description": "Ắc quy xe máy GS GTZ5S-BS 12V - 4Ah, chuyên dụng cho xe tay ga",
+      "detailed_description": {
+        "overview": "Ắc quy GS GTZ5S-BS được thiết kế chuyên dụng cho xe máy tay ga với công nghệ AGM tiên tiến.",
+        "features": [
+          "Công nghệ AGM",
+          "Khởi động nhanh",
+          "Kích thước nhỏ gọn",
+          "Bảo hành 6 tháng"
+        ],
+        "specifications": {
+          "type": "AGM (Absorbed Glass Mat)",
+          "voltage": "12V",
+          "capacity": "4Ah",
+          "CCA": "70A",
+          "dimensions": "113 x 70 x 85mm",
+          "weight": "1.5kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Phù hợp cho xe tay ga như Honda Air Blade, Yamaha Nouvo"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Ắc quy Xe Máy Yuasa YTX9-BS - 12V - 8Ah",
+      "slug": "ac-quy-xe-may-yuasa-ytx9-bs-12v-8ah",
+      "category_id": 4,
+      "subcategory_id": null,
+      "price": 650000,
+      "original_price": 720000,
+      "currency": "VND",
+      "capacity": "8Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-xe-may-yuasa-ytx9-1.jpg",
+        "img/products/ac-quy-xe-may-yuasa-ytx9-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-xe-may-yuasa-ytx9-1.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.4,
+      "reviews_count": 28,
+      "short_description": "Ắc quy xe máy Yuasa YTX9-BS 12V - 8Ah, chất lượng Nhật Bản",
+      "detailed_description": {
+        "overview": "Ắc quy Yuasa YTX9-BS chất lượng Nhật Bản với dung lượng 8Ah, phù hợp cho các dòng xe máy phân khối lớn.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 8Ah lớn",
+          "Tuổi thọ cao",
+          "Phù hợp xe phân khối lớn"
+        ],
+        "specifications": {
+          "type": "AGM (Absorbed Glass Mat)",
+          "voltage": "12V",
+          "capacity": "8Ah",
+          "CCA": "135A",
+          "dimensions": "152 x 88 x 106mm",
+          "weight": "2.8kg",
+          "brand": "Yuasa"
+        },
+        "usage": "Phù hợp cho xe máy phân khối lớn như Honda SH, Yamaha Grande"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Ắc quy Xe Điện Pinaco 6-DZM-20 - 12V - 20Ah",
+      "slug": "ac-quy-xe-dien-pinaco-6-dzm-20-12v-20ah",
+      "category_id": 5,
+      "subcategory_id": null,
+      "price": 890000,
+      "original_price": null,
+      "currency": "VND",
+      "capacity": "20Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-xe-dien-pinaco-6-dzm-20-1.jpg",
+        "img/products/ac-quy-xe-dien-pinaco-6-dzm-20-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-xe-dien-pinaco-6-dzm-20-1.jpg",
+      "badges": [
+        "new"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 22,
+      "short_description": "Ắc quy xe điện Pinaco 6-DZM-20 12V - 20Ah, chuyên dụng cho xe điện",
+      "detailed_description": {
+        "overview": "Ắc quy Pinaco 6-DZM-20 được thiết kế chuyên dụng cho xe điện với công nghệ Deep Cycle.",
+        "features": [
+          "Công nghệ Deep Cycle",
+          "Dung lượng 20Ah",
+          "Tuổi thọ cao",
+          "Sạc nhanh"
+        ],
+        "specifications": {
+          "type": "Deep Cycle VRLA",
+          "voltage": "12V",
+          "capacity": "20Ah",
+          "dimensions": "181 x 77 x 167mm",
+          "weight": "6.5kg",
+          "brand": "Pinaco"
+        },
+        "usage": "Chuyên dụng cho xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Ắc quy Xe Điện Rocket ESB12-12 - 12V - 12Ah",
+      "slug": "ac-quy-xe-dien-rocket-esb12-12-12v-12ah",
+      "category_id": 5,
+      "subcategory_id": null,
+      "price": 650000,
+      "original_price": 720000,
+      "currency": "VND",
+      "capacity": "12Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-xe-dien-rocket-esb12-12-1.jpg",
+        "img/products/ac-quy-xe-dien-rocket-esb12-12-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-xe-dien-rocket-esb12-12-1.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.1,
+      "reviews_count": 18,
+      "short_description": "Ắc quy xe điện Rocket ESB12-12 12V - 12Ah, giá tốt chất lượng cao",
+      "detailed_description": {
+        "overview": "Ắc quy Rocket ESB12-12 với dung lượng 12Ah, phù hợp cho xe điện cỡ nhỏ và vừa.",
+        "features": [
+          "Giá cả hợp lý",
+          "Dung lượng 12Ah",
+          "Chất lượng ổn định",
+          "Bảo hành 6 tháng"
+        ],
+        "specifications": {
+          "type": "Deep Cycle VRLA",
+          "voltage": "12V",
+          "capacity": "12Ah",
+          "dimensions": "151 x 98 x 95mm",
+          "weight": "3.8kg",
+          "brand": "Rocket"
+        },
+        "usage": "Phù hợp cho xe điện cỡ nhỏ, xe đạp điện"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Ắc quy Xe Máy Điện GS 6-EVF-45 - 12V - 45Ah",
+      "slug": "ac-quy-xe-may-dien-gs-6-evf-45-12v-45ah",
+      "category_id": 5,
+      "subcategory_id": null,
+      "price": 1250000,
+      "original_price": null,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-xe-may-dien-gs-6-evf-45-1.jpg",
+        "img/products/ac-quy-xe-may-dien-gs-6-evf-45-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-xe-may-dien-gs-6-evf-45-1.jpg",
+      "badges": [
+        "new"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.5,
+      "reviews_count": 14,
+      "short_description": "Ắc quy xe máy điện GS 6-EVF-45 12V - 45Ah, chuyên dụng cho xe máy điện",
+      "detailed_description": {
+        "overview": "Ắc quy GS 6-EVF-45 được thiết kế chuyên dụng cho xe máy điện với dung lượng lớn 45Ah.",
+        "features": [
+          "Dung lượng lớn 45Ah",
+          "Công nghệ EVF",
+          "Tuổi thọ cao",
+          "Chuyên dụng xe máy điện"
+        ],
+        "specifications": {
+          "type": "EVF (Electric Vehicle)",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "198 x 166 x 170mm",
+          "weight": "15kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho xe máy điện, xe đạp điện công suất lớn"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Ắc quy Xe Đạp Điện Pinaco 6-DZM-32 - 12V - 32Ah",
+      "slug": "ac-quy-xe-dap-dien-pinaco-6-dzm-32-12v-32ah",
+      "category_id": 5,
+      "subcategory_id": null,
+      "price": 1150000,
+      "original_price": 1250000,
+      "currency": "VND",
+      "capacity": "32Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-xe-dap-dien-pinaco-6-dzm-32-1.jpg",
+        "img/products/ac-quy-xe-dap-dien-pinaco-6-dzm-32-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-xe-dap-dien-pinaco-6-dzm-32-1.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.2,
+      "reviews_count": 11,
+      "short_description": "Ắc quy xe đạp điện Pinaco 6-DZM-32 12V - 32Ah, dung lượng lớn cho quãng đường xa",
+      "detailed_description": {
+        "overview": "Ắc quy Pinaco 6-DZM-32 với dung lượng 32Ah, phù hợp cho xe đạp điện cần quãng đường xa.",
+        "features": [
+          "Dung lượng 32Ah",
+          "Quãng đường xa",
+          "Chất lượng ổn định",
+          "Giá cả hợp lý"
+        ],
+        "specifications": {
+          "type": "Deep Cycle VRLA",
+          "voltage": "12V",
+          "capacity": "32Ah",
+          "dimensions": "195 x 130 x 155mm",
+          "weight": "10kg",
+          "brand": "Pinaco"
+        },
+        "usage": "Phù hợp cho xe đạp điện, xe máy điện cỡ vừa"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Ắc quy Dân Dụng Rocket ESC100-12 - 12V - 100Ah",
+      "slug": "ac-quy-dan-dung-rocket-esc100-12-12v-100ah",
+      "category_id": 6,
+      "subcategory_id": null,
+      "price": 2200000,
+      "original_price": null,
+      "currency": "VND",
+      "capacity": "100Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-dan-dung-rocket-esc100-1.jpg",
+        "img/products/ac-quy-dan-dung-rocket-esc100-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-dan-dung-rocket-esc100-1.jpg",
+      "badges": [
+        "new"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.4,
+      "reviews_count": 19,
+      "short_description": "Ắc quy dân dụng Rocket ESC100-12 12V - 100Ah, dự phòng điện gia đình",
+      "detailed_description": {
+        "overview": "Ắc quy Rocket ESC100-12 được thiết kế cho các ứng dụng dân dụng như UPS, hệ thống điện mặt trời.",
+        "features": [
+          "Dung lượng lớn 100Ah",
+          "Phù hợp ứng dụng dân dụng",
+          "Tuổi thọ cao",
+          "Công nghệ VRLA"
+        ],
+        "specifications": {
+          "type": "VRLA Deep Cycle",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "330 x 173 x 220mm",
+          "weight": "30kg",
+          "brand": "Rocket"
+        },
+        "usage": "UPS, hệ thống điện mặt trời, dự phòng điện gia đình"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Ắc quy Dân Dụng GS 12V-65Ah NPG65-12 - 12V - 65Ah",
+      "slug": "ac-quy-dan-dung-gs-12v-65ah-npg65-12-12v-65ah",
+      "category_id": 6,
+      "subcategory_id": null,
+      "price": 1650000,
+      "original_price": 1800000,
+      "currency": "VND",
+      "capacity": "65Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-dan-dung-gs-npg65-1.jpg",
+        "img/products/ac-quy-dan-dung-gs-npg65-2.jpg"
+      ],
+      "main_image": "img/products/ac-quy-dan-dung-gs-npg65-1.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy dân dụng GS NPG65-12 12V - 65Ah, chất lượng cao cho hệ thống UPS",
+      "detailed_description": {
+        "overview": "Ắc quy GS NPG65-12 chất lượng cao với dung lượng 65Ah, phù hợp cho các hệ thống UPS và backup power.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 65Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "65Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "UPS, hệ thống backup power, thiết bị y tế"
+      }
+    }
+  ]
+}
