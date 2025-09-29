@@ -19,7 +19,7 @@ function viewProduct(productId) {
 
   const product = productAllData.products.find((p) => p.id === productId);
   if (product) {
-    console.log("Viewing product:", product);
+
     alert(`Xem chi tiết sản phẩm: ${product.name}`);
   }
 }
@@ -108,7 +108,7 @@ function createGridProductHTML(product, index) {
 }
 
 function renderProductsToGrid(targetId = null) {
-  console.log("Starting renderProductsToGrid...");
+
 
   if (!productAllData || !productAllData.products) {
     console.error("Product data not available for grid");
@@ -121,7 +121,7 @@ function renderProductsToGrid(targetId = null) {
   if (targetId) {
     // Nếu có targetId thì tìm theo ID cụ thể
     gridContainer = document.getElementById(targetId);
-    console.log(`Looking for container with ID: ${targetId}`);
+
   } else {
     // Nếu không có targetId thì tìm theo class mặc định
     gridContainer = document.querySelector(".row.g-4");
@@ -134,12 +134,6 @@ function renderProductsToGrid(targetId = null) {
     return;
   }
 
-  console.log(
-    `Rendering ${productAllData.products.length} products to ${
-      targetId || "default grid"
-    }`
-  );
-  console.log("Grid container found:", gridContainer);
 
   // Xóa nội dung cũ
   gridContainer.innerHTML = "";
@@ -150,7 +144,6 @@ function renderProductsToGrid(targetId = null) {
     gridContainer.innerHTML += productHTML;
   });
 
-  console.log("All products rendered to grid successfully");
 
   // Khởi tạo WOW.js nếu có
   if (typeof WOW !== "undefined") {
@@ -166,7 +159,7 @@ async function loadProductAllData() {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     productAllData = await response.json();
-    console.log("Product data loaded successfully:", productAllData);
+
 
     // KIỂM TRA VÀ RENDER VÀO ĐÚNG CONTAINER
     if (document.getElementById("bestseller-products-grid")) {
@@ -178,7 +171,7 @@ async function loadProductAllData() {
     return productAllData;
   } catch (error) {
     console.error("Error loading product data:", error);
-    console.log("Using sample data instead...");
+
     productAllData = getSampleData();
 
     // KIỂM TRA VÀ RENDER VÀO ĐÚNG CONTAINER
@@ -193,7 +186,7 @@ async function loadProductAllData() {
 }
 // SỬA LẠI PHẦN DOMContentLoaded
 document.addEventListener("DOMContentLoaded", async function () {
-  console.log("DOM Content Loaded - Starting initialization...");
+
 
   // Load product data - hàm này sẽ tự động render
   await loadProductAllData();
@@ -203,8 +196,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Debug
   const container = document.getElementById("bestseller-products-grid");
-  console.log("Bestseller container found:", container);
-  console.log("Product data available:", productAllData ? "YES" : "NO");
+
 });
 
 // Export các function để sử dụng global
@@ -227,9 +219,8 @@ window.gridRenderer = {
 
 // Test function - gọi từ console để debug
 window.testRender = function () {
-  console.log("Manual test render...");
+
   if (!productAllData) {
-    console.log("No product data, loading sample data...");
     productAllData = getSampleData();
   }
   renderProductsToGrid();
@@ -473,5 +464,4 @@ window.viewOrders = function() {
 // Function xóa tất cả đơn hàng (để debug)
 window.clearOrders = function() {
   localStorage.removeItem('orders');
-  console.log('All orders cleared');
 }

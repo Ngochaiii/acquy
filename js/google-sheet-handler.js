@@ -7,7 +7,7 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxJhT1Tcz9cUT
 // Function gửi đơn hàng lên Google Sheet
 async function submitOrderToGoogleSheet(orderData) {
   try {
-    console.log('Sending order to Google Sheet:', orderData);
+
     
     // Chuẩn bị dữ liệu gửi
     const formData = new URLSearchParams();
@@ -32,7 +32,7 @@ async function submitOrderToGoogleSheet(orderData) {
       body: formData
     });
     
-    console.log('Order sent successfully');
+
     
     // Lưu backup vào localStorage
     saveOrderToLocal(orderData);
@@ -88,7 +88,7 @@ function saveOrderToLocal(orderData, isFailed = false) {
     orders.push(orderWithMeta);
     localStorage.setItem(storageKey, JSON.stringify(orders));
     
-    console.log(`Order saved locally (${storageKey}):`, orderWithMeta);
+
   } catch (error) {
     console.error('Error saving to localStorage:', error);
   }
@@ -151,16 +151,16 @@ async function retryFailedOrders() {
     const failedOrders = JSON.parse(localStorage.getItem('failed_orders') || '[]');
     
     if (failedOrders.length === 0) {
-      console.log('No failed orders to retry');
+
       return;
     }
 
-    console.log(`Retrying ${failedOrders.length} failed orders...`);
+
     
     for (const order of failedOrders) {
       try {
         await submitOrderToGoogleSheet(order);
-        console.log('Retry successful for order:', order.customerName);
+
       } catch (error) {
         console.error('Retry failed for order:', order.customerName, error);
       }
@@ -168,7 +168,7 @@ async function retryFailedOrders() {
 
     // Xóa failed orders sau khi retry
     localStorage.removeItem('failed_orders');
-    console.log('All failed orders processed');
+
 
   } catch (error) {
     console.error('Error retrying failed orders:', error);
@@ -202,7 +202,7 @@ window.debugOrders = {
   clear: () => {
     localStorage.removeItem('orders');
     localStorage.removeItem('failed_orders');
-    console.log('All orders cleared');
+
   },
   
   test: () => {
