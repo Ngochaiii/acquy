@@ -188,6 +188,7 @@ function searchProducts(keyword, containerId = 'products-container') {
 
 // Các function xử lý sự kiện
 function viewProduct(productId) {
+    event.preventDefault();
   const product = productData.products.find(p => p.id === productId);
   if (product) {
     console.log('Xem chi tiết sản phẩm:', product);
@@ -196,6 +197,7 @@ function viewProduct(productId) {
 }
 
 function addToCart(productId) {
+    event.preventDefault();
   const product = productData.products.find(p => p.id === productId);
   if (product) {
     showProductModal(product);
