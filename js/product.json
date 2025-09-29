@@ -47,34 +47,41 @@
       "icon": "residential-icon.png",
       "description": "Ắc quy cho các thiết bị dân dụng",
       "subcategories": []
+    },{
+      "id": 7,
+      "name": "Ắc quy Dân ",
+      "slug": "ac-quy-dan-dung",
+      "icon": "residential-icon.png",
+      "description": "Ắc quy cho các thiết bị dân dụng",
+      "subcategories": []
     }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Ắc quy Ô tô Động Nai CMF DIN75 (L3) - 12V - 75Ah",
-      "slug": "ac-quy-o-to-dong-nai-cmf-din75-l3-12v-75ah",
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN78 [LBN3] - 12V - 78Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din78-[lbn3]-12v-78ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1800000,
+      "price": 1900000,
       "original_price": 1950000,
       "currency": "VND",
-      "capacity": "75Ah",
+      "capacity": "78Ah",
       "voltage": "12V",
       "images": [
-        "img/products/acquydongnai1.jpg",
-        "img/products/acquydongnai2.jpg"
+        "img/products/cmf_din78_ln3-01_63fb84081c4446e48e88fbc6f275ed36_master (1).png",
+        "img/products/cmf_din78_ln3-01_63fb84081c4446e48e88fbc6f275ed36_master (1).png"
       ],
-      "main_image": "img/products/acquydongnai1.jpg",
+      "main_image": "img/products/cmf_din78_ln3-01_63fb84081c4446e48e88fbc6f275ed36_master (1).png",
       "badges": [
         "sale"
       ],
       "stock_status": "in_stock",
       "rating": 4.1,
       "reviews_count": 18,
-      "short_description": "Ắc quy ô tô Động Nai CMF DIN75 12V - 75Ah, tiêu chuẩn châu Âu cho xe du lịch",
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN78 [LBN3] - 12V - 78Ah, tiêu chuẩn châu Âu cho xe du lịch",
       "detailed_description": {
-        "overview": "Ắc quy Động Nai CMF DIN75 với tiêu chuẩn châu Âu, phù hợp cho các dòng xe du lịch cỡ nhỏ và vừa.",
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động..",
         "features": [
           "Tiêu chuẩn DIN châu Âu",
           "Không cần bảo dưỡng (CMF)",
@@ -84,7 +91,7 @@
         "specifications": {
           "type": "CMF (Calcium Maintenance Free)",
           "voltage": "12V",
-          "capacity": "75Ah",
+          "capacity": "78Ah",
           "CCA": "640A",
           "dimensions": "278 x 175 x 190mm",
           "weight": "20kg",
@@ -95,39 +102,39 @@
     },
     {
       "id": 2,
-      "name": "Ắc quy Ô tô Động Nai N150 - 12V - 150Ah",
-      "slug": "ac-quy-o-to-dong-nai-n150-12v-150ah",
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN90 [LN5] - 12V - 90Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din90-[ln5]-12v-90ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2800000,
+      "price": 2250000,
       "original_price": null,
       "currency": "VND",
-      "capacity": "150Ah",
+      "capacity": "90Ah",
       "voltage": "12V",
       "images": [
-        "img/products/ac-quy-dongnai-3.png",
-        "img/products/ac-quy-dongnai-4.png"
+        "img/products/cmf_din90_ln5-01_7acaf0950fff406ea2fecf832273c872_master.png",
+        "img/products/cmf_din90_ln5-01_7acaf0950fff406ea2fecf832273c872_master.png"
       ],
-      "main_image": "img/products/ac-quy-dongnai-3.png",
+      "main_image": "img/products/cmf_din90_ln5-01_7acaf0950fff406ea2fecf832273c872_master.png",
       "badges": [
         "new"
       ],
       "stock_status": "in_stock",
       "rating": 4.3,
       "reviews_count": 25,
-      "short_description": "Ắc quy ô tô Động Nai N150 12V - 150Ah, dành cho xe hơi các loại với hiệu suất cao",
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN90 [LN5] - 12V - 90Ah, dành cho xe hơi các loại với hiệu suất cao",
       "detailed_description": {
-        "overview": "Ắc quy Động Nai N150 được thiết kế chuyên dụng cho ô tô với khả năng khởi động mạnh mẽ và ổn định.",
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động.",
         "features": [
           "Khả năng khởi động mạnh mẽ",
-          "Dung lượng 150Ah lớn",
+          "Dung lượng 90Ah lớn",
           "Tương thích với nhiều loại xe",
           "Bảo hành 12 tháng"
         ],
         "specifications": {
           "type": "Starting Battery",
           "voltage": "12V",
-          "capacity": "150Ah",
+          "capacity": "90Ah",
           "CCA": "950A",
           "dimensions": "513 x 223 x 223mm",
           "weight": "45kg",
@@ -138,125 +145,83 @@
     },
     {
       "id": 3,
-      "name": "Ắc quy Xe Tải Động Nai N200 - 12V - 200Ah",
-      "slug": "ac-quy-xe-tai-dong-nai-n200-12v-200ah",
-      "category_id": 2,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN50 [LN1] - 12V - 50Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din50-[ln5]-12v-50ah",
+      "category_id": 1,
       "subcategory_id": null,
-      "price": 3500000,
+      "price": 1500000,
       "original_price": null,
       "currency": "VND",
       "capacity": "200Ah",
       "voltage": "12V",
       "images": [
-        "img/products/cmf_195g51-01_bb921134514e4319b9210a4327acddb9_master.png",
-        "img/products/cmf_195g51-02_d62fa4d65e7248fa8bbd53a8aa2d41f0_master.png"
+        "img/products/cmf_din50_ln1-01_05eef1d8e56348fe8b1aa7d8d148adc0_master.png",
+        "img/products/cmf_din50_ln1-01_05eef1d8e56348fe8b1aa7d8d148adc0_master.png"
       ],
-      "main_image": "img/products/cmf_195g51-01_bb921134514e4319b9210a4327acddb9_master.png",
+      "main_image": "img/products/cmf_din50_ln1-01_05eef1d8e56348fe8b1aa7d8d148adc0_master.png",
       "badges": [
         "new"
       ],
       "stock_status": "in_stock",
-      "rating": 4.4,
-      "reviews_count": 16,
-      "short_description": "Ắc quy xe tải Động Nai N200 12V - 200Ah, chuyên dụng cho xe tải hạng nặng",
+      "rating": 4.3,
+      "reviews_count": 25,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN50 [LN1] - 12V - 50Ah, dành cho xe hơi các loại với hiệu suất cao",
       "detailed_description": {
-        "overview": "Ắc quy Động Nai N200 được thiết kế chuyên dụng cho xe tải với khả năng chịu tải cao và bền bỉ.",
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động.",
         "features": [
-          "Chuyên dụng cho xe tải",
-          "Dung lượng lớn 200Ah",
-          "Khả năng chịu tải cao",
-          "Tuổi thọ cao"
+          "Khả năng khởi động mạnh mẽ",
+          "Dung lượng 50Ah lớn",
+          "Tương thích với nhiều loại xe",
+          "Bảo hành 12 tháng"
         ],
         "specifications": {
-          "type": "Heavy Duty",
+          "type": "Starting Battery",
           "voltage": "12V",
-          "capacity": "200Ah",
-          "CCA": "1100A",
-          "dimensions": "518 x 273 x 242mm",
-          "weight": "58kg",
+          "capacity": "50Ah",
+          "CCA": "950A",
+          "dimensions": "513 x 223 x 223mm",
+          "weight": "35kg",
           "brand": "Động Nai"
         },
-        "usage": "Dành cho xe tải hạng nặng, xe buýt, máy phát điện"
+        "usage": "Dành cho ô tô, xe tải nhỏ, xe khách"
       }
-    },
+     },
+    
     {
       "id": 4,
-      "name": "Ắc quy Xe Tải Động Nai CMF N180 - 12V - 180Ah",
-      "slug": "ac-quy-xe-tai-dong-nai-cmf-n180-12v-180ah",
-      "category_id": 2,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 195G51 - 12V - 165Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-195g51-[ln5]-12v-165ah",
+      "category_id": 1,
       "subcategory_id": null,
-      "price": 3200000,
-      "original_price": 3400000,
-      "currency": "VND",
-      "capacity": "180Ah",
-      "voltage": "12V",
-      "images": [
-        "img/products/5446_f1979972539740ad8b9b2792ffb12c76_master.jpg",
-        "img/products/5447_95adaa3f5dc84958bad7835d2a5a7340_master.jpg"
-      ],
-      "main_image": "img/products/5446_f1979972539740ad8b9b2792ffb12c76_master.jpg",
-      "badges": [
-        "sale"
-      ],
-      "stock_status": "in_stock",
-      "rating": 4.2,
-      "reviews_count": 12,
-      "short_description": "Ắc quy xe tải Động Nai CMF N180 12V - 180Ah, không cần bảo dưỡng",
-      "detailed_description": {
-        "overview": "Ắc quy Động Nai CMF N180 với công nghệ không cần bảo dưỡng, phù hợp cho xe tải cỡ vừa.",
-        "features": [
-          "Công nghệ CMF",
-          "Không cần bảo dưỡng",
-          "Dung lượng 180Ah",
-          "Phù hợp xe tải cỡ vừa"
-        ],
-        "specifications": {
-          "type": "CMF (Calcium Maintenance Free)",
-          "voltage": "12V",
-          "capacity": "180Ah",
-          "CCA": "1000A",
-          "dimensions": "513 x 223 x 223mm",
-          "weight": "50kg",
-          "brand": "Động Nai"
-        },
-        "usage": "Dành cho xe tải cỡ vừa, xe khách, xe container"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Ắc quy Tàu thuyền Động Nai N200 Đen - 12V - 210Ah",
-      "slug": "ac-quy-tau-thuyen-dong-nai-n200-den-12v-210ah",
-      "category_id": 3,
-      "subcategory_id": null,
-      "price": 4400000,
+      "price": 3700000,
       "original_price": null,
       "currency": "VND",
-      "capacity": "210Ah",
+      "capacity": "165Ah",
       "voltage": "12V",
       "images": [
-        "img/products/5491_93a2504783a14e05b3aaa4d51dfecd91_master.jpg",
-        "img/products/5495_924961db6d2b4770ba47d36cf7e11083_master.jpg"
+        "img/products/cmf_195g51-01_bb921134514e4319b9210a4327acddb9_master (1).png",
+        "img/products/cmf_195g51-01_bb921134514e4319b9210a4327acddb9_master (1).png"
       ],
-      "main_image": "img/products/5491_93a2504783a14e05b3aaa4d51dfecd91_master.jpg",
+      "main_image": "img/products/cmf_195g51-01_bb921134514e4319b9210a4327acddb9_master (1).png",
       "badges": [
         "new"
       ],
       "stock_status": "in_stock",
       "rating": 4.5,
       "reviews_count": 12,
-      "short_description": "Ắc quy tàu thuyền Động Nai N200 12V - 210Ah, chuyên dụng cho tàu thuyền với độ bền cao",
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 195G51 - 12V - 165Ah, chuyên dụng cho tàu thuyền với độ bền cao",
       "detailed_description": {
-        "overview": "Ắc quy Động Nai N200 được thiết kế chuyên dụng cho tàu thuyền với khả năng chịu được môi trường khắc nghiệt trên biển.",
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. .",
         "features": [
           "Chịu được môi trường khắc nghiệt",
-          "Dung lượng lớn 210Ah",
+          "Dung lượng lớn 165Ah",
           "Tuổi thọ cao",
           "Công nghệ chống tự phóng"
         ],
         "specifications": {
           "type": "Deep Cycle",
           "voltage": "12V",
-          "capacity": "210Ah",
+          "capacity": "165Ah",
           "dimensions": "518 x 276 x 242mm",
           "weight": "65kg",
           "brand": "Động Nai"
@@ -265,32 +230,32 @@
       }
     },
     {
-      "id": 6,
-      "name": "Ắc quy Tàu thuyền Động Nai N240S - 12V - 165Ah",
-      "slug": "ac-quy-tau-thuyen-dong-nai-n240s-12v-165ah",
-      "category_id": 3,
+      "id": 5,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai EFB Q85L - 12V - 65Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-efb-q85l-12v-65ah",
+      "category_id": 1,
       "subcategory_id": null,
-      "price": 3900000,
-      "original_price": 4200000,
+      "price": 2300000,
+      "original_price": 2380000,
       "currency": "VND",
-      "capacity": "165Ah",
+      "capacity": "65Ah",
       "voltage": "12V",
       "images": [
-        "img/products/1_f63393ee4d7c44738529e0ccd543cff4_master.png",
-        "img/products/4_13ead10ee56249c5a5148dee80d4ca27_master.png"
+        "img/products/efb_q85l-01_5b20cb10039c44c9994e3b0ab5d87738_master.png",
+        "img/products/efb_q85l-01_5b20cb10039c44c9994e3b0ab5d87738_master.png"
       ],
-      "main_image": "img/products/1_f63393ee4d7c44738529e0ccd543cff4_master.png",
+      "main_image": "img/products/efb_q85l-01_5b20cb10039c44c9994e3b0ab5d87738_master.png",
       "badges": [
         "sale"
       ],
       "stock_status": "in_stock",
       "rating": 4.2,
       "reviews_count": 8,
-      "short_description": "Ắc quy tàu thuyền Động Nai N240S 12V - 165Ah, hiệu suất cao cho tàu thuyền cỡ vừa",
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai EFB Q85L - 12V - 65Ah, hiệu suất cao cho tàu thuyền cỡ vừa",
       "detailed_description": {
-        "overview": "Ắc quy Động Nai N240S với dung lượng 165Ah, phù hợp cho các tàu thuyền cỡ vừa và nhỏ.",
+        "overview": "Ắc quy được thiết kế đặc biệt cho các dòng xe có hệ thống Start Stop System (ISS) giúp tiết kiệm nhiên liệu và giảm khí thải. Tăng khả năng khởi động, phóng sâu và nhận nạp, phù hợp cho xe có hệ thống ISS (dừng xe tắt máy-tự khởi động)..",
         "features": [
-          "Dung lượng 165Ah phù hợp",
+          "Dung lượng 65Ah phù hợp",
           "Giá cả hợp lý",
           "Chất lượng ổn định",
           "Bảo hành chính hãng"
@@ -298,39 +263,39 @@
         "specifications": {
           "type": "Deep Cycle",
           "voltage": "12V",
-          "capacity": "165Ah",
+          "capacity": "65Ah",
           "dimensions": "485 x 240 x 242mm",
-          "weight": "52kg",
+          "weight": "32kg",
           "brand": "Động Nai"
         },
-        "usage": "Phù hợp cho tàu thuyền cỡ nhỏ và vừa, thúng chai"
+        "usage": "Phù hợp cho xe máy Ô tô xe điện, xe đạp điện"
       }
     },
     {
-      "id": 7,
-      "name": "Ắc quy Xe Máy GS GTZ5S-BS - 12V - 4Ah",
-      "slug": "ac-quy-xe-may-gs-gtz5s-bs-12v-4ah",
-      "category_id": 4,
+      "id": 6,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN110 [LN5] - 12V - 110Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din110-[ln5]-12v-110ah",
+      "category_id": 1,
       "subcategory_id": null,
-      "price": 450000,
+      "price": 2500000,
       "original_price": null,
       "currency": "VND",
-      "capacity": "4Ah",
+      "capacity": "110Ah",
       "voltage": "12V",
       "images": [
-        "img/products/1_ptz9_a08901abfb1645a08ccd074f191ef2e2_master.jpg",
-        "img/products/2_ptz9_d1bff7d251ce43cba00e47916346a4b4_master.jpg"
+        "img/products/cmf_din110_ln5-03_4c0b95a790d5412bb69d545500a94510_master.png",
+        "img/products/cmf_din110_ln5-03_4c0b95a790d5412bb69d545500a94510_master.png"
       ],
-      "main_image": "img/products/1_ptz9_a08901abfb1645a08ccd074f191ef2e2_master.jpg",
+      "main_image": "img/products/cmf_din110_ln5-03_4c0b95a790d5412bb69d545500a94510_master.png",
       "badges": [
         "new"
       ],
       "stock_status": "in_stock",
       "rating": 4.6,
       "reviews_count": 35,
-      "short_description": "Ắc quy xe máy GS GTZ5S-BS 12V - 4Ah, chuyên dụng cho xe tay ga",
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN110 [LN5] - 12V - 110Ah, chuyên dụng cho xe tay ga",
       "detailed_description": {
-        "overview": "Ắc quy GS GTZ5S-BS được thiết kế chuyên dụng cho xe máy tay ga với công nghệ AGM tiên tiến.",
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động.",
         "features": [
           "Công nghệ AGM",
           "Khởi động nhanh",
@@ -340,293 +305,588 @@
         "specifications": {
           "type": "AGM (Absorbed Glass Mat)",
           "voltage": "12V",
-          "capacity": "4Ah",
+          "capacity": "110Ah",
           "CCA": "70A",
           "dimensions": "113 x 70 x 85mm",
           "weight": "1.5kg",
           "brand": "GS Battery"
         },
-        "usage": "Phù hợp cho xe tay ga như Honda Air Blade, Yamaha Nouvo"
+        "usage": "Phù hợp cho xe máy Ô tô xe điện, xe đạp điện"
       }
     },
     {
-      "id": 8,
-      "name": "Ắc quy Xe Máy Yuasa YTX9-BS - 12V - 8Ah",
-      "slug": "ac-quy-xe-may-yuasa-ytx9-bs-12v-8ah",
-      "category_id": 4,
+      "id": 7,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN80 [LN4] - 12V - 80Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din80-[ln4]-12v-80ah",
+      "category_id": 1,
       "subcategory_id": null,
-      "price": 650000,
-      "original_price": 720000,
+      "price": 2180000,
+      "original_price": 2320000,
       "currency": "VND",
-      "capacity": "8Ah",
+      "capacity": "80Ah",
       "voltage": "12V",
       "images": [
-        "img/products/4_ptz6l_iss_39e3607d58024a39b76c9eb5006332eb_master.jpg",
-        "img/products/3_ptz6l_iss_dcd12fa939c743d0bec23079caa39efd_master.jpg"
+        "img/products/cmf_din80_ln4-01_a486bc8584cc49848551adf429cd0fee_master.png",
+        "img/products/cmf_din80_ln4-01_a486bc8584cc49848551adf429cd0fee_master.png"
       ],
-      "main_image": "img/products/4_ptz6l_iss_39e3607d58024a39b76c9eb5006332eb_master.jpg",
+      "main_image": "img/products/cmf_din80_ln4-01_a486bc8584cc49848551adf429cd0fee_master.png",
       "badges": [
         "sale"
       ],
       "stock_status": "in_stock",
       "rating": 4.4,
       "reviews_count": 28,
-      "short_description": "Ắc quy xe máy Yuasa YTX9-BS 12V - 8Ah, chất lượng Nhật Bản",
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN80 [LN4] - 12V - 80Ah, chất lượng Nhật Bản",
       "detailed_description": {
-        "overview": "Ắc quy Yuasa YTX9-BS chất lượng Nhật Bản với dung lượng 8Ah, phù hợp cho các dòng xe máy phân khối lớn.",
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. .",
         "features": [
           "Chất lượng Nhật Bản",
-          "Dung lượng 8Ah lớn",
+          "Dung lượng 80Ah lớn",
           "Tuổi thọ cao",
           "Phù hợp xe phân khối lớn"
         ],
         "specifications": {
           "type": "AGM (Absorbed Glass Mat)",
           "voltage": "12V",
-          "capacity": "8Ah",
+          "capacity": "80Ah",
           "CCA": "135A",
           "dimensions": "152 x 88 x 106mm",
           "weight": "2.8kg",
           "brand": "Yuasa"
         },
-        "usage": "Phù hợp cho xe máy phân khối lớn như Honda SH, Yamaha Grande"
+        "usage": "Phù hợp cho xe máy Ô tô xe điện, xe đạp điện"
       }
     },
     {
-      "id": 9,
-      "name": "Ắc quy Xe Điện Pinaco 6-DZM-20 - 12V - 20Ah",
-      "slug": "ac-quy-xe-dien-pinaco-6-dzm-20-12v-20ah",
-      "category_id": 5,
+      "id": 8,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN70 [LBN3]- 12V - 70Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din80-[lbn3]-12v-70ah",
+      "category_id": 1,
       "subcategory_id": null,
-      "price": 890000,
+      "price": 1710000,
       "original_price": null,
       "currency": "VND",
-      "capacity": "20Ah",
+      "capacity": "70Ah",
       "voltage": "12V",
       "images": [
-        "img/products/pl_12-150_e_267217cccc314d3195c23a9e8c8470c1_master.jpg",
-        "img/products/pl_12-150_c_6a8278c1ecd54bcaab99bfe21e0c4ce8_master.jpg"
+        "img/products/cmf_din70_lbn3-01_7f168f663383470ca8e71fda07a8f553_master.png",
+        "img/products/cmf_din70_lbn3-01_7f168f663383470ca8e71fda07a8f553_master.png"
       ],
-      "main_image": "img/products/pl_12-150_e_267217cccc314d3195c23a9e8c8470c1_master.jpg",
+      "main_image": "img/products/cmf_din70_lbn3-01_7f168f663383470ca8e71fda07a8f553_master.png",
       "badges": [
         "new"
       ],
       "stock_status": "in_stock",
       "rating": 4.3,
       "reviews_count": 22,
-      "short_description": "Ắc quy xe điện Pinaco 6-DZM-20 12V - 20Ah, chuyên dụng cho xe điện",
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN70 [LBN3]- 12V - 70Ah, chuyên dụng cho xe điện",
       "detailed_description": {
-        "overview": "Ắc quy Pinaco 6-DZM-20 được thiết kế chuyên dụng cho xe điện với công nghệ Deep Cycle.",
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động",
         "features": [
           "Công nghệ Deep Cycle",
-          "Dung lượng 20Ah",
+          "Dung lượng 70Ah",
           "Tuổi thọ cao",
           "Sạc nhanh"
         ],
         "specifications": {
           "type": "Deep Cycle VRLA",
           "voltage": "12V",
-          "capacity": "20Ah",
+          "capacity": "70Ah",
           "dimensions": "181 x 77 x 167mm",
           "weight": "6.5kg",
           "brand": "Pinaco"
         },
-        "usage": "Chuyên dụng cho xe điện, xe đạp điện"
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
       }
     },
     {
-      "id": 10,
-      "name": "Ắc quy Xe Điện Rocket ESB12-12 - 12V - 12Ah",
-      "slug": "ac-quy-xe-dien-rocket-esb12-12-12v-12ah",
-      "category_id": 5,
+      "id": 9,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN65 [LB2] - 12V - 65Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din80-[lb2]-12v-65ah",
+      "category_id": 1,
       "subcategory_id": null,
       "price": 650000,
       "original_price": 720000,
       "currency": "VND",
-      "capacity": "12Ah",
+      "capacity": "65Ah",
       "voltage": "12V",
       "images": [
-        "img/products/425_d9ef0fd514a5431d9f36b10bd1dc2408_master.jpg",
-        "img/products/430_36f5e2fa219e47678fb6d22f3403dfc3_master.jpg"
+        "img/products/cmf_din65_ln2-01_ab85556a662647249fe01e01bcc1a7fc_master.png",
+        "img/products/cmf_din65_ln2-01_ab85556a662647249fe01e01bcc1a7fc_master.png"
       ],
-      "main_image": "img/products/425_d9ef0fd514a5431d9f36b10bd1dc2408_master.jpg",
+      "main_image": "img/products/cmf_din65_ln2-01_ab85556a662647249fe01e01bcc1a7fc_master.png",
       "badges": [
         "sale"
       ],
       "stock_status": "in_stock",
       "rating": 4.1,
       "reviews_count": 18,
-      "short_description": "Ắc quy xe điện Rocket ESB12-12 12V - 12Ah, giá tốt chất lượng cao",
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN65 [LB2] - 12V - 65Ah, giá tốt chất lượng cao",
       "detailed_description": {
-        "overview": "Ắc quy Rocket ESB12-12 với dung lượng 12Ah, phù hợp cho xe điện cỡ nhỏ và vừa.",
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. .",
         "features": [
           "Giá cả hợp lý",
-          "Dung lượng 12Ah",
+          "Dung lượng 65Ah",
           "Chất lượng ổn định",
           "Bảo hành 6 tháng"
         ],
         "specifications": {
           "type": "Deep Cycle VRLA",
           "voltage": "12V",
-          "capacity": "12Ah",
+          "capacity": "65Ah",
           "dimensions": "151 x 98 x 95mm",
-          "weight": "3.8kg",
+          "weight": "23.8kg",
           "brand": "Rocket"
         },
-        "usage": "Phù hợp cho xe điện cỡ nhỏ, xe đạp điện"
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
       }
     },
     {
-      "id": 11,
-      "name": "Ắc quy Xe Máy Điện GS 6-EVF-45 - 12V - 45Ah",
-      "slug": "ac-quy-xe-may-dien-gs-6-evf-45-12v-45ah",
-      "category_id": 5,
+      "id": 10,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN65 [LBN2] - 12V - 65Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din80-[lbn2]-12v-65ah",
+      "category_id": 1,
       "subcategory_id": null,
-      "price": 1250000,
-      "original_price": null,
-      "currency": "VND",
-      "capacity": "45Ah",
-      "voltage": "12V",
-      "images": [
-        "img/products/0_pa_12-23_4a4040d1b6c442148ce963b5e846e25d_master.png",
-        "img/products/0_pa_12-23_4a4040d1b6c442148ce963b5e846e25d_master.png"
-      ],
-      "main_image": "img/products/0_pa_12-23_4a4040d1b6c442148ce963b5e846e25d_master.png",
-      "badges": [
-        "new"
-      ],
-      "stock_status": "in_stock",
-      "rating": 4.5,
-      "reviews_count": 14,
-      "short_description": "Ắc quy xe máy điện GS 6-EVF-45 12V - 45Ah, chuyên dụng cho xe máy điện",
-      "detailed_description": {
-        "overview": "Ắc quy GS 6-EVF-45 được thiết kế chuyên dụng cho xe máy điện với dung lượng lớn 45Ah.",
-        "features": [
-          "Dung lượng lớn 45Ah",
-          "Công nghệ EVF",
-          "Tuổi thọ cao",
-          "Chuyên dụng xe máy điện"
-        ],
-        "specifications": {
-          "type": "EVF (Electric Vehicle)",
-          "voltage": "12V",
-          "capacity": "45Ah",
-          "dimensions": "198 x 166 x 170mm",
-          "weight": "15kg",
-          "brand": "GS Battery"
-        },
-        "usage": "Chuyên dụng cho xe máy điện, xe đạp điện công suất lớn"
-      }
-    },
-    {
-      "id": 12,
-      "name": "Ắc quy Xe Đạp Điện Pinaco 6-DZM-32 - 12V - 32Ah",
-      "slug": "ac-quy-xe-dap-dien-pinaco-6-dzm-32-12v-32ah",
-      "category_id": 5,
-      "subcategory_id": null,
-      "price": 1150000,
-      "original_price": 1250000,
-      "currency": "VND",
-      "capacity": "32Ah",
-      "voltage": "12V",
-      "images": [
-        "img/products/0_pa_12-14_ff44616be22a422b82fe2fa99a068659_master.png",
-        "img/products/0_pa_12-14_ff44616be22a422b82fe2fa99a068659_master.png"
-      ],
-      "main_image": "img/products/0_pa_12-14_ff44616be22a422b82fe2fa99a068659_master.png",
-      "badges": [
-        "sale"
-      ],
-      "stock_status": "in_stock",
-      "rating": 4.2,
-      "reviews_count": 11,
-      "short_description": "Ắc quy xe đạp điện Pinaco 6-DZM-32 12V - 32Ah, dung lượng lớn cho quãng đường xa",
-      "detailed_description": {
-        "overview": "Ắc quy Pinaco 6-DZM-32 với dung lượng 32Ah, phù hợp cho xe đạp điện cần quãng đường xa.",
-        "features": [
-          "Dung lượng 32Ah",
-          "Quãng đường xa",
-          "Chất lượng ổn định",
-          "Giá cả hợp lý"
-        ],
-        "specifications": {
-          "type": "Deep Cycle VRLA",
-          "voltage": "12V",
-          "capacity": "32Ah",
-          "dimensions": "195 x 130 x 155mm",
-          "weight": "10kg",
-          "brand": "Pinaco"
-        },
-        "usage": "Phù hợp cho xe đạp điện, xe máy điện cỡ vừa"
-      }
-    },
-    {
-      "id": 13,
-      "name": "Ắc quy Dân Dụng Rocket ESC100-12 - 12V - 100Ah",
-      "slug": "ac-quy-dan-dung-rocket-esc100-12-12v-100ah",
-      "category_id": 6,
-      "subcategory_id": null,
-      "price": 2200000,
-      "original_price": null,
-      "currency": "VND",
-      "capacity": "100Ah",
-      "voltage": "12V",
-      "images": [
-        "img/products/5427_79df388c5b2a42d2922c0257a5c8ec27_master.jpg",
-        "img/products/5430_de8b38c31707420f8f0a7a867bbd691d_master.jpg"
-      ],
-      "main_image": "img/products/5427_79df388c5b2a42d2922c0257a5c8ec27_master.jpg",
-      "badges": [
-        "new"
-      ],
-      "stock_status": "in_stock",
-      "rating": 4.4,
-      "reviews_count": 19,
-      "short_description": "Ắc quy dân dụng Rocket ESC100-12 12V - 100Ah, dự phòng điện gia đình",
-      "detailed_description": {
-        "overview": "Ắc quy Rocket ESC100-12 được thiết kế cho các ứng dụng dân dụng như UPS, hệ thống điện mặt trời.",
-        "features": [
-          "Dung lượng lớn 100Ah",
-          "Phù hợp ứng dụng dân dụng",
-          "Tuổi thọ cao",
-          "Công nghệ VRLA"
-        ],
-        "specifications": {
-          "type": "VRLA Deep Cycle",
-          "voltage": "12V",
-          "capacity": "100Ah",
-          "dimensions": "330 x 173 x 220mm",
-          "weight": "30kg",
-          "brand": "Rocket"
-        },
-        "usage": "UPS, hệ thống điện mặt trời, dự phòng điện gia đình"
-      }
-    },
-    {
-      "id": 14,
-      "name": "Ắc quy Dân Dụng GS 12V-65Ah NPG65-12 - 12V - 65Ah",
-      "slug": "ac-quy-dan-dung-gs-12v-65ah-npg65-12-12v-65ah",
-      "category_id": 6,
-      "subcategory_id": null,
-      "price": 1650000,
-      "original_price": 1800000,
+      "price": 1580000,
+      "original_price": 1612000,
       "currency": "VND",
       "capacity": "65Ah",
       "voltage": "12V",
       "images": [
-        "img/products/5421_48b5ed1e16114a0d924cfbdaa9c2b7c1_master.jpg",
-        "img/products/5425_3c1d213ca5d24b22bfb82d4963599ecc_master.jpg"
+        "img/products/cmf_din65_lbn2-01_9d3eca41dec74bf4a846e8354eda5e09_master.png",
+        "img/products/cmf_din65_lbn2-01_9d3eca41dec74bf4a846e8354eda5e09_master.png"
       ],
-      "main_image": "img/products/5421_48b5ed1e16114a0d924cfbdaa9c2b7c1_master.jpg",
+      "main_image": "img/products/cmf_din65_lbn2-01_9d3eca41dec74bf4a846e8354eda5e09_master.png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.1,
+      "reviews_count": 18,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN65 [LBN2] - 12V - 65Ah, giá tốt chất lượng cao",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. .",
+        "features": [
+          "Giá cả hợp lý",
+          "Dung lượng 65Ah",
+          "Chất lượng ổn định",
+          "Bảo hành 6 tháng"
+        ],
+        "specifications": {
+          "type": "Deep Cycle VRLA",
+          "voltage": "12V",
+          "capacity": "65Ah",
+          "dimensions": "151 x 98 x 95mm",
+          "weight": "23.8kg",
+          "brand": "Rocket"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    
+    {
+      "id": 11,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN45 [LN1] - 12V - 45Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din45-[ln1]-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1350000,
+      "original_price": 1450000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_din45_ln1-01_636d12b300e5457f9d340280bcb94186_master.png",
+        "img/products/cmf_din45_ln1-01_636d12b300e5457f9d340280bcb94186_master.png"
+      ],
+      "main_image": "img/products/cmf_din45_ln1-01_636d12b300e5457f9d340280bcb94186_master.png",
       "badges": [
         "sale"
       ],
       "stock_status": "in_stock",
       "rating": 4.3,
       "reviews_count": 16,
-      "short_description": "Ắc quy dân dụng GS NPG65-12 12V - 65Ah, chất lượng cao cho hệ thống UPS",
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN45 [LN1] - 12V - 45Ah, chất lượng cao cho hệ thống UPS",
       "detailed_description": {
-        "overview": "Ắc quy GS NPG65-12 chất lượng cao với dung lượng 65Ah, phù hợp cho các hệ thống UPS và backup power.",
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "65Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 90D26R - 12V - 80Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-90d26r-12v-80ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1710000,
+      "original_price": 1770000,
+      "currency": "VND",
+      "capacity": "80Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_90d26r_e8f66317f87a4e2c810ab32f5362c426_master.jpg",
+        "img/products/cmf_90d26r_e8f66317f87a4e2c810ab32f5362c426_master.jpg"
+      ],
+      "main_image": "img/products/cmf_90d26r_e8f66317f87a4e2c810ab32f5362c426_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 90D26R - 12V - 80Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 80Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "80Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 55D26R - 12V - 60Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-55d26r-12v-60ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1560000,
+      "original_price": 1610000,
+      "currency": "VND",
+      "capacity": "70Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_55d26r_748cdad39c1a4bb698933211905c4a18_master.jpg",
+        "img/products/cmf_55d26r_748cdad39c1a4bb698933211905c4a18_master.jpg"
+      ],
+      "main_image": "img/products/cmf_55d26r_748cdad39c1a4bb698933211905c4a18_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 55D26R - 12V - 60Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 60Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "60Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+     {
+      "id": 15,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN110 - 12V - 110Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din110-12v-110ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2470000,
+      "original_price": 2520000,
+      "currency": "VND",
+      "capacity": "110Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_din110_d049dd0a3b684adf8c190f62b3908b2b_master.jpg",
+        "img/products/cmf_din110_d049dd0a3b684adf8c190f62b3908b2b_master.jpg"
+      ],
+      "main_image": "img/products/cmf_din110_d049dd0a3b684adf8c190f62b3908b2b_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN110 - 12V - 110Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 110Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "110Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 55B24R - 12V - 52Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-55b24r-12v-52ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1200000,
+      "original_price": 1250000,
+      "currency": "VND",
+      "capacity": "52Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_55b24r_34253a15451f456a9d01c30f40613020_master.jpg",
+        "img/products/cmf_55b24r_34253a15451f456a9d01c30f40613020_master.jpg"
+      ],
+      "main_image": "img/products/cmf_din110_d049dd0a3b684adf8c190f62b3908b2b_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 55B24R - 12V - 52Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 52Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "52Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    }, 
+    {
+      "id": 17,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 50B24RS - 12V - 45Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-50b24r-12v-52ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1160000,
+      "original_price": 1210000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_50b24r_ba1f0947007f428daa30f8ca98396941_master.jpg",
+        "img/products/cmf_50b24r_ba1f0947007f428daa30f8ca98396941_master.jpg"
+      ],
+      "main_image": "img/products/cmf_din110_d049dd0a3b684adf8c190f62b3908b2b_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 50B24RS - 12V - 45Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+      {
+      "id": 18,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 31S-800 - 12V - 100Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-31s-800-12v-100ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2460000,
+      "original_price": 2510000,
+      "currency": "VND",
+      "capacity": "100Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_31s-800_6a1931bd45b545bbb59ad8dce9344313_master.jpg",
+        "img/products/cmf_31s-800_6a1931bd45b545bbb59ad8dce9344313_master.jpg"
+      ],
+      "main_image": "img/products/cmf_31s-800_6a1931bd45b545bbb59ad8dce9344313_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 31S-800 - 12V - 100Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 100Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "110Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 105D31R - 12V - 90Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-105d31r-12v-90ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2040000,
+      "original_price": 2091000,
+      "currency": "VND",
+      "capacity": "90Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_105d31r_5074abf0502a4103abe5f95d95330a2c_master.jpg",
+        "img/products/cmf_105d31r_5074abf0502a4103abe5f95d95330a2c_master.jpg"
+      ],
+      "main_image": "img/products/cmf_105d31r_5074abf0502a4103abe5f95d95330a2c_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 105D31R - 12V - 90Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 90Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "90Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 95D31R - 12V - 80Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-95d31r-12v-80ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1830000,
+      "original_price": 1879000,
+      "currency": "VND",
+      "capacity": "80Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_95d31r_7c5a23a145f44fc39e7334976e5185ba_master.jpg",
+        "img/products/cmf_95d31r_7c5a23a145f44fc39e7334976e5185ba_master.jpg"
+      ],
+      "main_image": "img/products/cmf_95d31r_7c5a23a145f44fc39e7334976e5185ba_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 95D31R - 12V - 80Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 80Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "80Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 85D23R - 12V - 65Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-85d23r-12v-65ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1602000,
+      "original_price": 1652000,
+      "currency": "VND",
+      "capacity": "65Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_85d23r_1e0cdfb4ea174c31ae530f1c01da5979_master.jpg",
+        "img/products/cmf_85d23r_1e0cdfb4ea174c31ae530f1c01da5979_master.jpg"
+      ],
+      "main_image": "img/products/cmf_85d23r_1e0cdfb4ea174c31ae530f1c01da5979_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 85D23R - 12V - 65Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
         "features": [
           "Chất lượng Nhật Bản",
           "Dung lượng 65Ah",
@@ -641,8 +901,2235 @@
           "weight": "21kg",
           "brand": "GS Battery"
         },
-        "usage": "UPS, hệ thống backup power, thiết bị y tế"
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 55D23R - 12V - 60Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-̀̀̀55d23r-12v-60ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1502000,
+      "original_price": 1552000,
+      "currency": "VND",
+      "capacity": "60Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_55d23r_479ef794a512408c912863334f02029c_master.jpg",
+        "img/products/cmf_55d23r_479ef794a512408c912863334f02029c_master.jpg"
+      ],
+      "main_image": "img/products/cmf_55d23r_479ef794a512408c912863334f02029c_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 55D23R - 12V - 60Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 60Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "60Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 44B20RS - 12V - 43Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-̀̀̀44d20r-12v-43ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1100000,
+      "original_price": 1152000,
+      "currency": "VND",
+      "capacity": "43Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_44b20rs_c36c6750ea9d4bf98855cb4cdaf7423e_master.jpg",
+        "img/products/cmf_44b20rs_c36c6750ea9d4bf98855cb4cdaf7423e_master.jpg"
+      ],
+      "main_image": "img/products/cmf_44b20rs_c36c6750ea9d4bf98855cb4cdaf7423e_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 44B20RS - 12V - 43Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 43Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "43Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 40B20R - 12V - 35Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-̀̀̀40d20r-12v-35ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1018000,
+      "original_price": 1052000,
+      "currency": "VND",
+      "capacity": "35Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_40b20r_527951f954364756a2a763f204faea70_master.jpg",
+        "img/products/cmf_40b20r_527951f954364756a2a763f204faea70_master.jpg"
+      ],
+      "main_image": "img/products/cmf_40b20r_527951f954364756a2a763f204faea70_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 40B20R - 12V - 35Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 35Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "35Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "6.5kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN43 [LBN] - 12V - 43Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-̀̀̀din43-12v-43ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1417000,
+      "original_price": 1452000,
+      "currency": "VND",
+      "capacity": "43Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_din43_lbn_05_f68e074a83e342029397276c499f3a8c_master (1).png",
+        "img/products/cmf_din43_lbn_05_f68e074a83e342029397276c499f3a8c_master (1).png"
+      ],
+      "main_image": "img/products/cmf_din43_lbn_05_f68e074a83e342029397276c499f3a8c_master (1).png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 40B20R - 12V - 35Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 43Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "43Ah",
+          "dimensions": "350 x 167 x 174mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Ắc quy Hybrid Đồng Nai N70Z - 12V - 75Ah",
+      "slug": "ac-quy-hybrid-dong-nai-n70z-12v-75ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1715000,
+      "original_price": 1752000,
+      "currency": "VND",
+      "capacity": "75Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/z3204510402568_997f6479747dae2a47f68e424bd2bfa3_26d2094df0bc4a7eae2cf6bc5dc364d8_master.jpg",
+        "img/products/z3204510402568_997f6479747dae2a47f68e424bd2bfa3_26d2094df0bc4a7eae2cf6bc5dc364d8_master.jpg"
+      ],
+      "main_image": "img/products/z3204510402568_997f6479747dae2a47f68e424bd2bfa3_26d2094df0bc4a7eae2cf6bc5dc364d8_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai N70Z - 12V - 75Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 75Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "75Ah",
+          "dimensions": "303 x 171 x 200 x 224mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai AGM DIN60 - 12V - 60Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-agm-din60-12v-60ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2075000,
+      "original_price": 2125000,
+      "currency": "VND",
+      "capacity": "60Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/1_3c2f22c2b1e3491d99b993adf4992a81_master.png",
+        "img/products/1_3c2f22c2b1e3491d99b993adf4992a81_master.png"
+      ],
+      "main_image": "img/products/1_3c2f22c2b1e3491d99b993adf4992a81_master.png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai AGM DIN60 - 12V - 60Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 60Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "60Ah",
+          "dimensions": "242 x 174 x 190 x 190mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN100 - 12V - 100Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din100-12v-100ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2436000,
+      "original_price": 2486000,
+      "currency": "VND",
+      "capacity": "100Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/148_b844c45e792d4eb0814fa7419b98099f_master.jpg",
+        "img/products/148_b844c45e792d4eb0814fa7419b98099f_master.jpg"
+      ],
+      "main_image": "img/products/148_b844c45e792d4eb0814fa7419b98099f_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN100 - 12V - 100Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 100Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "242 x 174 x 190 x 190mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN88 - 12V - 88Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din88-12v-88ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2240000,
+      "original_price": 2289000,
+      "currency": "VND",
+      "capacity": "88Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/115_1a00c087f82e4e28921545316c270dd0_master.jpg",
+        "img/products/115_1a00c087f82e4e28921545316c270dd0_master.jpg"
+      ],
+      "main_image": "img/products/115_1a00c087f82e4e28921545316c270dd0_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN88 - 12V - 88Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 88Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "88Ah",
+          "dimensions": "242 x 174 x 190 x 190mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Ắc quy Hybrid Đồng Nai N100 - 12V - 100Ah",
+      "slug": "ac-quy-hybrid-dong-nai-n100-12v-100ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2150000,
+      "original_price": 2199000,
+      "currency": "VND",
+      "capacity": "100Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/261_ecbda2d520c94292af5b7ace42d8a2f1_master.jpg",
+        "img/products/261_ecbda2d520c94292af5b7ace42d8a2f1_master.jpg"
+      ],
+      "main_image": "img/products/261_ecbda2d520c94292af5b7ace42d8a2f1_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai N100 - 12V - 100Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 100Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "406 x 175 x 209 x 234mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN75 - 12V - 75Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din75-12v-75ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1990000,
+      "original_price": 2049000,
+      "currency": "VND",
+      "capacity": "75Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/104_fd4004101a954123afc88c6267664181_master.jpg",
+        "img/products/104_fd4004101a954123afc88c6267664181_master.jpg"
+      ],
+      "main_image": "img/products/104_fd4004101a954123afc88c6267664181_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN75 - 12V - 75Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 75Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "75Ah",
+          "dimensions": "406 x 175 x 209 x 234mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Ắc quy Hybrid Đồng Nai N90 - 12V - 90Ah",
+      "slug": "ac-quy-hybrid-dong-nai-n90-12v-90ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1888000,
+      "original_price": 1943000,
+      "currency": "VND",
+      "capacity": "90Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/255_56df5250e16b4f63ad2d8293ee33addc_master (1).jpg",
+        "img/products/255_56df5250e16b4f63ad2d8293ee33addc_master (1).jpg"
+      ],
+      "main_image": "img/products/255_56df5250e16b4f63ad2d8293ee33addc_master (1).jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai N90 - 12V - 90Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 90Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "90Ah",
+          "dimensions": "330 x 171 x 210 x 234mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN65 [LBN] - 12V - 65Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din65-12v-65ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1850000,
+      "original_price": 1903000,
+      "currency": "VND",
+      "capacity": "65Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5115_0e0732e0278f48e5b4a2660b5b62d5e3_master.jpg",
+        "img/products/5115_0e0732e0278f48e5b4a2660b5b62d5e3_master.jpg"
+      ],
+      "main_image": "img/products/5115_0e0732e0278f48e5b4a2660b5b62d5e3_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN66 - 12V - 66Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 65Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "65Ah",
+          "dimensions": "277 x 174 x 175 x 175mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Ắc quy Hybrid Đồng Nai N85 - 12V - 85Ah",
+      "slug": "ac-quy-hybrid-dong-nai-n85-12v-85ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1770000,
+      "original_price": 1822000,
+      "currency": "VND",
+      "capacity": "85Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/250_5f74fbaeba984e4094491896e9efd30a_master.jpg",
+        "img/products/250_5f74fbaeba984e4094491896e9efd30a_master.jpg"
+      ],
+      "main_image": "img/products/250_5f74fbaeba984e4094491896e9efd30a_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN66 - 12V - 66Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 85Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "85Ah",
+          "dimensions": "303 x 171 x 200 x 224mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Ắc quy Hybrid Đồng Nai N70ZL - 12V - 75Ah",
+      "slug": "ac-quy-hybrid-dong-nai-n70zl-12v-75ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1733000,
+      "original_price": 1772000,
+      "currency": "VND",
+      "capacity": "75Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/n70zl3_9ab2e4cde6e84e55ae3d7709acf037ed_master (1).jpg",
+        "img/products/n70zl3_9ab2e4cde6e84e55ae3d7709acf037ed_master (1).jpg"
+      ],
+      "main_image": "img/products/n70zl3_9ab2e4cde6e84e55ae3d7709acf037ed_master (1).jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai N70ZL - 12V - 75Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 75Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "75Ah",
+          "dimensions": "303 x 171 x 200 x 224mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+   {
+      "id": 36,
+      "name": "Ắc quy Hybrid Đồng Nai N70 - 12V - 70Ah",
+      "slug": "ac-quy-hybrid-dong-nai-n70-12v-70ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1583000,
+      "original_price": 1632000,
+      "currency": "VND",
+      "capacity": "70Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/245_89b71bd6fe204f19ab88fa13f191e2f0_master.jpg",
+        "img/products/245_89b71bd6fe204f19ab88fa13f191e2f0_master.jpg"
+      ],
+      "main_image": "img/products/245_89b71bd6fe204f19ab88fa13f191e2f0_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai N70 - 12V - 70Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 70Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "70Ah",
+          "dimensions": "303 x 171 x 200 x 224mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN60R - 12V - 60Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din60r-12v-60ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1563000,
+      "original_price": 1612000,
+      "currency": "VND",
+      "capacity": "60Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5086_608938ef43c249108d6550d2e2961e9e_master.jpg",
+        "img/products/5086_608938ef43c249108d6550d2e2961e9e_master.jpg"
+      ],
+      "main_image": "img/products/5086_608938ef43c249108d6550d2e2961e9e_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN60R - 12V - 60Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 60Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "60Ah",
+          "dimensions": "303 x 171 x 200 x 224mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN45 [LBN] - 12V - 45Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din45-[lbn]-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1434000,
+      "original_price": 1484000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5028_8d94edd0033d40719ee294be4ad27ba6_master.jpg",
+        "img/products/5028_8d94edd0033d40719ee294be4ad27ba6_master.jpg"
+      ],
+      "main_image": "img/products/5028_8d94edd0033d40719ee294be4ad27ba6_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN45 [LBN] - 12V - 45Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "303 x 171 x 200 x 224mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN43 - 12V - 45Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din43-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1367000,
+      "original_price": 1417000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/4992_62fdf31c99864220b1c7fcf9413a2af2_master.jpg",
+        "img/products/4992_62fdf31c99864220b1c7fcf9413a2af2_master.jpg"
+      ],
+      "main_image": "img/products/4992_62fdf31c99864220b1c7fcf9413a2af2_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN43 - 12V - 45Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "303 x 171 x 200 x 224mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Ắc quy Hybrid Đồng Nai NS70L - 12V - 65Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns70l-12v-65ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1498000,
+      "original_price": 1548000,
+      "currency": "VND",
+      "capacity": "65Ah",
+      "voltage": "12V",
+      "images": [
+         "img/products/240_f5e5ed09f73b47d6b51c0fa64ddfa0c8_master.jpg",
+        "img/products/240_f5e5ed09f73b47d6b51c0fa64ddfa0c8_master.jpg"
+      ],
+      "main_image": "img/products/240_f5e5ed09f73b47d6b51c0fa64ddfa0c8_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS70L - 12V - 65Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 65Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "65Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+     {
+      "id": 41,
+      "name": "Ắc quy Hybrid Đồng Nai N50Z - 12V - 60Ah",
+      "slug": "ac-quy-hybrid-dong-nai-n50z-12v-60ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1318000,
+      "original_price": 1368000,
+      "currency": "VND",
+      "capacity": "60Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/230_2f23e602eb644c52b5178e9e1d441505_master.jpg",
+        "img/products/230_2f23e602eb644c52b5178e9e1d441505_master.jpg"
+      ],
+      "main_image": "img/products/230_2f23e602eb644c52b5178e9e1d441505_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai N50Z - 12V - 60Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 60Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "60Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Ắc quy Hybrid Đồng Nai N50 - 12V - 50Ah",
+      "slug": "ac-quy-hybrid-dong-nai-n50-12v-50ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1141000,
+      "original_price": 1191000,
+      "currency": "VND",
+      "capacity": "50Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/220_b4a14561ee99435ea740552c0d2ddc04_master.jpg",
+        "img/products/220_b4a14561ee99435ea740552c0d2ddc04_master.jpg"
+      ],
+      "main_image": "img/products/220_b4a14561ee99435ea740552c0d2ddc04_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai N50 - 12V - 50Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 50Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "50Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Ắc quy Hybrid Đồng Nai N50L - 12V - 50Ah",
+      "slug": "ac-quy-hybrid-dong-nai-n50l-12v-50ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1141000,
+      "original_price": 1191000,
+      "currency": "VND",
+      "capacity": "50Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/214_0f30ecb778c8488199f69a65acf2cd54_master.jpg",
+        "img/products/214_0f30ecb778c8488199f69a65acf2cd54_master.jpg"
+      ],
+      "main_image": "img/products/214_0f30ecb778c8488199f69a65acf2cd54_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai N50L - 12V - 50Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 50Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "50Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Ắc quy Hybrid Đồng Nai NS60S - 12V - 45Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns60s-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1024000,
+      "original_price": 1099000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/198_0b517aad2745442f8ecbb6c6d756fe47_master.jpg",
+        "img/products/198_0b517aad2745442f8ecbb6c6d756fe47_master.jpg"
+      ],
+      "main_image": "img/products/198_0b517aad2745442f8ecbb6c6d756fe47_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS60S - 12V - 45Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Ắc quy Hybrid Đồng Nai NS60 - 12V - 45Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns60-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1024000,
+      "original_price": 1099000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/209_fec66911064b44379c2cb46e15343bf8_master.jpg",
+        "img/products/209_fec66911064b44379c2cb46e15343bf8_master.jpg"
+      ],
+      "main_image": "img/products/209_fec66911064b44379c2cb46e15343bf8_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS60 - 12V - 45Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Ắc quy Hybrid Đồng Nai NS60L - 12V - 45Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns60l-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1024000,
+      "original_price": 1099000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/204_5345740d0fd549d5a80db80415cf6c39_master.jpg",
+        "img/products/204_5345740d0fd549d5a80db80415cf6c39_master.jpg"
+      ],
+      "main_image": "img/products/204_5345740d0fd549d5a80db80415cf6c39_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS60L - 12V - 45Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Ắc quy Hybrid Đồng Nai NS60LS - 12V - 45Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns60ls-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1024000,
+      "original_price": 1099000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/192_8d89ec025f4c44eeb772fbfa45ef6fa7_master.jpg",
+        "img/products/192_8d89ec025f4c44eeb772fbfa45ef6fa7_master.jpg"
+      ],
+      "main_image": "img/products/192_8d89ec025f4c44eeb772fbfa45ef6fa7_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS60LS - 12V - 45Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Ắc quy Hybrid Đồng Nai NS40Z - 12V - 40Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns40z-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 980000,
+      "original_price": 999000,
+      "currency": "VND",
+      "capacity": "40Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/182_a5dad64037f241dc85852253f013a8d6_master.jpg",
+        "img/products/182_a5dad64037f241dc85852253f013a8d6_master.jpg"
+      ],
+      "main_image": "img/products/182_a5dad64037f241dc85852253f013a8d6_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS40Z - 12V - 40Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 40Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "40Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Ắc quy Hybrid Đồng Nai NS40ZLS - 12V - 40Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns40zls-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 980000,
+      "original_price": 999000,
+      "currency": "VND",
+      "capacity": "40Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/187_e6ec4cf2208a4102b67bbb29a4585653_master.jpg",
+        "img/products/187_e6ec4cf2208a4102b67bbb29a4585653_master.jpg"
+      ],
+      "main_image": "img/products/187_e6ec4cf2208a4102b67bbb29a4585653_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS40ZLS - 12V - 40Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 40Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "40Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Ắc quy Hybrid Đồng Nai NS40L - 12V - 35Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns40zls-12v-35ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 900000,
+      "original_price": 949000,
+      "currency": "VND",
+      "capacity": "35Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/187_e6ec4cf2208a4102b67bbb29a4585653_master.jpg",
+        "img/products/187_e6ec4cf2208a4102b67bbb29a4585653_master.jpg"
+      ],
+      "main_image": "img/products/187_e6ec4cf2208a4102b67bbb29a4585653_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS40L - 12V - 35Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 35Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "35Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Ắc quy Hybrid Đồng Nai NS40S - 12V - 35Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns40s-12v-35ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 900000,
+      "original_price": 949000,
+      "currency": "VND",
+      "capacity": "35Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/177_715bb288b700491cb52e7f37ba90a516_master.jpg",
+        "img/products/177_715bb288b700491cb52e7f37ba90a516_master.jpg"
+      ],
+      "main_image": "img/products/177_715bb288b700491cb52e7f37ba90a516_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS40L - 12V - 35Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 35Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "35Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 52,
+      "name": "Ắc quy Hybrid Đồng Nai NS40LS - 12V - 35Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns40ls-12v-35ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 900000,
+      "original_price": 949000,
+      "currency": "VND",
+      "capacity": "35Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/172_0a4dc1c99ecf4a2883a45ad9860751fb_master.jpg",
+        "img/products/172_0a4dc1c99ecf4a2883a45ad9860751fb_master.jpg"
+      ],
+      "main_image": "img/products/172_0a4dc1c99ecf4a2883a45ad9860751fb_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS40LS - 12V - 35Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 35Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "35Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 53,
+      "name": "Ắc quy Hybrid Đồng Nai NS40 - 12V - 35Ah",
+      "slug": "ac-quy-hybrid-dong-nai-ns40-12v-35ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 900000,
+      "original_price": 949000,
+      "currency": "VND",
+      "capacity": "35Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5218_009c1739b09b42948bc317a07a30ea32_master.jpg",
+        "img/products/5218_009c1739b09b42948bc317a07a30ea32_master.jpg"
+      ],
+      "main_image": "img/products/5218_009c1739b09b42948bc317a07a30ea32_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Hybrid Đồng Nai NS40 - 12V - 35Ah",
+      "detailed_description": {
+        "overview": "Ắc quy Hybrid Đồng Nai là sự kết giữa bản cực dương làm từ chì antimon (ắc quy nước truyền thống) giúp phóng điện mạnh mẽ và bản cực âm làm từ chì canxi (ắc quy khô miễn bảo dưỡng) giúp hạn chế mức độ hao hụt nước.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 35Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "35Ah",
+          "dimensions": "259 x 171 x 199 x 223mm",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 54,
+      "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 195G51 - 12V - 165Ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-195g51-12v-165ah",
+      "category_id": 2,
+      "subcategory_id": null,
+      "price": 3750000,
+      "original_price": 4052000,
+      "currency": "VND",
+      "capacity": "165Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/cmf_195g51-01_bb921134514e4319b9210a4327acddb9_master (2).png",
+        "img/products/cmf_195g51-01_bb921134514e4319b9210a4327acddb9_master (2).png"
+      ],
+      "main_image": "img/products/cmf_195g51-01_bb921134514e4319b9210a4327acddb9_master (2).png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF 195G51 - 12V - 165Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 165Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "165Ah",
+          "dimensions": "508 x 220 x 213 x 237mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 55,
+      "name": "Ắc quy Xe tải Đồng Nai N150 - 12V - 150Ah",
+      "slug": "ac-quy-xe-tai-dong-nai-n150-12v-150ah",
+      "category_id": 2,
+      "subcategory_id": null,
+      "price": 3020000,
+      "original_price": 3282000,
+      "currency": "VND",
+      "capacity": "150Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5445_aadee5b93c864d628e1c10195116f454_master.jpg",
+        "img/products/5445_aadee5b93c864d628e1c10195116f454_master.jpg"
+      ],
+      "main_image": "img/products/5445_aadee5b93c864d628e1c10195116f454_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe tải Đồng Nai N150 - 12V - 150Ah",
+      "detailed_description": {
+        "overview": "Ắc quy khô miễn bảo dưỡng Đồng Nai sử dụng công nghệ đúc liên tục cho chất lượng bản cực chì cao và đồng đều. Thành phần cấu tạo hợp kim chì và phụ gia đặc biệt phù hợp cho mục đích khởi động. ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 150Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "150Ah",
+          "dimensions": "508 x 220 x 213 x 237mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 56,
+      "name": "Ắc quy Xe tải Đồng Nai N150S - 12V - 135Ah",
+      "slug": "ac-quy-xe-tai-dong-nai-n150s-12v-135ah",
+      "category_id": 2,
+      "subcategory_id": null,
+      "price": 2940000,
+      "original_price": 2992000,
+      "currency": "VND",
+      "capacity": "135Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5484_f447b9c27dcb4872920c44338f3c9b9e_master.jpg",
+        "img/products/5484_f447b9c27dcb4872920c44338f3c9b9e_master.jpg"
+      ],
+      "main_image": "img/products/5484_f447b9c27dcb4872920c44338f3c9b9e_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe tải Đồng Nai N150S - 12V - 135Ah",
+      "detailed_description": {
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 135Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "135Ah",
+          "dimensions": "508 x 220 x 213 x 237mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 57,
+      "name": "Ắc quy Xe tải Đồng Nai N120 - 12V - 120Ah",
+      "slug": "ac-quy-xe-tai-dong-nai-n120-12v-120ah",
+      "category_id": 2,
+      "subcategory_id": null,
+      "price": 2660000,
+      "original_price": 2760000,
+      "currency": "VND",
+      "capacity": "120Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5432_91bf53da581e4af19655ad66e8755e4d_master.jpg",
+        "img/products/5432_91bf53da581e4af19655ad66e8755e4d_master.jpg"
+      ],
+      "main_image": "img/products/5432_91bf53da581e4af19655ad66e8755e4d_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe tải Đồng Nai N120 - 12V - 120Ah",
+      "detailed_description": {
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 120Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "120Ah",
+          "dimensions": "502 x 180 x 209 x 254mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 58,
+      "name": "Ắc quy Xe tải Đồng Nai N100 - 12V - 100Ah",
+      "slug": "ac-quy-xe-tai-dong-nai-n100-12v-100ah",
+      "category_id": 2,
+      "subcategory_id": null,
+      "price": 2147000,
+      "original_price": 2190000,
+      "currency": "VND",
+      "capacity": "100Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/261_001a75d4ffc14ebbb3c9aba8be336e4e_master.jpg",
+        "img/products/261_001a75d4ffc14ebbb3c9aba8be336e4e_master.jpg"
+      ],
+      "main_image": "img/products/261_001a75d4ffc14ebbb3c9aba8be336e4e_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe tải Đồng Nai N100 - 12V - 100Ah",
+      "detailed_description": {
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 100Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "502 x 180 x 209 x 254mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 59,
+      "name": "Ắc quy Xe tải Đồng Nai N90 - 12V - 90Ah",
+      "slug": "ac-quy-xe-tai-dong-nai-n90-12v-90ah",
+      "category_id": 2,
+      "subcategory_id": null,
+      "price": 1900000,
+      "original_price": 1950000,
+      "currency": "VND",
+      "capacity": "90Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/255_fcf78edeb3324553bdac6e50109399ec_master.jpg",
+        "img/products/255_fcf78edeb3324553bdac6e50109399ec_master.jpg"
+      ],
+      "main_image": "img/products/255_fcf78edeb3324553bdac6e50109399ec_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe tải Đồng Nai N90 - 12V - 90Ah",
+      "detailed_description": {
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 90Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "90Ah",
+          "dimensions": "502 x 180 x 209 x 254mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 60,
+      "name": "Ắc quy Xe tải Đồng Nai N85 - 12V - 85Ah",
+      "slug": "ac-quy-xe-tai-dong-nai-n85-12v-85ah",
+      "category_id": 2,
+      "subcategory_id": null,
+      "price": 1800000,
+      "original_price": 1880000,
+      "currency": "VND",
+      "capacity": "85Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/250_9b46415aa33f4659aacf7c12b201a021_master.jpg",
+        "img/products/250_9b46415aa33f4659aacf7c12b201a021_master.jpg"
+      ],
+      "main_image": "img/products/250_9b46415aa33f4659aacf7c12b201a021_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe tải Đồng Nai N85 - 12V - 85Ah",
+      "detailed_description": {
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 85Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "85Ah",
+          "dimensions": "502 x 180 x 209 x 254mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 61,
+      "name": "Ắc quy Tàu thuyền Đồng Nai N220 - 12V - 220Ah",
+      "slug": "ac-quy-tau-thuyen-dong-nai-n220-12v-220ah",
+      "category_id": 3,
+      "subcategory_id": null,
+      "price": 4120000,
+      "original_price": 4420000,
+      "currency": "VND",
+      "capacity": "220Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5491_93a2504783a14e05b3aaa4d51dfecd91_master (1).jpg",
+        "img/products/5491_93a2504783a14e05b3aaa4d51dfecd91_master (1).jpg"
+      ],
+      "main_image": "img/products/5491_93a2504783a14e05b3aaa4d51dfecd91_master (1).jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Tàu thuyền Đồng Nai N220 - 12V - 220Ah",
+      "detailed_description": {
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 220Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "220Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 62,
+      "name": "Ắc quy Tàu thuyền Đồng Nai N200Z Đen - 12V - 210Ah",
+      "slug": "ac-quy-tau-thuyen-dong-nai-n200z-12v-210ah",
+      "category_id": 3,
+      "subcategory_id": null,
+      "price": 4110000,
+      "original_price": 4430000,
+      "currency": "VND",
+      "capacity": "210Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/2_4a06818981244cf98ae10f6683aafd81_master.png",
+        "img/products/2_4a06818981244cf98ae10f6683aafd81_master.png"
+      ],
+      "main_image": "img/products/2_4a06818981244cf98ae10f6683aafd81_master.png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Tàu thuyền Đồng Nai N200Z Đen - 12V - 210Ah",
+      "detailed_description": {
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 210Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "210Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 63,
+      "name": "Ắc quy Tàu thuyền Đồng Nai N200 - 12V - 200Ah",
+      "slug": "ac-quy-tau-thuyen-dong-nai-n200-12v-200ah",
+      "category_id": 3,
+      "subcategory_id": null,
+      "price": 4022000,
+      "original_price": 4332000,
+      "currency": "VND",
+      "capacity": "200Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/1_90974b98a3884cb3b8565e353908dace_master.png",
+        "img/products/1_90974b98a3884cb3b8565e353908dace_master.png"
+      ],
+      "main_image": "img/products/1_90974b98a3884cb3b8565e353908dace_master.png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Tàu thuyền Đồng Nai N200Z Đen - 12V - 210Ah",
+      "detailed_description": {
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 200Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "200Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 64,
+      "name": "Ắc quy Tàu thuyền Đồng Nai N200S - 12V - 180Ah",
+      "slug": "ac-quy-tau-thuyen-dong-nai-n200s-12v-180ah",
+      "category_id": 3,
+      "subcategory_id": null,
+      "price": 3540000,
+      "original_price": 3839000,
+      "currency": "VND",
+      "capacity": "180Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/1_90974b98a3884cb3b8565e353908dace_master.png",
+        "img/products/1_90974b98a3884cb3b8565e353908dace_master.png"
+      ],
+      "main_image": "img/products/1_90974b98a3884cb3b8565e353908dace_master.png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Tàu thuyền Đồng Nai N200S - 12V - 180Ah",
+      "detailed_description": {
+        "overview": "Ắc quy được sản xuất theo công nghệ Châu Âu. Bản cực dương làm từ chì antimon giúp phóng điện mạnh mẽ, bền bỉ. Ít hao nước trong quá trình sử dụng ",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 180Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "180Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 65,
+      "name": "Ắc quy Xe điện PINACO PL 12-150 - 12V - 150Ah",
+      "slug": "ac-quy-xe-dien-pinaco-pl-12-150-12v-150ah",
+      "category_id": 5,
+      "subcategory_id": null,
+      "price": 4500000,
+      "original_price": 4580000,
+      "currency": "VND",
+      "capacity": "150Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/pl_12-150_b_726a294ab6694d38b11d307796e3dbbe_master.jpg",
+        "img/products/pl_12-150_b_726a294ab6694d38b11d307796e3dbbe_master.jpg"
+      ],
+      "main_image": "img/products/pl_12-150_b_726a294ab6694d38b11d307796e3dbbe_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe điện PINACO PL 12-150 - 12V - 150Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 150Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "150Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 66,
+      "name": "Ắc quy Xe điện PINACO PL 8-190 - 8V - 190Ah",
+      "slug": "ac-quy-xe-dien-pinaco-pl-8-190-8v-190ah",
+      "category_id": 5,
+      "subcategory_id": null,
+      "price": 3730000,
+      "original_price": 3780000,
+      "currency": "VND",
+      "capacity": "190Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/427_baea0b4657844d498b0d9e049ea7fbbc_master.jpg",
+        "img/products/427_baea0b4657844d498b0d9e049ea7fbbc_master.jpg"
+      ],
+      "main_image": "img/products/427_baea0b4657844d498b0d9e049ea7fbbc_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe điện PINACO PL 8-190 - 8V - 190Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 190Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "190Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 67,
+      "name": "Ắc quy Xe điện PINACO PL 6-260 - 6V - 260Ah",
+      "slug": "ac-quy-xe-dien-pinaco-pl-6-260-6v-260ah",
+      "category_id": 5,
+      "subcategory_id": null,
+      "price": 3730000,
+      "original_price": 3780000,
+      "currency": "VND",
+      "capacity": "260Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/419_f25a93bb467d4929b11462b714c22c47_master.jpg",
+        "img/products/419_f25a93bb467d4929b11462b714c22c47_master.jpg"
+      ],
+      "main_image": "img/products/427_baea0b4657844d498b0d9e049ea7fbbc_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe điện PINACO PL 6-260 - 6V - 260Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 260h",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "260Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 68,
+      "name": "Ắc quy Xe máy điện Đồng Nai PA 12-23 - 12V - 23Ah",
+      "slug": "ac-quy-xe-dien-dien-dong-nai-pa-12-23-12v-23ah",
+      "category_id": 5,
+      "subcategory_id": null,
+      "price": 793000,
+      "original_price": 812000,
+      "currency": "VND",
+      "capacity": "23Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/0_pa_12-23_4a4040d1b6c442148ce963b5e846e25d_master (1).png",
+        "img/products/0_pa_12-23_4a4040d1b6c442148ce963b5e846e25d_master (1).png"
+      ],
+      "main_image": "img/products/0_pa_12-23_4a4040d1b6c442148ce963b5e846e25d_master (1).png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe máy điện Đồng Nai PA 12-23 - 12V - 23Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 23Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "23Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 69,
+      "name": "Ắc quy Xe đạp điện Đồng Nai PA 12-14 - 12V - 13.2Ah",
+      "slug": "ac-quy-xe-dien-dien-dong-nai-pa-12-14-12v-23.2ah",
+      "category_id": 5,
+      "subcategory_id": null,
+      "price": 503000,
+      "original_price": 553000,
+      "currency": "VND",
+      "capacity": "23.2Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/0_pa_12-14_ff44616be22a422b82fe2fa99a068659_master (1).png",
+        "img/products/0_pa_12-14_ff44616be22a422b82fe2fa99a068659_master (1).png"
+      ],
+      "main_image": "img/products/0_pa_12-14_ff44616be22a422b82fe2fa99a068659_master (1).png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Xe đạp điện Đồng Nai PA 12-14 - 12V - 13.2Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 23.2Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "23.2Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 70,
+      "name": "Ắc quy Dân dụng Đồng Nai N30 - 12V - 30Ah",
+      "slug": "ac-quy-dan-dung-dong-nai-n30-12v-30ah",
+      "category_id": 6,
+      "subcategory_id": null,
+      "price": 788000,
+      "original_price": 812000,
+      "currency": "VND",
+      "capacity": "30Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5427_79df388c5b2a42d2922c0257a5c8ec27_master (1).jpg",
+        "img/products/5427_79df388c5b2a42d2922c0257a5c8ec27_master (1).jpg"
+      ],
+      "main_image": "img/products/5427_79df388c5b2a42d2922c0257a5c8ec27_master (1).jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Dân dụng Đồng Nai N30 - 12V - 30Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 30Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "30Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 71,
+      "name": "Ắc quy Dân dụng Đồng Nai N28 - 12V - 28Ah",
+      "slug": "ac-quy-dan-dung-dong-nai-n28-12v-28ah",
+      "category_id": 6,
+      "subcategory_id": null,
+      "price": 738000,
+      "original_price": 782000,
+      "currency": "VND",
+      "capacity": "28Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5421_48b5ed1e16114a0d924cfbdaa9c2b7c1_master (1).jpg",
+        "img/products/5421_48b5ed1e16114a0d924cfbdaa9c2b7c1_master (1).jpg"
+      ],
+      "main_image": "img/products/5421_48b5ed1e16114a0d924cfbdaa9c2b7c1_master (1).jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Dân dụng Đồng Nai N28 - 12V - 28Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 28Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "28Ah",
+          "dimensions": "518 x 276 x 214 x 267mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 72,
+      "name": "Ắc quy Dân dụng Đồng Nai N25 - 12V - 25Ah",
+      "slug": "ac-quy-dan-dung-dong-nai-n25-12v-25ah",
+      "category_id": 6,
+      "subcategory_id": null,
+      "price": 714000,
+      "original_price": 742000,
+      "currency": "VND",
+      "capacity": "25Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5415_fd2c7d1397d54666806734788d14f62d_master.jpg",
+        "img/products/5415_fd2c7d1397d54666806734788d14f62d_master.jpg"
+      ],
+      "main_image": "img/products/5415_fd2c7d1397d54666806734788d14f62d_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Dân dụng Đồng Nai N25 - 12V - 25Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 25Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "25Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 73,
+      "name": "Ắc quy Dân dụng Đồng Nai N20 - 12V - 20Ah",
+      "slug": "ac-quy-dan-dung-dong-nai-n20-12v-20ah",
+      "category_id": 6,
+      "subcategory_id": null,
+      "price": 604000,
+      "original_price": 632000,
+      "currency": "VND",
+      "capacity": "20Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5408_b9b9d63e6dd445d99573c0c6ac040916_master.jpg",
+        "img/products/5408_b9b9d63e6dd445d99573c0c6ac040916_master.jpg"
+      ],
+      "main_image": "img/products/5408_b9b9d63e6dd445d99573c0c6ac040916_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy Dân dụng Đồng Nai N25 - 12V - 20Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 20Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "20Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 74,
+      "name": "Ắc quy UPS JP PA 12-7.2 - 12V - 7,2Ah",
+      "slug": "ac-quy-ups-jp-pa-12-7.2-12v-7,2ah",
+      "category_id": 6,
+      "subcategory_id": null,
+      "price": 280000,
+      "original_price": 300000,
+      "currency": "VND",
+      "capacity": "7,2Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/267_cdcc831cb13b4b8db9497c57d92250d7_master.jpg",
+        "img/products/267_cdcc831cb13b4b8db9497c57d92250d7_master.jpg"
+      ],
+      "main_image": "img/products/267_cdcc831cb13b4b8db9497c57d92250d7_master.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy UPS JP PA 12-7.2 - 12V - 7,2Ah",
+      "detailed_description": {
+        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 7,2Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "7,2Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "65kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
       }
     }
+     
   ]
 }
