@@ -67,30 +67,23 @@ function applyFilters() {
 }
 
 // Function hiển thị sản phẩm đã lọc
+// Function hiển thị sản phẩm đã lọc
 function displayFilteredProducts(products) {
-  // Tìm container trong shop.html hoặc index.html
-  let container = document.querySelector('#tab-5 .row.g-4.product');
-  
-  // Nếu không tìm thấy (shop.html), tìm trong tab-5 trực tiếp
-  if (!container) {
-    const tab5 = document.querySelector('#tab-5');
-    if (tab5) {
-      container = tab5.querySelector('.row.g-4');
-    }
-  }
-  
-  // Nếu vẫn không tìm thấy, tìm trong tab active
-  if (!container) {
-    const activeTab = document.querySelector('.tab-pane.active');
-    if (activeTab) {
-      container = activeTab.querySelector('.row.g-4');
-    }
-  }
-  
-  if (!container) {
-    console.error('Không tìm thấy container để hiển thị sản phẩm');
+  // Tìm tab đang active
+  const activeTab = document.querySelector('.tab-pane.active');
+  if (!activeTab) {
+    console.error('Không tìm thấy tab active');
     return;
   }
+  
+  // Tìm container trong tab active
+  const container = activeTab.querySelector('.row.g-4');
+  if (!container) {
+    console.error('Không tìm thấy container');
+    return;
+  }
+  
+  console.log(`Hiển thị ${products.length} sản phẩm`);
   
   if (products.length === 0) {
     container.innerHTML = `
@@ -101,16 +94,16 @@ function displayFilteredProducts(products) {
     return;
   }
   
-  // Sử dụng function createProductHTML từ product.js
+  // Clear và render sản phẩm mới
+  container.innerHTML = '';
   let html = '';
-  const delays = ['0.1s', '0.3s', '0.5s', '0.7s'];
   
   products.forEach((product, index) => {
-    const delay = delays[index % delays.length];
-    html += createProductHTML(product, delay);
+    html += createProductHTML(product, '0.1s');
   });
   
   container.innerHTML = html;
+  console.log('Đã cập nhật giao diện với sản phẩm lọc');
 }
 
 // Khởi tạo event listeners khi DOM đã sẵn sàng

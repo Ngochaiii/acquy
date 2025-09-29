@@ -723,15 +723,77 @@
     <!-- <script src="js/product-carousel.js"></script> -->
     <script src="js/google-sheet-handler.js"></script>
     <script src="js/product-search.js"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', async function() {
-        // Load dữ liệu sản phẩm
-        await loadProductData();
-        
-        // Hiển thị tất cả sản phẩm trong tab-5
-        if (productData) {
-            displayFilteredProducts(productData.products);
-        }
+   <script>
+    // Fix các sự kiện search và price slider
+    document.addEventListener('DOMContentLoaded', function() {
+        // Đợi data load xong
+        setTimeout(function() {
+            // 1. Fix price slider
+            const priceSlider = document.getElementById('rangeInput');
+            const priceOutput = document.getElementById('amount');
+            
+            if (priceSlider) {
+                // Hiển thị giá ban đầu
+                priceOutput.textContent = '0đ';
+                
+                // Update khi kéo
+                priceSlider.addEventListener('input', function() {
+                    const value = parseInt(this.value);
+                    const priceInVND = value * 10000;
+                    priceOutput.textContent = new Intl.NumberFormat('vi-VN').format(priceInVND) + 'đ';
+                });
+                
+                // Lọc khi thả chuột
+                priceSlider.addEventListener('change', function() {
+                    const maxPrice = parseInt(this.value);
+                    console.log('Lọc sản phẩm với giá max:', maxPrice * 10000);
+                    
+                    if (productData) {
+                        const filtered = productData.products.filter(p => p.price <= (maxPrice * 10000));
+                        displayFilteredProducts(filtered);
+                    }
+                });
+            }
+            
+            // 2. Fix search button
+            const searchBtn = document.querySelector('.col-md-4.col-lg-6 .btn-primary');
+            const searchInput = document.querySelector('.col-md-4.col-lg-6 input[type="text"]');
+            const categorySelect = document.querySelector('.col-md-4.col-lg-6 select');
+            
+            if (searchBtn) {
+                searchBtn.onclick = function(e) {
+                    e.preventDefault();
+                    const keyword = searchInput.value.toLowerCase();
+                    const category = categorySelect.value;
+                    
+                    console.log('Tìm kiếm:', keyword);
+                    
+                    if (!productData) return;
+                    
+                    let filtered = productData.products;
+                    
+                    // Lọc theo từ khóa
+                    if (keyword) {
+                        filtered = filtered.filter(p => {
+                            return p.name.toLowerCase().includes(keyword) ||
+                                p.short_description.toLowerCase().includes(keyword) ||
+                                p.capacity.toLowerCase().includes(keyword) ||
+                                p.voltage.toLowerCase().includes(keyword);
+                        });
+                    }
+                    
+                    // Lọc theo danh mục
+                    if (category !== 'All Category') {
+                        const cat = productData.categories.find(c => c.name === category);
+                        if (cat) {
+                            filtered = filtered.filter(p => p.category_id === cat.id);
+                        }
+                    }
+                    
+                    displayFilteredProducts(filtered);
+                };
+            }
+        }, 1000);
     });
     </script>
 </body>
