@@ -62,7 +62,7 @@ function createProductHTML(product, delay = '0.1s') {
   const imageUrl = product.main_image || product.pro_image || 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg==';
   
   return `
-    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="col-6 col-md-6 col-lg-4 col-xl-3">
       <div class="product-item rounded wow fadeInUp" data-wow-delay="${delay}">
         <div class="product-item-inner border rounded">
           <div class="product-item-inner-item">
@@ -90,20 +90,7 @@ function createProductHTML(product, delay = '0.1s') {
             <div class="d-flex">
               ${stars}
             </div>
-            <div class="d-flex">
-              <a href="#" onclick="compareProduct(${product.id})"
-                 class="text-primary d-flex align-items-center justify-content-center me-3">
-                <span class="rounded-circle btn-sm-square border">
-                  <i class="fas fa-random"></i>
-                </span>
-              </a>
-              <a href="#" onclick="addToWishlist(${product.id})"
-                 class="text-primary d-flex align-items-center justify-content-center me-0">
-                <span class="rounded-circle btn-sm-square border">
-                  <i class="fas fa-heart"></i>
-                </span>
-              </a>
-            </div>
+
           </div>
         </div>
       </div>

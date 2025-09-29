@@ -114,6 +114,35 @@
     .topbar {
         display: none;    
     }
+    a.d-block.h4 {
+        font-size: 12px;
+    }
+    .products-mini-content p-3 span {
+        font-size: 12px;
+    }
+}
+@media (max-width: 767px) {
+  #category-nav {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+  
+  #category-nav .nav-item {
+    margin-bottom: 0 !important;
+  }
+  
+  #category-nav .nav-item a {
+    margin: 0 !important;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  #category-nav .nav-item a span {
+    width: auto !important;
+    font-size: 12px;
+  }
 }
 /*** Topbar End ***/
 
