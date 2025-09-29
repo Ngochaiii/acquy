@@ -868,3 +868,145 @@
 }
 /*** copyright end ***/
 
+.social-icons {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 1000;
+            padding: 20px 10px;
+        }
+
+        .icon-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .icon-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transform: scale(0);
+            transition: transform 0.3s ease;
+        }
+
+        .icon-link:hover::before {
+            transform: scale(1);
+        }
+
+        .icon-link:hover {
+            transform: translateX(10px) scale(1.1);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .facebook {
+            background: #1877f2;
+        }
+
+        .messenger {
+            background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+        }
+
+        .phone {
+            background: #dc3545;
+        }
+
+        .zalo {
+            background: #0068ff;
+        }
+
+        .icon {
+            width: 30px;
+            height: 30px;
+            fill: white;
+        }
+
+        .zalo-text {
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .social-icons {
+                padding: 15px 8px;
+                gap: 10px;
+            }
+
+            .icon-link {
+                width: 50px;
+                height: 50px;
+            }
+
+            .icon {
+                width: 25px;
+                height: 25px;
+            }
+
+            .zalo-text {
+                font-size: 12px;
+            }
+
+            .content {
+                margin-left: 75px;
+                padding: 20px;
+                margin-top: 15px;
+            }
+
+            .content h1 {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .social-icons {
+                padding: 10px 5px;
+                gap: 8px;
+            }
+
+            .icon-link {
+                width: 45px;
+                height: 45px;
+            }
+
+            .icon {
+                width: 22px;
+                height: 22px;
+            }
+
+            .zalo-text {
+                font-size: 11px;
+            }
+
+            .content {
+                margin-left: 60px;
+                padding: 15px;
+                border-radius: 15px;
+                margin-top: 10px;
+            }
+
+            .content h1 {
+                font-size: 20px;
+            }
+
+            .content p {
+                font-size: 14px;
+            }
+        }
