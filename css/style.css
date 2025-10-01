@@ -365,8 +365,8 @@
 .product .product-item .product-item-inner .product-item-inner-item .product-new,
 .product .product-item .product-item-inner .product-item-inner-item .product-sale {
     position: absolute;
-    width: 60px; 
-    height: 60px;
+    width: 36px; 
+    height: 30px;
     border-radius: 60px; 
     top: 20px; 
     right: 20px;
@@ -1000,6 +1000,9 @@
 
             .content h1 {
                 font-size: 24px;
+            }
+            .owl-nav {
+                display:none;
             }
         }
 

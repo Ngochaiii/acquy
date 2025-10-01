@@ -1,4 +1,3 @@
-
 let productAllData = null;
 
 // Function format giá tiền
@@ -19,11 +18,9 @@ function viewProduct(productId) {
 
   const product = productAllData.products.find((p) => p.id === productId);
   if (product) {
-
     alert(`Xem chi tiết sản phẩm: ${product.name}`);
   }
 }
-
 
 function createGridProductHTML(product, index) {
   if (!productAllData) return "";
@@ -32,8 +29,6 @@ function createGridProductHTML(product, index) {
     (cat) => cat.id === product.category_id
   );
   const categoryName = category ? category.name : "Ắc quy";
-
-
 
   // Sử dụng hình ảnh placeholder nếu không tìm thấy file
   const imageUrl = product.main_image || "img/product-11.png";
@@ -108,8 +103,6 @@ function createGridProductHTML(product, index) {
 }
 
 function renderProductsToGrid(targetId = null) {
-
-
   if (!productAllData || !productAllData.products) {
     console.error("Product data not available for grid");
     return;
@@ -121,7 +114,6 @@ function renderProductsToGrid(targetId = null) {
   if (targetId) {
     // Nếu có targetId thì tìm theo ID cụ thể
     gridContainer = document.getElementById(targetId);
-
   } else {
     // Nếu không có targetId thì tìm theo class mặc định
     gridContainer = document.querySelector(".row.g-4");
@@ -134,7 +126,6 @@ function renderProductsToGrid(targetId = null) {
     return;
   }
 
-
   // Xóa nội dung cũ
   gridContainer.innerHTML = "";
 
@@ -143,7 +134,6 @@ function renderProductsToGrid(targetId = null) {
     const productHTML = createGridProductHTML(product, index);
     gridContainer.innerHTML += productHTML;
   });
-
 
   // Khởi tạo WOW.js nếu có
   if (typeof WOW !== "undefined") {
@@ -159,7 +149,6 @@ async function loadProductAllData() {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     productAllData = await response.json();
-
 
     // KIỂM TRA VÀ RENDER VÀO ĐÚNG CONTAINER
     if (document.getElementById("bestseller-products-grid")) {
@@ -186,8 +175,6 @@ async function loadProductAllData() {
 }
 // SỬA LẠI PHẦN DOMContentLoaded
 document.addEventListener("DOMContentLoaded", async function () {
-
-
   // Load product data - hàm này sẽ tự động render
   await loadProductAllData();
 
@@ -196,7 +183,6 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Debug
   const container = document.getElementById("bestseller-products-grid");
-
 });
 
 // Export các function để sử dụng global
@@ -219,7 +205,6 @@ window.gridRenderer = {
 
 // Test function - gọi từ console để debug
 window.testRender = function () {
-
   if (!productAllData) {
     productAllData = getSampleData();
   }
@@ -235,8 +220,8 @@ function addToCart(productId) {
     console.error("Product data not available");
     return;
   }
-  
-  const product = productAllData.products.find(p => p.id === productId);
+
+  const product = productAllData.products.find((p) => p.id === productId);
   if (product) {
     showProductModal(product);
   }
@@ -244,109 +229,359 @@ function addToCart(productId) {
 
 // Function hiển thị modal chi tiết sản phẩm
 function showProductModal(product) {
-  const category = productAllData.categories.find(cat => cat.id === product.category_id);
-  const categoryName = category ? category.name : 'Ắc quy';
-  const originalPriceHTML = product.original_price ? 
-    `<del class="text-muted">${formatPrice(product.original_price)}</del>` : '';
-  
+  const category = productAllData.categories.find(
+    (cat) => cat.id === product.category_id
+  );
+  const categoryName = category ? category.name : "Ắc quy";
+  const originalPriceHTML = product.original_price
+    ? `<del class="text-muted">${formatPrice(product.original_price)}</del>`
+    : "";
+
   const modalHTML = `
-    <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Chi tiết sản phẩm</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="${product.main_image || 'img/product-11.png'}" class="img-fluid rounded" alt="${product.name}"
-                     onerror="this.onerror=null; this.src='img/product-11.png';">
-                ${product.images && product.images.length > 1 ? `
-                  <div class="row mt-3">
-                    ${product.images.slice(0, 4).map(img => `
-                      <div class="col-3">
-                        <img src="${img}" class="img-fluid rounded" alt="Product image">
-                      </div>
-                    `).join('')}
-                  </div>
-                ` : ''}
+  <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-fullscreen-sm-down modal-lg" role="document">
+      <div class="modal-content">
+        <!-- Header Compact với giá nổi bật -->
+        <div class="modal-header bg-gradient-primary text-white py-2 sticky-top">
+          <div class="w-100">
+            <div class="d-flex justify-content-between align-items-start">
+              <div class="flex-grow-1 pe-2">
+                <h6 class="modal-title fw-bold mb-1 small">${product.name}</h6>
+                <small class="badge bg-light text-dark">${categoryName}</small>
+                ${
+                  product.stock_status === "in_stock"
+                    ? '<small class="badge bg-success ms-1">Còn hàng</small>'
+                    : '<small class="badge bg-danger ms-1">Hết hàng</small>'
+                }
               </div>
-              <div class="col-md-6">
-                <h4>${product.name}</h4>
-                <p class="text-muted">${categoryName}</p>
-                <p>${product.short_description || 'Sản phẩm chất lượng cao, bảo hành chính hãng.'}</p>
-                <div class="mb-3">
-                  ${originalPriceHTML}
-                  <span class="h4 text-primary">${formatPrice(product.price)}</span>
-                </div>
-                <div class="mb-3">
-                  <strong>Thông số kỹ thuật:</strong><br>
-                  ${product.voltage ? `Điện áp: ${product.voltage}<br>` : ''}
-                  ${product.capacity ? `Dung lượng: ${product.capacity}<br>` : ''}
-                  ${product.detailed_description?.specifications ? `
-                    ${Object.entries(product.detailed_description.specifications)
-                      .filter(([key]) => !['voltage', 'capacity'].includes(key))
-                      .slice(0, 3)
-                      .map(([key, value]) => `${key}: ${value}`)
-                      .join('<br>')}
-                  ` : ''}
-                </div>
-                <form id="orderForm">
-                  <div class="mb-3">
-                    <label class="form-label">Họ tên *</label>
-                    <input type="text" class="form-control" name="customerName" required>
-                  </div>
-                  <div class="mb-3">
-                    <label class="form-label">Số điện thoại *</label>
-                    <input type="tel" class="form-control" name="customerPhone" 
-                           pattern="[0-9]{10,11}" 
-                           title="Vui lòng nhập số điện thoại hợp lệ (10-11 số)"
-                           required>
-                  </div>
-                  <div class="mb-3">
-                    <label class="form-label">Địa chỉ</label>
-                    <textarea class="form-control" name="customerAddress" rows="2"></textarea>
-                  </div>
-                  <div class="mb-3">
-                    <label class="form-label">Ghi chú</label>
-                    <textarea class="form-control" name="note" rows="2"></textarea>
-                  </div>
-                  <input type="hidden" name="productId" value="${product.id}">
-                  <input type="hidden" name="productName" value="${product.name}">
-                  <input type="hidden" name="productPrice" value="${product.price}">
-                </form>
-              </div>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- Giá ở vị trí dễ thấy nhất -->
+            <div class="mt-2">
+              ${
+                originalPriceHTML
+                  ? `<small class="text-decoration-line-through opacity-75 me-2">${formatPrice(
+                      product.original_price
+                    )}</small>`
+                  : ""
+              }
+              <span class="h5 fw-bold text-warning mb-0">${formatPrice(
+                product.price
+              )}</span>
+              ${
+                product.badges?.includes("sale")
+                  ? '<span class="badge bg-danger ms-2 small">-' +
+                    Math.round(
+                      (1 - product.price / product.original_price) * 100
+                    ) +
+                    "%</span>"
+                  : ""
+              }
             </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
-            <button type="button" class="btn btn-primary" onclick="submitOrder()">
-              <i class="fas fa-phone me-2"></i>Gửi yêu cầu tư vấn
+        </div>
+
+        <div class="modal-body p-0">
+          <!-- Phần ảnh compact với gallery ngang -->
+          <div class="bg-light py-3">
+            <div class="text-center mb-2">
+              <img id="mainProductImage" 
+                   src="${product.main_image || "img/product-11.png"}" 
+                   class="img-fluid" 
+                   style="max-height: 200px; object-fit: contain;"
+                   alt="${product.name}"
+                   onerror="this.onerror=null; this.src='img/product-11.png';">
+            </div>
+            
+            ${
+              product.images && product.images.length > 1
+                ? `
+              <div class="d-flex gap-2 px-3 overflow-auto">
+                ${product.images
+                  .slice(0, 5)
+                  .map(
+                    (img, idx) => `
+                  <img src="${img}" 
+                       class="rounded border ${
+                         idx === 0 ? "border-primary border-2" : ""
+                       }" 
+                       style="width: 50px; height: 50px; object-fit: cover; cursor: pointer; flex-shrink: 0;"
+                       alt="Ảnh ${idx + 1}"
+                       onclick="document.getElementById('mainProductImage').src='${img}'; 
+                                event.target.parentElement.querySelectorAll('img').forEach(i => i.classList.remove('border-primary', 'border-2'));
+                                event.target.classList.add('border-primary', 'border-2');">
+                `
+                  )
+                  .join("")}
+              </div>
+            `
+                : ""
+            }
+            
+            ${
+              product.rating
+                ? `
+              <div class="text-center mt-2">
+                <small class="text-warning">
+                  ${"★".repeat(Math.floor(product.rating))}${"☆".repeat(
+                    5 - Math.floor(product.rating)
+                  )}
+                  <span class="text-muted ms-1">(${
+                    product.reviews_count || 0
+                  })</span>
+                </small>
+              </div>
+            `
+                : ""
+            }
+          </div>
+
+          <div class="px-3 py-3">
+            <!-- Thông tin dạng accordion để tiết kiệm không gian -->
+            <div class="accordion accordion-flush" id="productAccordion">
+              
+              <!-- Thông số kỹ thuật - Mở sẵn vì quan trọng nhất -->
+              <div class="accordion-item border-0 border-bottom">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed py-2 px-0 bg-white" type="button" 
+                          data-bs-toggle="collapse" data-bs-target="#specs">
+                    <i class="fas fa-list-ul text-primary me-2"></i>
+                    <strong class="small">Thông số kỹ thuật</strong>
+                  </button>
+                </h2>
+                <div id="specs" class="accordion-collapse collapse show" data-bs-parent="#productAccordion">
+                  <div class="accordion-body px-0 py-2">
+                    <div class="row g-2">
+                      ${
+                        product.detailed_description?.specifications
+                          ? Object.entries(
+                              product.detailed_description.specifications
+                            )
+                              .map(
+                                ([key, value]) => `
+                            <div class="col-6">
+                              <div class="p-2 bg-light rounded">
+                                <div class="small text-muted">${key}</div>
+                                <div class="fw-bold small">${value}</div>
+                              </div>
+                            </div>
+                          `
+                              )
+                              .join("")
+                          : `
+                          ${
+                            product.voltage
+                              ? `
+                            <div class="col-6">
+                              <div class="p-2 bg-light rounded">
+                                <div class="small text-muted">Điện áp</div>
+                                <div class="fw-bold small">${product.voltage}</div>
+                              </div>
+                            </div>
+                          `
+                              : ""
+                          }
+                          ${
+                            product.capacity
+                              ? `
+                            <div class="col-6">
+                              <div class="p-2 bg-light rounded">
+                                <div class="small text-muted">Dung lượng</div>
+                                <div class="fw-bold small">${product.capacity}</div>
+                              </div>
+                            </div>
+                          `
+                              : ""
+                          }
+                        `
+                      }
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mô tả & Tính năng -->
+              ${
+                product.detailed_description?.overview ||
+                product.detailed_description?.features
+                  ? `
+                <div class="accordion-item border-0 border-bottom">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed py-2 px-0 bg-white" type="button" 
+                            data-bs-toggle="collapse" data-bs-target="#description">
+                      <i class="fas fa-info-circle text-primary me-2"></i>
+                      <strong class="small">Mô tả & Tính năng</strong>
+                    </button>
+                  </h2>
+                  <div id="description" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body px-0 py-2">
+                      ${
+                        product.detailed_description?.overview
+                          ? `
+                        <p class="small text-muted mb-2">${product.detailed_description.overview}</p>
+                      `
+                          : ""
+                      }
+                      
+                      ${
+                        product.detailed_description?.features
+                          ? `
+                        <ul class="ps-3 mb-0">
+                          ${product.detailed_description.features
+                            .map(
+                              (f) => `
+                            <li class="small mb-1">${f}</li>
+                          `
+                            )
+                            .join("")}
+                        </ul>
+                      `
+                          : ""
+                      }
+                    </div>
+                  </div>
+                </div>
+              `
+                  : ""
+              }
+
+              <!-- Ứng dụng -->
+              ${
+                product.detailed_description?.usage
+                  ? `
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed py-2 px-0 bg-white" type="button" 
+                            data-bs-toggle="collapse" data-bs-target="#usage">
+                      <i class="fas fa-check-circle text-primary me-2"></i>
+                      <strong class="small">Ứng dụng</strong>
+                    </button>
+                  </h2>
+                  <div id="usage" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body px-0 py-2">
+                      <p class="small text-muted mb-0">${product.detailed_description.usage}</p>
+                    </div>
+                  </div>
+                </div>
+              `
+                  : ""
+              }
+            </div>
+
+            <!-- Form đơn giản hơn với placeholder rõ ràng -->
+            <div class="mt-4 p-3 bg-light rounded">
+              <h6 class="fw-bold mb-3 text-center">
+                <i class="fas fa-phone-alt text-primary me-2"></i>
+                Đặt hàng nhanh
+              </h6>
+              <form id="orderForm">
+                <div class="mb-2">
+                  <input type="text" 
+                         class="form-control form-control-sm" 
+                         name="customerName" 
+                         placeholder="Họ tên của bạn *" 
+                         required>
+                </div>
+                <div class="mb-2">
+                  <input type="tel" 
+                         class="form-control form-control-sm" 
+                         name="customerPhone" 
+                         placeholder="Số điện thoại * (VD: 0337273932)"
+                         pattern="[0-9]{10,11}" 
+                         title="Nhập 10-11 số"
+                         required>
+                </div>
+                <div class="mb-2">
+                  <input type="text" 
+                         class="form-control form-control-sm" 
+                         name="customerAddress" 
+                         placeholder="Địa chỉ giao hàng (tùy chọn)">
+                </div>
+                <div>
+                  <textarea class="form-control form-control-sm" 
+                            name="note" 
+                            rows="2" 
+                            placeholder="Ghi chú thêm (tùy chọn)"></textarea>
+                </div>
+                <input type="hidden" name="productId" value="${product.id}">
+                <input type="hidden" name="productName" value="${product.name}">
+                <input type="hidden" name="productPrice" value="${
+                  product.price
+                }">
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer sticky bottom - thumb zone friendly -->
+        <div class="modal-footer border-top sticky-bottom bg-white p-2" style="bottom: 0;">
+          <div class="d-grid gap-2 w-100">
+            <button type="button" class="btn btn-primary btn-lg" onclick="submitOrder()">
+              <i class="fas fa-paper-plane me-2"></i>
+              Gửi yêu cầu tư vấn ngay
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-dismiss="modal">
+              Xem sản phẩm khác
             </button>
           </div>
         </div>
       </div>
     </div>
-  `;
+  </div>
+`;
+
+  // CSS để làm gradient header đẹp hơn
+  const styleTag = document.createElement("style");
+  styleTag.textContent = `
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
   
+  /* Smooth scroll trong modal */
+  .modal-body {
+    overflow-y: auto;
+    max-height: calc(100vh - 220px);
+  }
+  
+  /* Tối ưu accordion */
+  .accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+  }
+  
+  /* Mobile full screen */
+  @media (max-width: 576px) {
+    .modal-fullscreen-sm-down .modal-body {
+      max-height: calc(100vh - 200px);
+    }
+  }
+`;
+  document.head.appendChild(styleTag);
+
   // Remove existing modal if any
-  const existingModal = document.getElementById('productModal');
+  const existingModal = document.getElementById("productModal");
   if (existingModal) {
     existingModal.remove();
   }
-  
+
   // Add modal to body
-  document.body.insertAdjacentHTML('beforeend', modalHTML);
-  
+  document.body.insertAdjacentHTML("beforeend", modalHTML);
+
   // Show modal
-  const modal = new bootstrap.Modal(document.getElementById('productModal'));
+  const modal = new bootstrap.Modal(document.getElementById("productModal"));
   modal.show();
-  
+
   // Clean up modal after hidden
-  document.getElementById('productModal').addEventListener('hidden.bs.modal', function () {
-    this.remove();
-  });
+  document
+    .getElementById("productModal")
+    .addEventListener("hidden.bs.modal", function () {
+      this.remove();
+    });
 }
 
 // Function submit order
@@ -354,48 +589,60 @@ function showProductModal(product) {
 
 // Thay thế function submitOrder() cũ bằng function này:
 function submitOrder() {
-  const form = document.getElementById('orderForm');
+  const form = document.getElementById("orderForm");
   const formData = new FormData(form);
-  
+
   if (!form.checkValidity()) {
     form.reportValidity();
     return;
   }
 
   // Hiển thị loading state
-  const submitButton = document.querySelector('#productModal .btn-primary[onclick="submitOrder()"]');
+  const submitButton = document.querySelector(
+    '#productModal .btn-primary[onclick="submitOrder()"]'
+  );
   const originalText = submitButton.innerHTML;
-  submitButton.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Đang gửi...';
+  submitButton.innerHTML =
+    '<i class="fas fa-spinner fa-spin me-2"></i>Đang gửi...';
   submitButton.disabled = true;
 
   // Thu thập dữ liệu form
   const orderData = {
-    customerName: formData.get('customerName'),
-    customerPhone: formData.get('customerPhone'),
-    customerAddress: formData.get('customerAddress'),
-    note: formData.get('note'),
-    productId: formData.get('productId'),
-    productName: formData.get('productName'),
-    productPrice: formData.get('productPrice')
+    customerName: formData.get("customerName"),
+    customerPhone: formData.get("customerPhone"),
+    customerAddress: formData.get("customerAddress"),
+    note: formData.get("note"),
+    productId: formData.get("productId"),
+    productName: formData.get("productName"),
+    productPrice: formData.get("productPrice"),
   };
 
   // Gửi lên Google Sheet
   if (window.googleSheetHandler) {
-    window.googleSheetHandler.submitOrderToSheet(orderData)
+    window.googleSheetHandler
+      .submitOrderToSheet(orderData)
       .then(() => {
         // Thành công
-        showNotification('Cảm ơn bạn! Đơn hàng đã được gửi thành công. Chúng tôi sẽ liên hệ trong vòng 15 phút.', 'success');
-        
+        showNotification(
+          "Cảm ơn bạn! Đơn hàng đã được gửi thành công. Chúng tôi sẽ liên hệ trong vòng 15 phút.",
+          "success"
+        );
+
         // Đóng modal
-        const modal = bootstrap.Modal.getInstance(document.getElementById('productModal'));
+        const modal = bootstrap.Modal.getInstance(
+          document.getElementById("productModal")
+        );
         modal.hide();
-        
+
         // Reset form
         form.reset();
       })
       .catch((error) => {
-        console.error('Error submitting order:', error);
-        showNotification('Có lỗi xảy ra khi gửi đơn hàng. Đơn hàng đã được lưu tạm thời, chúng tôi sẽ xử lý sớm nhất có thể.', 'warning');
+        console.error("Error submitting order:", error);
+        showNotification(
+          "Có lỗi xảy ra khi gửi đơn hàng. Đơn hàng đã được lưu tạm thời, chúng tôi sẽ xử lý sớm nhất có thể.",
+          "warning"
+        );
       })
       .finally(() => {
         // Restore button state
@@ -404,23 +651,28 @@ function submitOrder() {
       });
   } else {
     // Fallback nếu Google Sheet handler chưa load
-    console.error('Google Sheet handler not available');
-    
+    console.error("Google Sheet handler not available");
+
     // Lưu vào localStorage
-    let orders = JSON.parse(localStorage.getItem('orders') || '[]');
+    let orders = JSON.parse(localStorage.getItem("orders") || "[]");
     orders.push({
       ...orderData,
       timestamp: new Date().toISOString(),
-      status: 'pending_sync'
+      status: "pending_sync",
     });
-    localStorage.setItem('orders', JSON.stringify(orders));
-    
-    showNotification('Cảm ơn bạn! Đơn hàng đã được lưu. Chúng tôi sẽ liên hệ trong vòng 15 phút.', 'success');
-    
+    localStorage.setItem("orders", JSON.stringify(orders));
+
+    showNotification(
+      "Cảm ơn bạn! Đơn hàng đã được lưu. Chúng tôi sẽ liên hệ trong vòng 15 phút.",
+      "success"
+    );
+
     // Đóng modal
-    const modal = bootstrap.Modal.getInstance(document.getElementById('productModal'));
+    const modal = bootstrap.Modal.getInstance(
+      document.getElementById("productModal")
+    );
     modal.hide();
-    
+
     // Restore button state
     submitButton.innerHTML = originalText;
     submitButton.disabled = false;
@@ -428,14 +680,20 @@ function submitOrder() {
 }
 
 // Function hiển thị thông báo (nếu chưa có)
-function showNotification(message, type = 'info') {
-  const notification = document.createElement('div');
+function showNotification(message, type = "info") {
+  const notification = document.createElement("div");
   notification.className = `alert alert-${type} notification`;
   notification.innerHTML = `
-    <i class="fas fa-${type === 'success' ? 'check-circle' : type === 'warning' ? 'exclamation-triangle' : 'info-circle'}"></i>
+    <i class="fas fa-${
+      type === "success"
+        ? "check-circle"
+        : type === "warning"
+        ? "exclamation-triangle"
+        : "info-circle"
+    }"></i>
     ${message}
   `;
-  
+
   notification.style.cssText = `
     position: fixed;
     top: 20px;
@@ -445,23 +703,23 @@ function showNotification(message, type = 'info') {
     animation: slideIn 0.3s ease-out;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   `;
-  
+
   document.body.appendChild(notification);
-  
+
   setTimeout(() => {
-    notification.style.animation = 'slideOut 0.3s ease-out';
+    notification.style.animation = "slideOut 0.3s ease-out";
     setTimeout(() => notification.remove(), 300);
   }, 3000);
 }
 
 // Function xem danh sách đơn hàng (để debug)
-window.viewOrders = function() {
-  const orders = JSON.parse(localStorage.getItem('orders') || '[]');
+window.viewOrders = function () {
+  const orders = JSON.parse(localStorage.getItem("orders") || "[]");
   console.table(orders);
   return orders;
-}
+};
 
 // Function xóa tất cả đơn hàng (để debug)
-window.clearOrders = function() {
-  localStorage.removeItem('orders');
-}
+window.clearOrders = function () {
+  localStorage.removeItem("orders");
+};
