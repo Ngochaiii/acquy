@@ -74,7 +74,7 @@ function createGridProductHTML(product, index) {
               <img src="${imageUrl}" class="img-fluid w-100 h-100" alt="Image" 
                    onerror="this.onerror=null; this.src='img/product-11.png';">
               <div class="products-mini-icon rounded-circle bg-primary">
-                <a href="#" onclick="viewProduct(${product.id}); return false;">
+                <a href="#" onclick="addToCart(${product.id}); return false;">
                   <i class="fa fa-eye fa-1x text-white"></i>
                 </a>
               </div>

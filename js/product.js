@@ -77,7 +77,7 @@ function createProductHTML(product, delay = "0.1s") {
                  alt="${product.name}">
             ${badge}
             <div class="product-details">
-              <a href="#" onclick="viewProduct(${
+              <a href="#" onclick="addToCart(${
                 product.id
               })"><i class="fa fa-eye fa-1x"></i></a>
             </div>
