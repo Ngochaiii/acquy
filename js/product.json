@@ -63,8 +63,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din78-[lbn3]-12v-78ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1900000,
-      "original_price": 1950000,
+      "price": 2000000,
+      "original_price": 2100000,
       "currency": "VND",
       "capacity": "78Ah",
       "voltage": "12V",
@@ -106,7 +106,7 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din90-[ln5]-12v-90ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2250000,
+      "price": 2400000,
       "original_price": null,
       "currency": "VND",
       "capacity": "90Ah",
@@ -152,7 +152,7 @@
       "price": 1500000,
       "original_price": null,
       "currency": "VND",
-      "capacity": "200Ah",
+      "capacity": "50Ah",
       "voltage": "12V",
       "images": [
         "img/products/cmf_din50_ln1-01_05eef1d8e56348fe8b1aa7d8d148adc0_master.png",
@@ -193,7 +193,7 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-195g51-[ln5]-12v-165ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 3700000,
+      "price": 3500000,
       "original_price": null,
       "currency": "VND",
       "capacity": "165Ah",
@@ -277,7 +277,7 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din110-[ln5]-12v-110ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2500000,
+      "price": 2750000,
       "original_price": null,
       "currency": "VND",
       "capacity": "110Ah",
@@ -320,8 +320,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din80-[ln4]-12v-80ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2180000,
-      "original_price": 2320000,
+      "price": 2050000,
+      "original_price": 2220000,
       "currency": "VND",
       "capacity": "80Ah",
       "voltage": "12V",
@@ -363,7 +363,7 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din80-[lbn3]-12v-70ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1710000,
+      "price": 1700000,
       "original_price": null,
       "currency": "VND",
       "capacity": "70Ah",
@@ -402,11 +402,11 @@
     {
       "id": 9,
       "name": "Ắc quy khô miễn bảo dưỡng Đồng Nai CMF DIN65 [LB2] - 12V - 65Ah",
-      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din80-[lb2]-12v-65ah",
+      "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din65-[lb2]-12v-65ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 650000,
-      "original_price": 720000,
+      "price": 1750000,
+      "original_price": 1820000,
       "currency": "VND",
       "capacity": "65Ah",
       "voltage": "12V",
@@ -447,8 +447,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din80-[lbn2]-12v-65ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1580000,
-      "original_price": 1612000,
+      "price": 1750000,
+      "original_price": 1812000,
       "currency": "VND",
       "capacity": "65Ah",
       "voltage": "12V",
@@ -490,8 +490,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din45-[ln1]-12v-45ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1350000,
-      "original_price": 1450000,
+      "price": 1500000,
+      "original_price": 1550000,
       "currency": "VND",
       "capacity": "45Ah",
       "voltage": "12V",
@@ -532,8 +532,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-90d26r-12v-80ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1710000,
-      "original_price": 1770000,
+      "price": 1750000,
+      "original_price": 1790000,
       "currency": "VND",
       "capacity": "80Ah",
       "voltage": "12V",
@@ -574,7 +574,7 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-55d26r-12v-60ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1560000,
+      "price": 1450000,
       "original_price": 1610000,
       "currency": "VND",
       "capacity": "70Ah",
@@ -616,8 +616,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din110-12v-110ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2470000,
-      "original_price": 2520000,
+      "price": 2750000,
+      "original_price": 2850000,
       "currency": "VND",
       "capacity": "110Ah",
       "voltage": "12V",
@@ -658,8 +658,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-55b24r-12v-52ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1200000,
-      "original_price": 1250000,
+      "price": 1500000,
+      "original_price": 1550000,
       "currency": "VND",
       "capacity": "52Ah",
       "voltage": "12V",
@@ -700,8 +700,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-50b24r-12v-52ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1160000,
-      "original_price": 1210000,
+      "price": 1550000,
+      "original_price": 1650000,
       "currency": "VND",
       "capacity": "45Ah",
       "voltage": "12V",
@@ -742,8 +742,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-31s-800-12v-100ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2460000,
-      "original_price": 2510000,
+      "price": 2200000,
+      "original_price": 2410000,
       "currency": "VND",
       "capacity": "100Ah",
       "voltage": "12V",
@@ -784,7 +784,7 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-105d31r-12v-90ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2040000,
+      "price": 1950000,
       "original_price": 2091000,
       "currency": "VND",
       "capacity": "90Ah",
@@ -826,7 +826,7 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-95d31r-12v-80ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1830000,
+      "price": 1750000,
       "original_price": 1879000,
       "currency": "VND",
       "capacity": "80Ah",
@@ -868,8 +868,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-85d23r-12v-65ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1602000,
-      "original_price": 1652000,
+      "price": 1700000,
+      "original_price": 1852000,
       "currency": "VND",
       "capacity": "65Ah",
       "voltage": "12V",
@@ -910,8 +910,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-̀̀̀55d23r-12v-60ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1502000,
-      "original_price": 1552000,
+      "price": 1550000,
+      "original_price": 1600000,
       "currency": "VND",
       "capacity": "60Ah",
       "voltage": "12V",
@@ -952,8 +952,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-̀̀̀44d20r-12v-43ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1100000,
-      "original_price": 1152000,
+      "price": 1150000,
+      "original_price": 1182000,
       "currency": "VND",
       "capacity": "43Ah",
       "voltage": "12V",
@@ -1036,8 +1036,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-̀̀̀din43-12v-43ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1417000,
-      "original_price": 1452000,
+      "price": 1500000,
+      "original_price": 1552000,
       "currency": "VND",
       "capacity": "43Ah",
       "voltage": "12V",
@@ -1120,8 +1120,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-agm-din60-12v-60ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2075000,
-      "original_price": 2125000,
+      "price": 1650000,
+      "original_price": 1825000,
       "currency": "VND",
       "capacity": "60Ah",
       "voltage": "12V",
@@ -1162,8 +1162,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din100-12v-100ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2436000,
-      "original_price": 2486000,
+      "price": 2500000,
+      "original_price": 2686000,
       "currency": "VND",
       "capacity": "100Ah",
       "voltage": "12V",
@@ -1204,8 +1204,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din88-12v-88ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2240000,
-      "original_price": 2289000,
+      "price": 2300000,
+      "original_price": 2389000,
       "currency": "VND",
       "capacity": "88Ah",
       "voltage": "12V",
@@ -1246,7 +1246,7 @@
       "slug": "ac-quy-hybrid-dong-nai-n100-12v-100ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 2150000,
+      "price": 2000000,
       "original_price": 2199000,
       "currency": "VND",
       "capacity": "100Ah",
@@ -1330,7 +1330,7 @@
       "slug": "ac-quy-hybrid-dong-nai-n90-12v-90ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1888000,
+      "price": 1800000,
       "original_price": 1943000,
       "currency": "VND",
       "capacity": "90Ah",
@@ -1372,7 +1372,7 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din65-12v-65ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1850000,
+      "price": 1800000,
       "original_price": 1903000,
       "currency": "VND",
       "capacity": "65Ah",
@@ -1414,7 +1414,7 @@
       "slug": "ac-quy-hybrid-dong-nai-n85-12v-85ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1770000,
+      "price": 1750000,
       "original_price": 1822000,
       "currency": "VND",
       "capacity": "85Ah",
@@ -1540,8 +1540,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din60r-12v-60ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1563000,
-      "original_price": 1612000,
+      "price": 1600000,
+      "original_price": 1650000,
       "currency": "VND",
       "capacity": "60Ah",
       "voltage": "12V",
@@ -1582,8 +1582,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din45-[lbn]-12v-45ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1434000,
-      "original_price": 1484000,
+      "price": 1500000,
+      "original_price": 1584000,
       "currency": "VND",
       "capacity": "45Ah",
       "voltage": "12V",
@@ -1624,8 +1624,8 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-din43-12v-45ah",
       "category_id": 1,
       "subcategory_id": null,
-      "price": 1367000,
-      "original_price": 1417000,
+      "price": 1500000,
+      "original_price": 1617000,
       "currency": "VND",
       "capacity": "45Ah",
       "voltage": "12V",
@@ -2254,7 +2254,7 @@
       "slug": "ac-quy-kho-mien-bao-duong-dong-nai-cmf-195g51-12v-165ah",
       "category_id": 2,
       "subcategory_id": null,
-      "price": 3750000,
+      "price": 3500000,
       "original_price": 4052000,
       "currency": "VND",
       "capacity": "165Ah",
@@ -2296,8 +2296,8 @@
       "slug": "ac-quy-xe-tai-dong-nai-n150-12v-150ah",
       "category_id": 2,
       "subcategory_id": null,
-      "price": 3020000,
-      "original_price": 3282000,
+      "price": 2950000,
+      "original_price": 3202000,
       "currency": "VND",
       "capacity": "150Ah",
       "voltage": "12V",
@@ -2338,7 +2338,7 @@
       "slug": "ac-quy-xe-tai-dong-nai-n150s-12v-135ah",
       "category_id": 2,
       "subcategory_id": null,
-      "price": 2940000,
+      "price": 2950000,
       "original_price": 2992000,
       "currency": "VND",
       "capacity": "135Ah",
@@ -2380,7 +2380,7 @@
       "slug": "ac-quy-xe-tai-dong-nai-n120-12v-120ah",
       "category_id": 2,
       "subcategory_id": null,
-      "price": 2660000,
+      "price": 2600000,
       "original_price": 2760000,
       "currency": "VND",
       "capacity": "120Ah",
@@ -2422,7 +2422,7 @@
       "slug": "ac-quy-xe-tai-dong-nai-n100-12v-100ah",
       "category_id": 2,
       "subcategory_id": null,
-      "price": 2147000,
+      "price": 2000000,
       "original_price": 2190000,
       "currency": "VND",
       "capacity": "100Ah",
@@ -2506,7 +2506,7 @@
       "slug": "ac-quy-xe-tai-dong-nai-n85-12v-85ah",
       "category_id": 2,
       "subcategory_id": null,
-      "price": 1800000,
+      "price": 1750000,
       "original_price": 1880000,
       "currency": "VND",
       "capacity": "85Ah",
@@ -2548,8 +2548,8 @@
       "slug": "ac-quy-tau-thuyen-dong-nai-n220-12v-220ah",
       "category_id": 3,
       "subcategory_id": null,
-      "price": 4120000,
-      "original_price": 4420000,
+      "price": 3800000,
+      "original_price": 4320000,
       "currency": "VND",
       "capacity": "220Ah",
       "voltage": "12V",
@@ -2590,8 +2590,8 @@
       "slug": "ac-quy-tau-thuyen-dong-nai-n200z-12v-210ah",
       "category_id": 3,
       "subcategory_id": null,
-      "price": 4110000,
-      "original_price": 4430000,
+      "price": 3800000,
+      "original_price": 4330000,
       "currency": "VND",
       "capacity": "210Ah",
       "voltage": "12V",
@@ -2632,7 +2632,7 @@
       "slug": "ac-quy-tau-thuyen-dong-nai-n200-12v-200ah",
       "category_id": 3,
       "subcategory_id": null,
-      "price": 4022000,
+      "price": 3750000,
       "original_price": 4332000,
       "currency": "VND",
       "capacity": "200Ah",
@@ -2674,8 +2674,8 @@
       "slug": "ac-quy-tau-thuyen-dong-nai-n200s-12v-180ah",
       "category_id": 3,
       "subcategory_id": null,
-      "price": 3540000,
-      "original_price": 3839000,
+      "price": 3750000,
+      "original_price": 3939000,
       "currency": "VND",
       "capacity": "180Ah",
       "voltage": "12V",
@@ -2716,8 +2716,8 @@
       "slug": "ac-quy-xe-dien-pinaco-pl-12-150-12v-150ah",
       "category_id": 5,
       "subcategory_id": null,
-      "price": 4500000,
-      "original_price": 4580000,
+      "price": 3600000,
+      "original_price": 4080000,
       "currency": "VND",
       "capacity": "150Ah",
       "voltage": "12V",
@@ -2881,13 +2881,13 @@
     {
       "id": 69,
       "name": "Ắc quy Xe đạp điện Đồng Nai PA 12-14 - 12V - 13.2Ah",
-      "slug": "ac-quy-xe-dien-dien-dong-nai-pa-12-14-12v-23.2ah",
+      "slug": "ac-quy-xe-dien-dien-dong-nai-pa-12-14-12v-13.2ah",
       "category_id": 5,
       "subcategory_id": null,
       "price": 503000,
       "original_price": 553000,
       "currency": "VND",
-      "capacity": "23.2Ah",
+      "capacity": "13.2Ah",
       "voltage": "12V",
       "images": [
         "img/products/0_pa_12-14_ff44616be22a422b82fe2fa99a068659_master (1).png",
@@ -2905,14 +2905,14 @@
         "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
         "features": [
           "Chất lượng Nhật Bản",
-          "Dung lượng 23.2Ah",
+          "Dung lượng 13.2Ah",
           "Phù hợp hệ thống UPS",
           "Bảo hành 24 tháng"
         ],
         "specifications": {
           "type": "VRLA AGM",
           "voltage": "12V",
-          "capacity": "23.2Ah",
+          "capacity": "13.2Ah",
           "dimensions": "518 x 276 x 214 x 267mm",
           "weight": "65kg",
           "brand": "GS Battery"
@@ -2926,8 +2926,8 @@
       "slug": "ac-quy-dan-dung-dong-nai-n30-12v-30ah",
       "category_id": 6,
       "subcategory_id": null,
-      "price": 788000,
-      "original_price": 812000,
+      "price": 800000,
+      "original_price": 852000,
       "currency": "VND",
       "capacity": "30Ah",
       "voltage": "12V",
@@ -2968,8 +2968,8 @@
       "slug": "ac-quy-dan-dung-dong-nai-n28-12v-28ah",
       "category_id": 6,
       "subcategory_id": null,
-      "price": 738000,
-      "original_price": 782000,
+      "price": 780000,
+      "original_price": 792000,
       "currency": "VND",
       "capacity": "28Ah",
       "voltage": "12V",
@@ -3010,8 +3010,8 @@
       "slug": "ac-quy-dan-dung-dong-nai-n25-12v-25ah",
       "category_id": 6,
       "subcategory_id": null,
-      "price": 714000,
-      "original_price": 742000,
+      "price": 750000,
+      "original_price": 772000,
       "currency": "VND",
       "capacity": "25Ah",
       "voltage": "12V",
@@ -3091,11 +3091,11 @@
     {
       "id": 74,
       "name": "Ắc quy UPS JP PA 12-7.2 - 12V - 7,2Ah",
-      "slug": "ac-quy-ups-jp-pa-12-7.2-12v-7,2ah",
+      "slug": "ac-quy-ups-jd-pa--12-7-2-12v-7.2ah",
       "category_id": 6,
       "subcategory_id": null,
-      "price": 280000,
-      "original_price": 300000,
+      "price": 278000,
+      "original_price": 302000,
       "currency": "VND",
       "capacity": "7,2Ah",
       "voltage": "12V",
@@ -3112,24 +3112,655 @@
       "reviews_count": 16,
       "short_description": "Ắc quy UPS JP PA 12-7.2 - 12V - 7,2Ah",
       "detailed_description": {
-        "overview": "Bản cực sử dụng hợp kim chì-antimon cao cấp và bổ sung phụ gia đặc biệt giúp tăng khả năng phóng sâu và nhận nạp, giúp ắc quy có dung lượng lớn và tuổi thọ cao.",
+        "overview": "Công nghệ AGM sử dụng với bông sợi thuỷ tinh thẩm thấu cao (Absorbed Glass Mat) làm màng cách ngăn, dung dịch điện phân hấp thụ tại bản cực và màng ngăn này nhanh hơn.",
         "features": [
           "Chất lượng Nhật Bản",
-          "Dung lượng 7,2Ah",
+          "Dung lượng 7.2Ah",
           "Phù hợp hệ thống UPS",
           "Bảo hành 24 tháng"
         ],
         "specifications": {
           "type": "VRLA AGM",
           "voltage": "12V",
-          "capacity": "7,2Ah",
+          "capacity": "7.2Ah",
           "dimensions": "246 x 96 x 160 x 180mm",
-          "weight": "65kg",
+          "weight": "21kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 75,
+      "name": "Ắc Quy GS MF 115D33C/V 12V-100AH",
+      "slug": "ac-quy-gs-mf-115d33c/v-12v-100ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2200000,
+      "original_price": 2350000,
+      "currency": "VND",
+      "capacity": "100Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/acquy-gs-mf-115d33cv-1.jpg",
+        "img/products/acquy-gs-mf-115d33cv-1.jpg"
+      ],
+      "main_image": "img/products/acquy-gs-mf-115d33cv-1.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc Quy GS MF 115D33C/V (12V-100AH",
+      "detailed_description": {
+        "overview": "Ắc quy GS MF 115D33C/V (12V-100AH) là một loại ắc quy khô, miễn bảo dưỡng, kín khí, là loại ắc quy 12V có dung lượng bình ắc quy 100AH sử dụng công nghệ Calcium.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 100Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 76,
+      "name": "Ắc quy GS NS60 R/L 12V-45Ah",
+      "slug": "ac-quy-gs-ns60-r/l-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1200000,
+      "original_price": 1230000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-o-to-gs-ns60-r-l-12v-45ah.jpg",
+        "img/products/ac-quy-o-to-gs-ns60-r-l-12v-45ah.jpg"
+      ],
+      "main_image": "img/products/ac-quy-o-to-gs-ns60-r-l-12v-45ah.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS NS60 R/L 12V-45Ah",
+      "detailed_description": {
+        "overview": "Ắc quy GS MF 115D33C/V (12V-100AH) là một loại ắc quy khô, miễn bảo dưỡng, kín khí, là loại ắc quy 12V có dung lượng bình ắc quy 100AH sử dụng công nghệ Calcium.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 77,
+      "name": "Ắc quy GS NS60LS 12V-45Ah",
+      "slug": "ac-quy-gs-ns60ls-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1200000,
+      "original_price": 1230000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-o-to-gs-ns60-r-l-12v-45ah.jpg",
+        "img/products/ac-quy-o-to-gs-ns60-r-l-12v-45ah.jpg"
+      ],
+      "main_image": "img/products/ac-quy-o-to-gs-ns60-r-l-12v-45ah.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS NS60 R/L 12V-45Ah",
+      "detailed_description": {
+        "overview": "Ắc quy GS NS60LS là dòng ắc quy nước truyền thống của thương hiệu GS – một thương hiệu uy tín đến từ Nhật Bản. Sản phẩm ắc quy này được sản xuất trên dây chuyền công nghệ tiên tiến, hiện đại, mang lại chất lượng ổn định và độ bền cao. Đây là lựa chọn đáng tin cậy cho nhiều loại xe gia đình và xe tải nhẹ, đảm bảo hiệu suất vận hành bền bỉ và tuổi thọ lâu dài. Cùng Ắc Quy Việt Nhật điểm qua các đặc điểm qua nội dung bên dưới.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 78,
+      "name": "Bình Ắc Quy GS MF DIN100L 12V-100AH",
+      "slug": "binh-ac-quy-gs-mf-din0l-12v-100ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 4000000,
+      "original_price": 4350000,
+      "currency": "VND",
+      "capacity": "100Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/din100l_6_f5b66d2889f645d58cb030013dd19f55.jpg",
+        "img/products/din100l_6_f5b66d2889f645d58cb030013dd19f55.jpg"
+      ],
+      "main_image": "img/products/din100l_6_f5b66d2889f645d58cb030013dd19f55.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Bình Ắc Quy GS MF DIN100L 12V-100AH",
+      "detailed_description": {
+        "overview": "Thương hiệu Ắc Quy GS của Nhật Bản được sản xuất tại Việt Nam. Ắc Quy GS là nhà cung cấp Ắc Quy OEM cho các hãng xe HONDA, YAMAHA, SUZUKI, HINO, MITSUBISHI, NISSAN, JAC, ISUZU",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 100Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 80,
+      "name": "Ắc Quy GS MF DIN60L-LBN 12V-60AH",
+      "slug": "ac-quy-gs-mf-din60l-lbn-12v-60ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1544000,
+      "original_price": 1700000,
+      "currency": "VND",
+      "capacity": "60Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/pc-mf_din60l-lbn__12v-60ah_-1000x1000px_7_4c40aee8dec94a4fb40c3da4b444642f.jpg",
+        "img/products/pc-mf_din60l-lbn__12v-60ah_-1000x1000px_7_4c40aee8dec94a4fb40c3da4b444642f.jpg"
+      ],
+      "main_image": "img/products/pc-mf_din60l-lbn__12v-60ah_-1000x1000px_7_4c40aee8dec94a4fb40c3da4b444642f.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc Quy GS MF DIN60L-LBN 12V-60AH",
+      "detailed_description": {
+        "overview": "Ắc quy GS MF DIN60L-LBN (12V-60AH) miễn bảo dưỡng, tiện lợi sử dụng,Bình ắc quy khí kín có khả năng tự phóng điện thấp nên bình ít tiêu hao điện,Lợi thế về thiết kế tấm lưới của bình DIN60 là có sức chịu đựng tốt (độ bền cơ học, ăn mòn ...) phù hợp với đường sá và khí hậu Việt Nam.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 60Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "60Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 81,
+      "name": "Bình Ắc Quy - GS MF DIN80L 12V-80AH",
+      "slug": "binh-ac-quy-gs-mf-din80l-12v-80ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2500000,
+      "original_price": 2700000,
+      "currency": "VND",
+      "capacity": "80Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/din80l_1cac50f6b007439e92751986f198eb1d.jpg",
+        "img/products/din80l_1cac50f6b007439e92751986f198eb1d.jpg"
+      ],
+      "main_image": "img/products/din80l_1cac50f6b007439e92751986f198eb1d.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Bình Ắc Quy Xe Ford Ranger - GS MF DIN80L 12V-80AH",
+      "detailed_description": {
+        "overview": "ắc quy xe Ford Ranger Raptor - Din80l - lựa chọn tối ưu cho dòng xe bán tải mạnh mẽ này, cùng với những kiến thức cần thiết về dấu hiệu cần thay thế, các loại ắc quy phù hợp và địa chỉ mua hàng uy tín.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 80Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "80Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 82,
+      "name": "Ắc quy GS N120 12V-120Ah",
+      "slug": "ac-quy-gs-n120-12v-120ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2650000,
+      "original_price": 2800000,
+      "currency": "VND",
+      "capacity": "120Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/2-8397-600x525.jpg",
+        "img/products/2-8397-600x525.jpg"
+      ],
+      "main_image": "img/products/2-8397-600x525.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS N120 12V-120Ah",
+      "detailed_description": {
+        "overview": "Ắc quy GS N120 là dòng ắc quy nước chất lượng cao, được sản xuất theo công nghệ tiên tiến của thương hiệu acquy GS Yuasa Nhật Bản. Với dung lượng lớn 120Ah, sản phẩm mang đến nguồn điện mạnh mẽ và ổn định, đảm bảo ắc quy khởi động nhanh chóng và duy trì hoạt động bền bỉ cho xe tải, xe bus và nhiều thiết bị công nghiệp. Hãy cùng Ắc Quy Việt Nhật tìm hiểu chi tiết về điểm nổi bật và ứng dụng sản phẩm qua nội",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 120Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "120Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 83,
+      "name": "Ắc Quy GS khô 55D23L 12V-60Ah",
+      "slug": "ac-quy-gs-kho-55d23l-12v-60ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1700000,
+      "original_price": 1820000,
+      "currency": "VND",
+      "capacity": "60Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/5-1456.jpg",
+        "img/products/5-1456.jpg"
+      ],
+      "main_image": "img/products/5-1456.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc Quy GS khô 55D23L 12V-60Ah",
+      "detailed_description": {
+        "overview": "Ắc quy GS 55D23L là sản phẩm thuộc thương hiệu ắc quy GS loại nước truyền thống từ thương hiệu GS uy tín, công nghệ hiện đại, phù hợp cho nhiều dòng xe ô tô phổ thông và xe tải nhẹ. Bài viết dưới đây, Ắc Quy Việt Nhật sẽ cung cấp thông tin về đặc điểm nổi bật, ứng dụng và lý do nên chọn dòng bình ắc quy này",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 60Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "60Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 84,
+      "name": "Ắc quy GS N200 12V-200Ah",
+      "slug": "ac-quy-gs-n200-12v-200ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 3850000,
+      "original_price": 3950000,
+      "currency": "VND",
+      "capacity": "200Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/1-7679.jpg",
+        "img/products/1-7679.jpg"
+      ],
+      "main_image": "img/products/1-7679.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS N200 12V-200Ah",
+      "detailed_description": {
+        "overview": "Ắc quy GS N200 (12V – 200Ah) là loại ắc quy axit nước truyền thống với dung lượng lớn 200Ah, chuyên dụng cho các dòng xe tải, xe khách, tàu thuyền trọng tải lớn cần công suất khởi động mạnh và ổn định. Ắc quy được sản xuất theo công nghệ hiện đại, tiêu chuẩn Nhật Bản (JIS) của GS Yuasa, đảm bảo độ bền cao và hiệu suất ổn định trong mọi điều kiện môi trường.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 200Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "200Ah",
+          "dimensions": "246 x 96 x 160 x 180mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 85,
+      "name": "Ắc quy GS MF 80D26L 12V-70AH",
+      "slug": "ac-quy-gs-mf-80d26l-12v-70ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1750000,
+      "original_price": 1820000,
+      "currency": "VND",
+      "capacity": "70Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/binh-ac-quy-gs-12v-70ah-kho-mf80d26l-5334.jpg",
+        "img/products/binh-ac-quy-gs-12v-70ah-kho-mf80d26l-5334.jpg"
+      ],
+      "main_image": "img/products/binh-ac-quy-gs-12v-70ah-kho-mf80d26l-5334.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF 80D26L 12V-70AH",
+      "detailed_description": {
+        "overview": "Bên cạnh dòng ắc quy Delkor NX110-5 80D26R/L (12V-70Ah) nổi bật, thì GS 12V-70Ah khô MF80D26L cũng mang đến hiệu suất không hề kém cạnh và sẽ khiến bạn bất ngờ với khả năng vận hành bền bỉ, ổn định. Với công suất mạnh mẽ và độ bền tiên tiến, ắc quy GS không chỉ mang lại khả năng khởi động mạnh mẽ mà còn đảm bảo hiệu suất hoạt động lâu dài. Hãy cùng đại lý Ắc Quy Việt Nhật, tìm hiểu thêm về sản phẩm này để biết vì sao nó được đánh giá cao nhé.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 70Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "70Ah",
+          "dimensions": "260 x 173 x 225mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 86,
+      "name": "Ắc quy GS MF 85D26L 12V-75AH",
+      "slug": "ac-quy-gs-mf-85d26l-12v-75ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1800000,
+      "original_price": 1850000,
+      "currency": "VND",
+      "capacity": "75Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/c-quy-gs-75ah-l-platinum-6414.jpg",
+        "img/products/c-quy-gs-75ah-l-platinum-6414.jpg"
+      ],
+      "main_image": "img/products/c-quy-gs-75ah-l-platinum-6414.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF 85D26L 12V-75AH",
+      "detailed_description": {
+        "overview": "Ắc quy GS 75Ah – 85D26 (L) Platinum là một dòng ắc quy chất lượng cao được sản xuất bởi công ty GS Battery – một trong những nhà sản xuất ắc quy hàng đầu trên thế giới. Với dung lượng 75Ah, nó cung cấp một nguồn năng lượng đáng tin cậy và ổn định cho nhiều ứng dụng khác nhau. Ắc quy này có kích thước chuẩn 85D26 (L), dễ dàng lắp đặt vào các dòng xe hơi phổ biến trên thị trường.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 75Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "75Ah",
+          "dimensions": "302 x 171 x 202mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 87,
+      "name": "Ắc quy GS N100 12V-100Ah",
+      "slug": "ac-quy-gs--n100-12v-100ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2000000,
+      "original_price": 2120000,
+      "currency": "VND",
+      "capacity": "100Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/c-quy-gs-75ah-l-platinum-6414.jpg",
+        "img/products/c-quy-gs-75ah-l-platinum-6414.jpg"
+      ],
+      "main_image": "img/products/c-quy-gs-75ah-l-platinum-6414.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS N100 12V-100Ah",
+      "detailed_description": {
+        "overview": "Bình ắc quy 100Ah GS N100 là bình ắc quy được sản xuất tại Việt Nam với công nghệ chuẩn Nhật Bản. Điều này cho phép ắc quy GS có giá thành “mềm” hơn các loại ắc quy nhập khẩu nhưng chất lượng không hề kém cạnh. Vậy acquy GS 12V – 100Ah có điểm gì nổi bật? Hãy cùng Ắc Quy Việt Nhật tìm hiểu chi tiết trong bài viết này.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 100Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "302 x 171 x 202mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 88,
+      "name": "Ắc quy GS N100 12V-100Ah",
+      "slug": "ac-quy-gs--n100-12v-100ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2000000,
+      "original_price": 2120000,
+      "currency": "VND",
+      "capacity": "100Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/c-quy-gs-75ah-l-platinum-6414.jpg",
+        "img/products/c-quy-gs-75ah-l-platinum-6414.jpg"
+      ],
+      "main_image": "img/products/c-quy-gs-75ah-l-platinum-6414.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS N100 12V-100Ah",
+      "detailed_description": {
+        "overview": "Bình ắc quy 100Ah GS N100 là bình ắc quy được sản xuất tại Việt Nam với công nghệ chuẩn Nhật Bản. Điều này cho phép ắc quy GS có giá thành “mềm” hơn các loại ắc quy nhập khẩu nhưng chất lượng không hề kém cạnh. Vậy acquy GS 12V – 100Ah có điểm gì nổi bật? Hãy cùng Ắc Quy Việt Nhật tìm hiểu chi tiết trong bài viết này.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 100Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "302 x 171 x 202mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 89,
+      "name": "Ắc quy khô GS MF 44B19L 12V-40AH",
+      "slug": "ac-quy-kho-gs-mf-44b19l-12v-40ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1300000,
+      "original_price": 1350000,
+      "currency": "VND",
+      "capacity": "40Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/c-quy-gs-40ah-mf-44b19l-3580-600x352.jpg",
+        "img/products/c-quy-gs-40ah-mf-44b19l-3580-600x352.jpg"
+      ],
+      "main_image": "img/products/c-quy-gs-40ah-mf-44b19l-3580-600x352.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô GS MF 44B19L 12V-40AH",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS 40Ah MF44B19L là dung lượng pin lớn với 40Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 40Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "185 x 127 x 203mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 90,
+      "name": "Ắc quy khô GS MF 44B19L 12V-40AH",
+      "slug": "ac-quy-kho-gs-mf-44b19l-12v-40ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1200000,
+      "original_price": 1250000,
+      "currency": "VND",
+      "capacity": "40Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/c-quy-gs-40ah-mf-44b19l-3580-600x352.jpg",
+        "img/products/c-quy-gs-40ah-mf-44b19l-3580-600x352.jpg"
+      ],
+      "main_image": "img/products/c-quy-gs-40ah-mf-44b19l-3580-600x352.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô GS MF 44B19L 12V-40AH",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS 40Ah MF44B19L là dung lượng pin lớn với 40Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 40Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "100Ah",
+          "dimensions": "185 x 127 x 203mm",
+          "weight": "32kg",
           "brand": "GS Battery"
         },
         "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
       }
     }
-     
+  
   ]
 }
+  
