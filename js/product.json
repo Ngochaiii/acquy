@@ -3759,8 +3759,470 @@
         },
         "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
       }
+    },
+    {
+      "id": 91,
+      "name": "Ắc quy GS MF DIN60L-LBN 12V - 60Ah",
+      "slug": "ac-quy-gs-mf-din60l-lbn-12v-60ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1700000,
+      "original_price": 1750000,
+      "currency": "VND",
+      "capacity": "60Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/din-60l-lbn.png",
+        "img/products/din-60l-lbn.png"
+      ],
+      "main_image": "img/products/din-60l-lbn.png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF DIN60L-LBN 12V - 60Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS DIN60L-LBN 12V - 60Ah là dung lượng pin lớn với 60Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 60Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "60Ah",
+          "dimensions": "242 x 175 x 175mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 90,
+      "name": "Ắc quy GS MF 75D23R 12V-65Ah",
+      "slug": "ac-quy-gs-mf-75d23r-12v-65ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1800000,
+      "original_price": 1950000,
+      "currency": "VND",
+      "capacity": "65Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/75d23r.jpg",
+        "img/products/75d23r.jpg"
+      ],
+      "main_image": "img/products/75d23r.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF 75D23R 12V-65Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS 75D23R 12V-65Ah là dung lượng pin lớn với 65Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 65Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "65Ah",
+          "dimensions": "232 x 173 x 225mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 92,
+      "name": "Ắc quy GS MF 75D23l 12V-65Ah",
+      "slug": "ac-quy-gs-mf-75d23l-12v-65ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1800000,
+      "original_price": 1950000,
+      "currency": "VND",
+      "capacity": "65Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/75d23l.jpg",
+        "img/products/75d23l.jpg"
+      ],
+      "main_image": "img/products/75d23l.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF 75D23l 12V-65Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS 75D23l 12V-65Ah là dung lượng pin lớn với 65Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 65Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "65Ah",
+          "dimensions": "232 x 173 x 225mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 93,
+      "name": "Ắc quy GS MF 105D31R 12V-90Ah",
+      "slug": "ac-quy-gs-mf-105d31r-12v-90ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2000000,
+      "original_price": 2050000,
+      "currency": "VND",
+      "capacity": "90Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/105d31r.jpg",
+        "img/products/105d31r.jpg"
+      ],
+      "main_image": "img/products/105d31r.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF 105D31R 12V-90Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS 105D31R 12V-90Ah là dung lượng pin lớn với 90Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 90Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "90Ah",
+          "dimensions": "232 x 173 x 225mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 94,
+      "name": "Ắc quy GS MF 105D31L 12V-90Ah",
+      "slug": "ac-quy-gs-mf-105d31l-12v-90ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2000000,
+      "original_price": 2050000,
+      "currency": "VND",
+      "capacity": "90Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/105d31l.jpg",
+        "img/products/105d31l.jpg"
+      ],
+      "main_image": "img/products/105d31l.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF 105D31L 12V-90Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS 105D31L 12V-90Ah là dung lượng pin lớn với 90Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 90Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "90Ah",
+          "dimensions": "232 x 173 x 225mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 95,
+      "name": "Ắc quy GS MF DIN70L-LBN 12V, 70Ah",
+      "slug": "ac-quy-gs-mf-din70-lbn-12v-70ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2000000,
+      "original_price": 2050000,
+      "currency": "VND",
+      "capacity": "70Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/din70-lbn.png",
+        "img/products/din70-lbn.png"
+      ],
+      "main_image": "img/products/din70-lbn.png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF DIN70L-LBN 12V, 70Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS 1DIN70L-LBN 12V, 70Ah là dung lượng pin lớn với 70Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 70Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "70Ah",
+          "dimensions": "277 x 175 x 175mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 96,
+      "name": "Ắc quy GS MF N150 12V-150Ah",
+      "slug": "ac-quy-gs-mf-n150-lbn-12v-150ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 3000000,
+      "original_price": 3150000,
+      "currency": "VND",
+      "capacity": "150Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/n150..png",
+        "img/products/n150..png"
+      ],
+      "main_image": "img/products/n150..png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF N150 12V-150Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS MF N150 12V-150Ah là dung lượng pin lớn với 70Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 150Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "150Ah",
+          "dimensions": "508 x 222 x 257mm",
+          "weight": "65g",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 97,
+      "name": "Ắc quy GS MF N200 12V-200Ah",
+      "slug": "ac-quy-gs-mf-n200-lbn-12v-200ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 3850000,
+      "original_price": 4050000,
+      "currency": "VND",
+      "capacity": "200Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/n200..png",
+        "img/products/n200..png"
+      ],
+      "main_image": "img/products/n200..png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF N200 12V-200Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS Ắc quy GS MF N200 12V-200Ah, 70Ah là dung lượng pin lớn với 200Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 200Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "200Ah",
+          "dimensions": "508 x 222 x 257mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 98,
+      "name": "Ắc quy GS MF N120 12V-120Ah",
+      "slug": "ac-quy-gs-mf-n120-lbn-12v-120ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 2600000,
+      "original_price": 2750000,
+      "currency": "VND",
+      "capacity": "120Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/n120..png",
+        "img/products/n120..png"
+      ],
+      "main_image": "img/products/n120..png",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF N120 12V-120Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS Ắc quy GS MF N120 12V-120Ah, 70Ah là dung lượng pin lớn với 120Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 120Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "120Ah",
+          "dimensions": "508 x 222 x 257mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 99,
+      "name": "Ắc quy GS MF 95D31R 12V-80Ah",
+      "slug": "ac-quy-gs-mf-95d31r-lbn-12v-80ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1900000,
+      "original_price": 2150000,
+      "currency": "VND",
+      "capacity": "80Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/95d31r.jpg",
+        "img/products/95d31r.jpg"
+      ],
+      "main_image": "img/products/95d31r.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy GS MF 95D31R 12V-80Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS Ắc quy GS MF 95D31R 12V-80Ah, 80Ah là dung lượng pin lớn với 80Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 80Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "80Ah",
+          "dimensions": "306*173*204*225mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
+    },
+    {
+      "id": 100,
+      "name": "Ắc quy khô GS MF DIN45L-LBN 12V - 45Ah",
+      "slug": "ac-quy-kho-gs-mf-din45l-lbn-12v-45ah",
+      "category_id": 1,
+      "subcategory_id": null,
+      "price": 1550000,
+      "original_price": 1670000,
+      "currency": "VND",
+      "capacity": "45Ah",
+      "voltage": "12V",
+      "images": [
+        "img/products/ac-quy-kho-gs-mf-din45l-lbn-g.jpg",
+        "img/products/ac-quy-kho-gs-mf-din45l-lbn-g.jpg"
+      ],
+      "main_image": "img/products/ac-quy-kho-gs-mf-din45l-lbn-g.jpg",
+      "badges": [
+        "sale"
+      ],
+      "stock_status": "in_stock",
+      "rating": 4.3,
+      "reviews_count": 16,
+      "short_description": "Ắc quy khô GS MF DIN45L-LBN 12V - 45Ah",
+      "detailed_description": {
+        "overview": "Một trong những ưu điểm hàng đầu của ắc quy GS Ắc quy GS MF DIN45L-LBN 12V - 45Ah, 45Ah là dung lượng pin lớn với 45Ah. Điều này cho phép nó cung cấp đủ năng lượng cho các thiết bị điện trong phương tiện của bạn như đèn pha, đèn sương mù và hệ thống âm thanh.",
+        "features": [
+          "Chất lượng Nhật Bản",
+          "Dung lượng 45Ah",
+          "Phù hợp hệ thống UPS",
+          "Bảo hành 24 tháng"
+        ],
+        "specifications": {
+          "type": "VRLA AGM",
+          "voltage": "12V",
+          "capacity": "45Ah",
+          "dimensions": "207mm x 175mm x 175mm",
+          "weight": "32kg",
+          "brand": "GS Battery"
+        },
+        "usage": "Chuyên dụng cho Ô tô, xe điện, xe đạp điện"
+      }
     }
-  
+    
   ]
 }
   
