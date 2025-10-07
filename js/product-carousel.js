@@ -8,20 +8,6 @@ function formatPrice(price) {
   }).format(price);
 }
 
-// Function xem chi tiết sản phẩm
-function viewProduct(productId) {
-  event.preventDefault();
-  if (!productAllData) {
-    console.error("Product data not available");
-    return;
-  }
-
-  const product = productAllData.products.find((p) => p.id === productId);
-  if (product) {
-    alert(`Xem chi tiết sản phẩm: ${product.name}`);
-  }
-}
-
 function createGridProductHTML(product, index) {
   if (!productAllData) return "";
 
@@ -82,9 +68,14 @@ function createGridProductHTML(product, index) {
           </div>
           <div class="col-7">
             <div class="products-mini-content p-3">
-              <a href="#" class="d-block mb-2">${categoryName}</a>
-              <a href="#" class="d-block h4">${productNameFormatted}</a>
-              
+              <a href="#"  class="d-block mb-2">${categoryName}</a>
+
+              <a href="#" 
+               class="d-block h4 product-name-link" 
+               onclick="event.preventDefault(); viewProduct(${product.id}); return false;"
+               style="cursor: pointer; transition: color 0.3s;">
+              ${productNameFormatted}
+            </a>
               <span class="text-primary fs-5">${formatPrice(
                 product.price
               )}</span>
@@ -212,7 +203,438 @@ window.testRender = function () {
 };
 
 // Thêm các hàm này vào file product-functions.js của bạn
+function viewProduct(productId) {
 
+  if (!productData) {
+    alert("Dữ liệu sản phẩm chưa được tải. Vui lòng refresh trang.");
+    return;
+  }
+
+  const product = productData.products.find((p) => p.id === productId);
+
+  if (!product) {
+    alert("Không tìm thấy sản phẩm.");
+    return;
+  }
+
+  showProductViewModal(product);
+}
+
+// Function thêm vào giỏ hàng / hiển thị form đặt hàng
+function addToCart(productId) {
+  // Bỏ event.preventDefault() vì không có tham số event
+  const product = productData.products.find((p) => p.id === productId);
+  if (product) {
+    showProductModal(product);
+  }
+}
+
+// Function hiển thị modal xem chi tiết sản phẩm
+function showProductViewModal(product) {
+
+  // Kiểm tra Bootstrap
+  if (typeof bootstrap === "undefined") {
+    console.error("Bootstrap is not loaded!");
+    alert("Bootstrap chưa được tải. Vui lòng kiểm tra lại.");
+    return;
+  }
+
+  const category = productData.categories.find(
+    (cat) => cat.id === product.category_id
+  );
+  const categoryName = category ? category.name : "Ắc quy";
+
+  const originalPriceHTML = product.original_price
+    ? `<del class="text-muted fs-6">${formatPrice(
+        product.original_price
+      )}</del>`
+    : "";
+
+  const discountPercent = product.original_price
+    ? Math.round((1 - product.price / product.original_price) * 100)
+    : 0;
+
+  const modalHTML = `
+    <div class="modal fade" id="productViewModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-fullscreen-sm-down modal-xl" role="document">
+        <div class="modal-content">
+          <!-- Header -->
+          <div class="modal-header bg-gradient-view text-white py-3 sticky-top shadow-sm">
+            <div class="w-100">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="flex-grow-1 pe-3">
+                  <h5 class="modal-title fw-bold mb-2">${product.name}</h5>
+                  <div class="d-flex flex-wrap gap-2 align-items-center">
+                    <span class="badge bg-light text-dark">
+                      <i class="fas fa-tag me-1"></i>${categoryName}
+                    </span>
+                    ${
+                      product.stock_status === "in_stock"
+                        ? '<span class="badge bg-success"><i class="fas fa-check-circle me-1"></i>Còn hàng</span>'
+                        : '<span class="badge bg-danger"><i class="fas fa-times-circle me-1"></i>Hết hàng</span>'
+                    }
+                    ${
+                      product.badges?.includes("new")
+                        ? '<span class="badge bg-info"><i class="fas fa-star me-1"></i>Mới</span>'
+                        : ""
+                    }
+                    ${
+                      product.badges?.includes("sale")
+                        ? '<span class="badge bg-warning text-dark"><i class="fas fa-fire me-1"></i>Giảm giá</span>'
+                        : ""
+                    }
+                  </div>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-body p-0">
+            <div class="container-fluid">
+              <div class="row g-0">
+                <!-- Cột trái: Hình ảnh -->
+                <div class="col-lg-6 bg-light p-4">
+                  <div class="text-center mb-3 position-relative">
+                    ${
+                      discountPercent > 0
+                        ? `
+                      <div class="position-absolute top-0 start-0 m-3">
+                        <span class="badge bg-danger fs-5 px-3 py-2">
+                          -${discountPercent}%
+                        </span>
+                      </div>
+                    `
+                        : ""
+                    }
+                    <img id="mainViewImage" 
+                         src="${
+                           product.main_image ||
+                           product.images?.[0] ||
+                           "img/product-11.png"
+                         }" 
+                         class="img-fluid rounded shadow-sm" 
+                         style="max-height: 400px; object-fit: contain;"
+                         alt="${product.name}"
+                         onerror="this.onerror=null; this.src='img/product-11.png';">
+                  </div>
+                  
+                  ${
+                    product.images && product.images.length > 1
+                      ? `
+                    <div class="d-flex gap-2 justify-content-center flex-wrap">
+                      ${product.images
+                        .slice(0, 6)
+                        .map(
+                          (img, idx) => `
+                        <div class="view-thumb-wrapper">
+                          <img src="${img}" 
+                               class="view-thumbnail rounded border ${
+                                 idx === 0
+                                   ? "border-primary border-3"
+                                   : "border-2"
+                               }" 
+                               style="width: 70px; height: 70px; object-fit: cover; cursor: pointer;"
+                               alt="Ảnh ${idx + 1}"
+                               onclick="
+                                 document.getElementById('mainViewImage').src='${img}';
+                                 document.querySelectorAll('.view-thumbnail').forEach(t => {
+                                   t.classList.remove('border-primary', 'border-3');
+                                   t.classList.add('border-2');
+                                 });
+                                 this.classList.add('border-primary', 'border-3');
+                                 this.classList.remove('border-2');
+                               "
+                               onerror="this.onerror=null; this.src='img/product-11.png';">
+                        </div>
+                      `
+                        )
+                        .join("")}
+                    </div>
+                  `
+                      : ""
+                  }
+
+                  ${
+                    product.rating
+                      ? `
+                    <div class="text-center mt-4 p-3 bg-white rounded shadow-sm">
+                      <div class="fs-4 text-warning mb-2">
+                        ${generateStars(product.rating)}
+                      </div>
+                      <div class="text-muted small">
+                        <strong class="text-dark">${
+                          product.rating
+                        }</strong>/5.0 
+                        <span class="mx-2">•</span>
+                        ${product.reviews_count || 0} đánh giá
+                      </div>
+                    </div>
+                  `
+                      : ""
+                  }
+                </div>
+
+                <!-- Cột phải: Thông tin -->
+                <div class="col-lg-6 p-4">
+                  <div class="price-section mb-4 p-4 bg-light rounded shadow-sm">
+                    <div class="mb-2">
+                      <span class="text-muted small">Giá bán:</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 flex-wrap">
+                      <h2 class="text-primary fw-bold mb-0">${formatPrice(
+                        product.price
+                      )}</h2>
+                      ${
+                        originalPriceHTML
+                          ? `
+                        <div>
+                          ${originalPriceHTML}
+                          ${
+                            discountPercent > 0
+                              ? `
+                            <span class="badge bg-danger ms-2">Tiết kiệm ${discountPercent}%</span>
+                          `
+                              : ""
+                          }
+                        </div>
+                      `
+                          : ""
+                      }
+                    </div>
+                  </div>
+
+                  ${
+                    product.short_description
+                      ? `
+                    <div class="mb-4">
+                      <h6 class="fw-bold text-dark mb-3">
+                        <i class="fas fa-info-circle text-primary me-2"></i>Mô tả ngắn
+                      </h6>
+                      <p class="text-muted">${product.short_description}</p>
+                    </div>
+                  `
+                      : ""
+                  }
+
+                  <div class="mb-4">
+                    <h6 class="fw-bold text-dark mb-3">
+                      <i class="fas fa-cog text-primary me-2"></i>Thông số kỹ thuật
+                    </h6>
+                    <div class="row g-2">
+                      ${
+                        product.detailed_description?.specifications
+                          ? Object.entries(
+                              product.detailed_description.specifications
+                            )
+                              .map(
+                                ([key, value]) => `
+                          <div class="col-12 col-md-6">
+                            <div class="p-3 bg-white border rounded h-100">
+                              <div class="small text-muted mb-1">${key}</div>
+                              <div class="fw-bold text-dark">${value}</div>
+                            </div>
+                          </div>
+                        `
+                              )
+                              .join("")
+                          : `
+                          ${
+                            product.voltage
+                              ? `
+                            <div class="col-12 col-md-6">
+                              <div class="p-3 bg-white border rounded h-100">
+                                <div class="small text-muted mb-1">Điện áp</div>
+                                <div class="fw-bold text-dark">${product.voltage}</div>
+                              </div>
+                            </div>
+                          `
+                              : ""
+                          }
+                          ${
+                            product.capacity
+                              ? `
+                            <div class="col-12 col-md-6">
+                              <div class="p-3 bg-white border rounded h-100">
+                                <div class="small text-muted mb-1">Dung lượng</div>
+                                <div class="fw-bold text-dark">${product.capacity}</div>
+                              </div>
+                            </div>
+                          `
+                              : ""
+                          }
+                        `
+                      }
+                    </div>
+                  </div>
+
+                  ${
+                    product.detailed_description?.features
+                      ? `
+                    <div class="mb-4">
+                      <h6 class="fw-bold text-dark mb-3">
+                        <i class="fas fa-star text-primary me-2"></i>Tính năng nổi bật
+                      </h6>
+                      <ul class="list-unstyled">
+                        ${product.detailed_description.features
+                          .map(
+                            (feature) => `
+                          <li class="mb-2">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span class="text-muted">${feature}</span>
+                          </li>
+                        `
+                          )
+                          .join("")}
+                      </ul>
+                    </div>
+                  `
+                      : ""
+                  }
+
+                  ${
+                    product.detailed_description?.overview
+                      ? `
+                    <div class="mb-4">
+                      <h6 class="fw-bold text-dark mb-3">
+                        <i class="fas fa-file-alt text-primary me-2"></i>Chi tiết sản phẩm
+                      </h6>
+                      <div class="p-3 bg-white border rounded">
+                        <p class="text-muted mb-0">${product.detailed_description.overview}</p>
+                      </div>
+                    </div>
+                  `
+                      : ""
+                  }
+
+                  ${
+                    product.detailed_description?.usage
+                      ? `
+                    <div class="mb-4">
+                      <h6 class="fw-bold text-dark mb-3">
+                        <i class="fas fa-tools text-primary me-2"></i>Ứng dụng
+                      </h6>
+                      <div class="alert alert-info mb-0">
+                        <i class="fas fa-info-circle me-2"></i>
+                        ${product.detailed_description.usage}
+                      </div>
+                    </div>
+                  `
+                      : ""
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer -->
+          <div class="modal-footer border-top bg-light sticky-bottom shadow-lg p-3">
+            <div class="container-fluid">
+              <div class="row g-2">
+                <div class="col-12 col-md-6">
+                  <button type="button" 
+                          class="btn btn-outline-secondary btn-lg w-100" 
+                          data-bs-dismiss="modal">
+                    <i class="fas fa-arrow-left me-2"></i>
+                    Xem sản phẩm khác
+                  </button>
+                </div>
+                <div class="col-12 col-md-6">
+                  <button type="button" 
+                          class="btn btn-primary btn-lg w-100" 
+                          onclick="switchToOrderModal(${product.id})">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    Đặt hàng ngay
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  // CSS
+  const styleTag = document.createElement("style");
+  styleTag.id = "viewModalStyles";
+  styleTag.textContent = `
+    .bg-gradient-view {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .view-thumbnail {
+      transition: all 0.3s ease;
+    }
+    .view-thumbnail:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .price-section {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+    .modal-body {
+      max-height: calc(100vh - 220px);
+      overflow-y: auto;
+      scroll-behavior: smooth;
+    }
+    @media (max-width: 991px) {
+      .modal-body { max-height: calc(100vh - 180px); }
+      #mainViewImage { max-height: 300px !important; }
+      .view-thumbnail { width: 60px !important; height: 60px !important; }
+    }
+    @media (max-width: 576px) {
+      .modal-fullscreen-sm-down .modal-body { max-height: calc(100vh - 160px); }
+      #mainViewImage { max-height: 250px !important; }
+      .view-thumbnail { width: 50px !important; height: 50px !important; }
+      .price-section h2 { font-size: 1.5rem !important; }
+    }
+    .modal-body::-webkit-scrollbar { width: 8px; }
+    .modal-body::-webkit-scrollbar-track { background: #f1f1f1; }
+    .modal-body::-webkit-scrollbar-thumb { background: #888; border-radius: 4px; }
+    .modal-body::-webkit-scrollbar-thumb:hover { background: #555; }
+  `;
+
+  const oldStyle = document.getElementById("viewModalStyles");
+  if (oldStyle) oldStyle.remove();
+  document.head.appendChild(styleTag);
+
+  // Xóa modal cũ
+  const existingModal = document.getElementById("productViewModal");
+  if (existingModal) {
+    existingModal.remove();
+  }
+
+  // Thêm modal
+  document.body.insertAdjacentHTML("beforeend", modalHTML);
+
+  // Show modal
+  try {
+    const modalElement = document.getElementById("productViewModal");
+    const modal = new bootstrap.Modal(modalElement);
+    modal.show();
+  } catch (error) {
+    console.error("Error showing modal:", error);
+    alert("Không thể hiển thị modal. Vui lòng kiểm tra console.");
+  }
+}
+
+// Function chuyển từ modal View sang modal Order
+function switchToOrderModal(productId) {
+  const viewModal = bootstrap.Modal.getInstance(
+    document.getElementById("productViewModal")
+  );
+  if (viewModal) {
+    viewModal.hide();
+  }
+
+  setTimeout(() => {
+    // Tìm product và gọi showProductModal trực tiếp
+    const product = productData.products.find((p) => p.id === productId);
+    if (product) {
+      showProductModal(product);
+    }
+  }, 300);
+}
 // Function thêm vào giỏ hàng - SỬA LẠI để hiển thị modal
 function addToCart(productId) {
   event.preventDefault();
