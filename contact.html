@@ -268,35 +268,425 @@
         </ol>
     </div>
     <!-- Single Page Header End -->
-
-    <!-- Contucts Start -->
-    <div class="container-fluid contact py-5">
-        <div class="container py-5">
-            <div class="p-5 bg-light rounded">
-                <div class="row g-4">
-                    <div class="col-12">
-                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">                           
-                            <h4 class="text-primary border-bottom border-primary border-2 d-inline-block pb-2">Bấm vào bản đồ để tìm kiếm</h4>
-                            <p class="mb-5 fs-5 text-dark">Chúng tôi có mặt ở đầy là vì bạn , hỗ trợ bạn , giúp đỡ bạn 
+    <!-- Contact Hero Section -->
+<div class="container-fluid bg-light py-5">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h1 class="display-4 fw-bold text-primary mb-3">
+                <i class="fas fa-headset me-3"></i>
+                Liên Hệ Với Chúng Tôi
+            </h1>
+            <p class="lead text-muted mb-4">
+                Chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7
+            </p>
+        </div>
+        
+        <!-- CTA Buttons -->
+        <div class="row g-3 justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <a href="tel:0337273932" 
+                   class="btn btn-danger btn-lg w-100 py-3 shadow-lg"
+                   onclick="gtag('event', 'click_tel', {event_category: 'contact_page', event_label: 'hero_call_button'})">
+                    <i class="fas fa-phone-alt fa-2x mb-2 d-block"></i>
+                    <strong>Gọi Ngay</strong>
+                    <div class="small mt-1">0337.273.932</div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <a href="https://zalo.me/0337273932" 
+                   target="_blank"
+                   class="btn btn-primary btn-lg w-100 py-3 shadow-lg"
+                   onclick="gtag('event', 'click_zalo', {event_category: 'contact_page', event_label: 'hero_zalo_button'})">
+                    <i class="fas fa-comment fa-2x mb-2 d-block"></i>
+                    <strong>Chat Zalo</strong>
+                    <div class="small mt-1">Trả lời trong 5 phút</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Form & Info -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row g-5">
+            <!-- Form Liên Hệ -->
+            <div class="col-lg-6">
+                <div class="bg-light rounded p-4 p-md-5 h-100">
+                    <h3 class="mb-4">
+                        <i class="fas fa-envelope text-primary me-2"></i>
+                        Gửi Yêu Cầu Hỗ Trợ
+                    </h3>
+                    
+                    <form id="contactPageForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">Họ và tên <span class="text-danger">*</span></label>
+                                <input type="text" 
+                                       class="form-control" 
+                                       name="name" 
+                                       placeholder="Nguyễn Văn A"
+                                       required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Số điện thoại <span class="text-danger">*</span></label>
+                                <input type="tel" 
+                                       class="form-control" 
+                                       name="phone" 
+                                       placeholder="0912345678"
+                                       pattern="[0-9]{10,11}"
+                                       required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Email</label>
+                                <input type="email" 
+                                       class="form-control" 
+                                       name="email" 
+                                       placeholder="example@gmail.com">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Loại yêu cầu <span class="text-danger">*</span></label>
+                                <select class="form-select" name="request_type" required>
+                                    <option value="">-- Chọn loại yêu cầu --</option>
+                                    <option value="Tư vấn mua ắc quy">Tư vấn mua ắc quy</option>
+                                    <option value="Thay ắc quy tại nhà">Thay ắc quy tại nhà</option>
+                                    <option value="Bảo hành">Bảo hành</option>
+                                    <option value="Khiếu nại">Khiếu nại</option>
+                                    <option value="Hợp tác kinh doanh">Hợp tác kinh doanh</option>
+                                    <option value="Khác">Khác</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Nội dung <span class="text-danger">*</span></label>
+                                <textarea class="form-control" 
+                                          name="message" 
+                                          rows="4" 
+                                          placeholder="Mô tả chi tiết yêu cầu của bạn..."
+                                          required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg w-100">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    Gửi Yêu Cầu
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                    <div class="alert alert-info mt-3 mb-0">
+                        <i class="fas fa-info-circle me-2"></i>
+                        <small>Chúng tôi sẽ phản hồi trong vòng <strong>30 phút</strong></small>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Thông Tin & Giờ Làm Việc -->
+            <div class="col-lg-6">
+                <div class="h-100">
+                    <!-- Giờ Làm Việc -->
+                    <div class="bg-primary text-white rounded p-4 mb-4">
+                        <h4 class="mb-4">
+                            <i class="fas fa-clock me-2"></i>
+                            Giờ Làm Việc
+                        </h4>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-25 pb-3">
+                                    <span><i class="fas fa-calendar-day me-2"></i>Thứ 2 - Thứ 6</span>
+                                    <strong>7:00 - 22:00</strong>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex justify-content-between align-items-center border-bottom border-white border-opacity-25 pb-3">
+                                    <span><i class="fas fa-calendar-week me-2"></i>Thứ 7 - Chủ Nhật</span>
+                                    <strong>8:00 - 21:00</strong>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-ambulance me-2"></i>Cứu Hộ Khẩn Cấp</span>
+                                    <strong class="text-warning">24/7</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Thông Tin Liên Hệ -->
+                    <div class="bg-light rounded p-4">
+                        <h4 class="mb-4">
+                            <i class="fas fa-info-circle text-primary me-2"></i>
+                            Thông Tin Liên Hệ
+                        </h4>
+                        
+                        <!-- Địa chỉ 1 -->
+                        <div class="mb-4">
+                            <h6 class="text-primary mb-2">
+                                <i class="fas fa-map-marker-alt me-2"></i>
+                                Cơ Sở 1 - Vĩnh Bảo
+                            </h6>
+                            <p class="mb-2 ms-4">
+                                67 Tân Hoà, Vĩnh Bảo, Hải Phòng<br>
+                                <small class="text-muted">(Gần bến xe Vĩnh Bảo)</small>
                             </p>
                         </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <p class="fw-bold text-center">67 Tân Hoà ,Vĩnh Bảo , Hải Phòng ( gần bến xe vĩnh bảo)</p>
-                        <div class="h-100 rounded">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.7169005444835!2d106.47752637550741!3d20.681093499628382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31358b258c4ce3eb%3A0x5f9cde6b11d3011d!2zQ8O0bmcgVHkgVG5oaCBW4bqtbiBU4bqjaSBL4bq_dCDEkG_DoG4!5e0!3m2!1svi!2sus!4v1759117362192!5m2!1svi!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        <!-- Địa chỉ 2 -->
+                        <div class="mb-4">
+                            <h6 class="text-primary mb-2">
+                                <i class="fas fa-map-marker-alt me-2"></i>
+                                Cơ Sở 2 - Kiến An
+                            </h6>
+                            <p class="mb-2 ms-4">
+                                813 Nguyễn Lương Bằng, Kiến An, Hải Phòng
+                            </p>
                         </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <p class="fw-bold text-center">813 NGUYỄN LƯƠNG BẰNG, KIẾN AN, TP. HẢI PHÒNG</p>
-                        <div class="h-100 rounded">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.982538160358!2d106.64091137550965!3d20.791989895868234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a714615beca2d%3A0x63b0648b094dd9d0!2z4bquYyBRdXkgQ8aw4budbmcgQW5o!5e0!3m2!1svi!2s!4v1759117321481!5m2!1svi!2s" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        <!-- Hotline -->
+                        <div class="mb-4">
+                            <h6 class="text-primary mb-2">
+                                <i class="fas fa-phone-alt me-2"></i>
+                                Hotline
+                            </h6>
+                            <p class="mb-0 ms-4">
+                                <a href="tel:0337273932" 
+                                   class="text-dark text-decoration-none fw-bold fs-5"
+                                   onclick="gtag('event', 'click_tel', {event_category: 'contact_page', event_label: 'info_section'})">
+                                    0337.273.932
+                                </a>
+                                <br>
+                                <small class="text-muted">Hỗ trợ 24/7 - Cả T7, CN & Lễ</small>
+                            </p>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="mb-4">
+                            <h6 class="text-primary mb-2">
+                                <i class="fas fa-envelope me-2"></i>
+                                Email
+                            </h6>
+                            <p class="mb-0 ms-4">
+                                <a href="mailto:info@acquyhaiphong.com" class="text-dark">
+                                    info@acquyhaiphong.com
+                                </a>
+                            </p>
+                        </div>
+                        
+                        <!-- Social -->
+                        <div>
+                            <h6 class="text-primary mb-3">
+                                <i class="fas fa-share-alt me-2"></i>
+                                Mạng Xã Hội
+                            </h6>
+                            <div class="d-flex gap-2 ms-4">
+                                <a href="https://www.facebook.com/people/%E1%BA%AEc-Quy-C%C6%B0%E1%BB%9Dng-anh/61581454550320/" 
+                                   target="_blank"
+                                   class="btn btn-primary btn-sm rounded-circle"
+                                   style="width: 40px; height: 40px;">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://zalo.me/0337273932" 
+                                   target="_blank"
+                                   class="btn btn-info btn-sm rounded-circle text-white"
+                                   style="width: 40px; height: 40px;">
+                                    <i class="fas fa-comment"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+    <!-- Contucts Start -->
+    <!-- Google Maps -->
+<div class="container-fluid bg-light py-5">
+    <div class="container">
+        <h3 class="text-center mb-5">
+            <i class="fas fa-map-marked-alt text-primary me-2"></i>
+            Bản Đồ Đường Đi
+        </h3>
+        
+        <div class="row g-4">
+            <!-- Map 1: Vĩnh Bảo -->
+            <div class="col-lg-6">
+                <div class="bg-white rounded shadow-sm overflow-hidden">
+                    <div class="bg-primary text-white p-3">
+                        <h5 class="mb-0">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            Cơ Sở 1 - Vĩnh Bảo
+                        </h5>
+                    </div>
+                    <div class="map-container" style="height: 350px; background: #e9ecef; position: relative;">
+                        <!-- Placeholder cho map -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.123456789!2d106.6881!3d20.8449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDUwJzQxLjYiTiAxMDbCsDQxJzE3LjIiRQ!5e0!3m2!1svi!2s!4v1234567890123!5m2!1svi!2s"
+                            width="100%" 
+                            height="350" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="p-3 text-center">
+                        <a href="https://maps.google.com/?q=67+Tân+Hoà,+Vĩnh+Bảo,+Hải+Phòng" 
+                           target="_blank"
+                           class="btn btn-outline-primary btn-sm">
+                            <i class="fas fa-directions me-2"></i>
+                            Chỉ Đường
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Map 2: Kiến An -->
+            <div class="col-lg-6">
+                <div class="bg-white rounded shadow-sm overflow-hidden">
+                    <div class="bg-primary text-white p-3">
+                        <h5 class="mb-0">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            Cơ Sở 2 - Kiến An
+                        </h5>
+                    </div>
+                    <div class="map-container" style="height: 350px; background: #e9ecef;">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.987654321!2d106.6234!3d20.8567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDUxJzI0LjEiTiAxMDbCsDM3JzI0LjIiRQ!5e0!3m2!1svi!2s!4v1234567890456!5m2!1svi!2s"
+                            width="100%" 
+                            height="350" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="p-3 text-center">
+                        <a href="https://maps.google.com/?q=813+Nguyễn+Lương+Bằng,+Kiến+An,+Hải+Phòng" 
+                           target="_blank"
+                           class="btn btn-outline-primary btn-sm">
+                            <i class="fas fa-directions me-2"></i>
+                            Chỉ Đường
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FAQ Section -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <h3 class="text-center mb-5">
+            <i class="fas fa-question-circle text-primary me-2"></i>
+            Câu Hỏi Thường Gặp
+        </h3>
+        
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="accordion" id="contactFAQ">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item border mb-3 rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                <i class="fas fa-clock text-primary me-2"></i>
+                                Bao lâu thì thợ đến thay ắc quy?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#contactFAQ">
+                            <div class="accordion-body">
+                                <strong>Trung bình 30-60 phút</strong> cho khu vực nội thành Hải Phòng (Lê Chân, Ngô Quyền, Hồng Bàng, Kiến An). 
+                                Khu vực xa hơn như Vĩnh Bảo, Đồ Sơn: 60-90 phút. 
+                                Trường hợp khẩn cấp, chúng tôi ưu tiên xử lý nhanh nhất.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item border mb-3 rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                <i class="fas fa-money-bill-wave text-primary me-2"></i>
+                                Có thu phí thay ắc quy tại nhà không?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
+                            <div class="accordion-body">
+                                <strong>MIỄN PHÍ hoàn toàn</strong> cho khu vực nội thành khi mua ắc quy. 
+                                Chỉ tính phí di chuyển <strong>50.000đ</strong> cho các trường hợp:
+                                <ul class="mt-2 mb-0">
+                                    <li>Chỉ kiểm tra, không mua ắc quy</li>
+                                    <li>Khu vực ngoại thành (trên 15km từ cửa hàng)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item border mb-3 rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                <i class="fas fa-shield-alt text-primary me-2"></i>
+                                Bảo hành như thế nào?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
+                            <div class="accordion-body">
+                                <ul class="mb-0">
+                                    <li><strong>12-18 tháng</strong> cho ắc quy xe máy</li>
+                                    <li><strong>18-24 tháng</strong> cho ắc quy ô tô, xe tải</li>
+                                    <li><strong>Bảo hành tại nhà</strong> - Thợ đến tận nơi</li>
+                                    <li><strong>Đổi mới</strong> trong 7 ngày đầu nếu có lỗi</li>
+                                </ul>
+                                <a href="chinh-sach-bao-hanh.html" class="btn btn-sm btn-outline-primary mt-2">
+                                    Xem chi tiết chính sách bảo hành
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item border mb-3 rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                <i class="fas fa-credit-card text-primary me-2"></i>
+                                Thanh toán như thế nào?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
+                            <div class="accordion-body">
+                                Chúng tôi hỗ trợ đa dạng hình thức:
+                                <ul class="mb-0">
+                                    <li><i class="fas fa-money-bill text-success me-2"></i><strong>Tiền mặt</strong> khi nhận hàng</li>
+                                    <li><i class="fas fa-mobile-alt text-primary me-2"></i><strong>Chuyển khoản</strong> ngân hàng</li>
+                                    <li><i class="fas fa-qrcode text-warning me-2"></i><strong>Ví điện tử:</strong> MoMo, ZaloPay, VNPay</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                <i class="fas fa-recycle text-primary me-2"></i>
+                                Có thu mua ắc quy cũ không?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
+                            <div class="accordion-body">
+                                <strong>CÓ!</strong> Chúng tôi thu mua ắc quy cũ với giá cao:
+                                <ul class="mb-2">
+                                    <li>Ắc quy xe máy: <strong>30.000 - 50.000đ/cái</strong></li>
+                                    <li>Ắc quy ô tô: <strong>100.000 - 200.000đ/cái</strong></li>
+                                </ul>
+                                <span class="badge bg-success">Trừ trực tiếp vào giá bán ắc quy mới</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- Contuct End -->
 
      <!-- Footer Start -->
@@ -465,6 +855,61 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+// Contact Page Form Handler
+document.getElementById('contactPageForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const submitBtn = this.querySelector('button[type="submit"]');
+    const originalHTML = submitBtn.innerHTML;
+    
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Đang gửi...';
+    
+    const formData = new FormData(this);
+    
+    // Gửi qua Web3Forms hoặc EmailJS (tùy bạn đã setup cái nào)
+    try {
+        // Nếu dùng Web3Forms:
+        const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            submitBtn.innerHTML = '<i class="fas fa-check-circle me-2"></i>Đã gửi thành công!';
+            submitBtn.classList.add('btn-success');
+            
+            showNotification('✅ Cảm ơn bạn! Chúng tôi sẽ liên hệ lại trong 30 phút.', 'success');
+            
+            // GA4 tracking
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'generate_lead', {
+                    event_category: 'form_submission',
+                    event_label: 'contact_page_form',
+                    value: 1
+                });
+            }
+            
+            setTimeout(() => {
+                this.reset();
+                submitBtn.innerHTML = originalHTML;
+                submitBtn.classList.remove('btn-success');
+                submitBtn.disabled = false;
+            }, 3000);
+        } else {
+            throw new Error('Failed');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        submitBtn.innerHTML = originalHTML;
+        submitBtn.disabled = false;
+        showNotification('⚠️ Có lỗi xảy ra. Vui lòng gọi: 0337.273.932', 'danger');
+    }
+});
+</script>
 </body>
 
 </html>

@@ -531,6 +531,14 @@ function showProductViewModal(product) {
           <div class="modal-footer border-top bg-light sticky-bottom shadow-lg p-3">
             <div class="container-fluid">
               <div class="row g-2">
+              <div class="col-12 col-md-6">
+                  <button type="button" 
+                          class="btn btn-primary btn-lg w-100" 
+                          onclick="switchToOrderModal(${product.id})">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    Đặt hàng ngay
+                  </button>
+                </div>
                 <div class="col-12 col-md-6">
                   <button type="button" 
                           class="btn btn-outline-secondary btn-lg w-100" 
@@ -539,14 +547,7 @@ function showProductViewModal(product) {
                     Xem sản phẩm khác
                   </button>
                 </div>
-                <div class="col-12 col-md-6">
-                  <button type="button" 
-                          class="btn btn-primary btn-lg w-100" 
-                          onclick="switchToOrderModal(${product.id})">
-                    <i class="fas fa-shopping-cart me-2"></i>
-                    Đặt hàng ngay
-                  </button>
-                </div>
+                
               </div>
             </div>
           </div>

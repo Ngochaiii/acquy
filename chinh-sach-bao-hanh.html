@@ -349,189 +349,516 @@
 
     <!-- Main Content -->
 <main class="policy-content">
+    <!-- Policy & Warranty Page Content -->
+<div class="container-fluid py-5">
     <div class="container">
-        
-        <!-- Tab Navigation -->
-        <nav class="policy-tabs">
-            <button class="tab-btn active" data-tab="privacy">Chính Sách Bảo Mật</button>
-            <button class="tab-btn" data-tab="warranty">Chính Sách Bảo Hành</button>
-        </nav>
-
-        <!-- Privacy Policy Section -->
-        <section id="privacy" class="policy-section active">
-            <div class="policy-card">
-                <h2>Chính Sách Bảo Mật Thông Tin</h2>
-                
-                <article class="policy-item">
-                    <h3>1. Thu Thập Thông Tin</h3>
-                    <p>Chúng tôi thu thập các thông tin sau khi quý khách sử dụng dịch vụ:</p>
-                    <ul>
-                        <li>Họ tên, số điện thoại, địa chỉ</li>
-                        <li>Thông tin xe: biển số, loại xe, năm sản xuất</li>
-                        <li>Thông tin ắc quy: loại ắc quy hiện tại, tình trạng</li>
-                        <li>Lịch sử sử dụng dịch vụ</li>
-                    </ul>
-                </article>
-
-                <article class="policy-item">
-                    <h3>2. Mục Đích Sử Dụng Thông Tin</h3>
-                    <ul>
-                        <li>Liên hệ xác nhận và cung cấp dịch vụ</li>
-                        <li>Gửi thông báo bảo hành, bảo dưỡng định kỳ</li>
-                        <li>Cải thiện chất lượng dịch vụ</li>
-                        <li>Thống kê và phân tích nội bộ</li>
-                        <li>Gửi thông tin khuyến mãi (nếu quý khách đồng ý)</li>
-                    </ul>
-                </article>
-
-                <article class="policy-item">
-                    <h3>3. Cam Kết Bảo Mật</h3>
-                    <ul>
-                        <li>Không chia sẻ thông tin cá nhân cho bên thứ ba</li>
-                        <li>Bảo mật thông tin khách hàng bằng các biện pháp kỹ thuật</li>
-                        <li>Chỉ nhân viên được ủy quyền mới truy cập thông tin</li>
-                        <li>Tuân thủ luật bảo vệ dữ liệu cá nhân Việt Nam</li>
-                    </ul>
-                </article>
-
-                <article class="policy-item">
-                    <h3>4. Quyền Của Khách Hàng</h3>
-                    <ul>
-                        <li>Yêu cầu xem, chỉnh sửa thông tin cá nhân</li>
-                        <li>Yêu cầu xóa dữ liệu cá nhân (trừ thông tin bắt buộc lưu trữ theo pháp luật)</li>
-                        <li>Từ chối nhận thông tin quảng cáo</li>
-                        <li>Khiếu nại về việc sử dụng thông tin cá nhân</li>
-                    </ul>
-                </article>
-
-                <article class="policy-item">
-                    <h3>5. Thời Gian Lưu Trữ</h3>
-                    <p>Thông tin khách hàng được lưu trữ trong thời gian cần thiết để phục vụ mục đích thu thập hoặc theo yêu cầu pháp luật. Hồ sơ bảo hành được lưu trong suốt thời gian bảo hành và 2 năm sau đó.</p>
-                </article>
+        <div class="row g-4">
+            <!-- ============================================= -->
+            <!-- SIDEBAR: MỤC LỤC STICKY -->
+            <!-- ============================================= -->
+            <div class="col-lg-3">
+                <div class="sticky-top" style="top: 100px;">
+                    <div class="bg-light rounded p-4 shadow-sm">
+                        <h5 class="mb-3 text-primary">
+                            <i class="fas fa-list-ul me-2"></i>
+                            Mục Lục
+                        </h5>
+                        <nav class="nav flex-column" id="policyNav">
+                            <a class="nav-link active" href="#warranty-policy">
+                                <i class="fas fa-shield-alt me-2"></i>
+                                Chính Sách Bảo Hành
+                            </a>
+                            <a class="nav-link" href="#return-policy">
+                                <i class="fas fa-undo me-2"></i>
+                                Chính Sách Đổi Trả
+                            </a>
+                            <a class="nav-link" href="#shipping-policy">
+                                <i class="fas fa-shipping-fast me-2"></i>
+                                Chính Sách Vận Chuyển
+                            </a>
+                            <a class="nav-link" href="#payment-policy">
+                                <i class="fas fa-credit-card me-2"></i>
+                                Chính Sách Thanh Toán
+                            </a>
+                            <a class="nav-link" href="#complaint-process">
+                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                Quy Trình Khiếu Nại
+                            </a>
+                        </nav>
+                        
+                        <hr class="my-3">
+                        
+                        <div class="text-center">
+                            <p class="small text-muted mb-2">Cần hỗ trợ?</p>
+                            <a href="tel:0337273932" 
+                               class="btn btn-primary btn-sm w-100"
+                               onclick="gtag('event', 'click_tel', {event_category: 'policy_page', event_label: 'sidebar_hotline'})">
+                                <i class="fas fa-phone-alt me-2"></i>
+                                0337.273.932
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-
-        <!-- Warranty Policy Section -->
-        <section id="warranty" class="policy-section">
-            <div class="policy-card">
-                <h2>Chính Sách Bảo Hành Ắc Quy</h2>
+            
+            <!-- ============================================= -->
+            <!-- MAIN CONTENT -->
+            <!-- ============================================= -->
+            <div class="col-lg-9">
                 
-                <article class="policy-item">
-                    <h3>1. Thời Gian Bảo Hành</h3>
-                    <div class="warranty-table">
-                        <table>
-                            <thead>
+                <!-- BẢNG TÓM TẮT BẢO HÀNH -->
+                <div class="alert alert-primary shadow-sm mb-5">
+                    <h4 class="alert-heading">
+                        <i class="fas fa-info-circle me-2"></i>
+                        Bảng Tóm Tắt Thời Gian Bảo Hành
+                    </h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered bg-white mb-0">
+                            <thead class="table-primary">
                                 <tr>
-                                    <th>Loại Ắc Quy</th>
-                                    <th>Thời Gian Bảo Hành</th>
+                                    <th style="width: 30%;">Loại Ắc Quy</th>
+                                    <th style="width: 20%;">Thời Gian BH</th>
+                                    <th style="width: 25%;">Hình Thức BH</th>
+                                    <th style="width: 25%;">Điều Kiện</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Ắc quy khô (MF)</td>
-                                    <td>12 - 18 tháng</td>
+                                    <td>
+                                        <strong>Ắc Quy Xe Máy</strong>
+                                        <br><small class="text-muted">GS, Đồng Nai</small>
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="badge bg-success fs-6">12 tháng</span>
+                                    </td>
+                                    <td>
+                                        <i class="fas fa-check text-success me-1"></i>Đổi mới 100%<br>
+                                        <small class="text-muted">(3 tháng đầu)</small>
+                                    </td>
+                                    <td>
+                                        <small>
+                                            • Tem nguyên vẹn<br>
+                                            • Không ngập nước
+                                        </small>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>Ắc quy nước</td>
-                                    <td>6 - 12 tháng</td>
+                                    <td>
+                                        <strong>Ắc Quy Ô Tô GS</strong>
+                                        <br><small class="text-muted">MF, Khô</small>
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="badge bg-success fs-6">24 tháng</span>
+                                    </td>
+                                    <td>
+                                        <i class="fas fa-check text-success me-1"></i>Bảo hành tại nhà<br>
+                                        <small class="text-muted">(Miễn phí vận chuyển)</small>
+                                    </td>
+                                    <td>
+                                        <small>
+                                            • Tem chống giả<br>
+                                            • Hóa đơn đầy đủ
+                                        </small>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>Ắc quy AGM</td>
-                                    <td>18 - 24 tháng</td>
+                                    <td>
+                                        <strong>Ắc Quy Ô Tô Đồng Nai</strong>
+                                        <br><small class="text-muted">Khô, Nước</small>
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="badge bg-success fs-6">18 tháng</span>
+                                    </td>
+                                    <td>
+                                        <i class="fas fa-check text-success me-1"></i>Bảo hành tại nhà
+                                    </td>
+                                    <td>
+                                        <small>
+                                            • Tem nguyên vẹn<br>
+                                            • Không va đập
+                                        </small>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>Ắc quy EFB</td>
-                                    <td>18 - 24 tháng</td>
+                                    <td>
+                                        <strong>Ắc Quy Xe Tải</strong>
+                                        <br><small class="text-muted">24V, 150Ah+</small>
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="badge bg-success fs-6">18 tháng</span>
+                                    </td>
+                                    <td>
+                                        <i class="fas fa-check text-success me-1"></i>Bảo hành tại garage
+                                    </td>
+                                    <td>
+                                        <small>
+                                            • Sử dụng đúng cách<br>
+                                            • Bảo dưỡng định kỳ
+                                        </small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>Ắc Quy Tàu Thuyền</strong>
+                                        <br><small class="text-muted">Khô, chống rung</small>
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="badge bg-success fs-6">12 tháng</span>
+                                    </td>
+                                    <td>
+                                        <i class="fas fa-check text-success me-1"></i>Bảo hành tại cơ sở
+                                    </td>
+                                    <td>
+                                        <small>
+                                            • Lắp đặt đúng kỹ thuật<br>
+                                            • Kiểm tra mỗi 3 tháng
+                                        </small>
+                                    </td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td colspan="4" class="text-center">
+                                        <i class="fas fa-star text-warning me-2"></i>
+                                        <strong>Lưu ý:</strong> Thời gian bảo hành bắt đầu từ ngày mua ghi trên hóa đơn
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <p class="note">* Thời gian bảo hành cụ thể tùy theo từng hãng và model ắc quy</p>
-                </article>
-
-                <article class="policy-item">
-                    <h3>2. Điều Kiện Bảo Hành</h3>
-                    <ul>
-                        <li>Sản phẩm còn trong thời gian bảo hành</li>
-                        <li>Có phiếu bảo hành và hóa đơn mua hàng</li>
-                        <li>Tem bảo hành còn nguyên vẹn, không rách, không tẩy xóa</li>
-                        <li>Lỗi do nhà sản xuất (phồng bình, rò nước, hỏng bản cực)</li>
-                        <li>Ắc quy được sử dụng đúng mục đích và hướng dẫn</li>
-                    </ul>
-                </article>
-
-                <article class="policy-item">
-                    <h3>3. Các Trường Hợp Không Bảo Hành</h3>
-                    <ul>
-                        <li>Ắc quy hết thời gian bảo hành</li>
-                        <li>Không có phiếu bảo hành hoặc tem bảo hành không còn</li>
-                        <li>Hư hỏng do va đập, rơi vỡ</li>
-                        <li>Cháy nổ do sự cố điện, nước vào bình</li>
-                        <li>Tự ý sửa chữa, thay đổi kết cấu ắc quy</li>
-                        <li>Hỏng do lỗi hệ thống điện xe (máy phát điện, IC nạp)</li>
-                        <li>Sử dụng sai điện áp (ắc quy 12V dùng cho xe 24V)</li>
-                        <li>Hao mòn tự nhiên theo thời gian</li>
-                    </ul>
-                </article>
-
-                <article class="policy-item">
-                    <h3>4. Quy Trình Bảo Hành</h3>
-                    <div class="process-steps">
-                        <div class="step">
-                            <span class="step-number">1</span>
-                            <div class="step-content">
-                                <h4>Liên Hệ</h4>
-                                <p>Gọi hotline hoặc mang ắc quy đến cửa hàng. Chuẩn bị phiếu bảo hành và hóa đơn.</p>
+                    <div class="mt-3 text-center">
+                        <a href="tel:0337273932" class="btn btn-primary">
+                            <i class="fas fa-phone-alt me-2"></i>
+                            Hotline Bảo Hành: 0337.273.932
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- ============================================= -->
+                <!-- SECTION 1: CHÍNH SÁCH BẢO HÀNH -->
+                <!-- ============================================= -->
+                <section id="warranty-policy" class="mb-5 scroll-mt-5">
+                    <div class="bg-white rounded shadow-sm p-4">
+                        <h2 class="text-primary mb-4 pb-3 border-bottom">
+                            <i class="fas fa-shield-alt me-2"></i>
+                            1. Chính Sách Bảo Hành
+                        </h2>
+                        
+                        <h5 class="text-secondary mb-3">1.1. Điều Kiện Bảo Hành</h5>
+                        <ul class="mb-4">
+                            <li class="mb-2">
+                                <strong>Tem bảo hành nguyên vẹn</strong> - Không bị rách, mờ, tẩy xóa
+                            </li>
+                            <li class="mb-2">
+                                <strong>Hóa đơn mua hàng đầy đủ</strong> - Có đầy đủ thông tin sản phẩm, ngày mua
+                            </li>
+                            <li class="mb-2">
+                                <strong>Trong thời hạn bảo hành</strong> - Tính từ ngày ghi trên hóa đơn
+                            </li>
+                            <li class="mb-2">
+                                <strong>Lỗi do nhà sản xuất</strong> - Không phải do tác động từ bên ngoài
+                            </li>
+                        </ul>
+                        
+                        <h5 class="text-secondary mb-3">1.2. Các Trường Hợp Được Bảo Hành</h5>
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-6">
+                                <div class="alert alert-success mb-0">
+                                    <h6><i class="fas fa-check-circle me-2"></i>Được Bảo Hành:</h6>
+                                    <ul class="mb-0 small">
+                                        <li>Pin yếu, không lên điện</li>
+                                        <li>Chạm cực, chập điện</li>
+                                        <li>Phồng, nứt vỏ do lỗi sản xuất</li>
+                                        <li>Rò rỉ acid (lỗi kỹ thuật)</li>
+                                        <li>Cọc bị gãy từ bên trong</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="alert alert-danger mb-0">
+                                    <h6><i class="fas fa-times-circle me-2"></i>Không Bảo Hành:</h6>
+                                    <ul class="mb-0 small">
+                                        <li>Va đập, rơi, vỡ do bên ngoài</li>
+                                        <li>Ngập nước, chìm trong nước</li>
+                                        <li>Cháy nổ do chập điện xe</li>
+                                        <li>Tự ý sửa chữa, thay đổi cấu trúc</li>
+                                        <li>Sử dụng sai điện áp</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="step">
-                            <span class="step-number">2</span>
-                            <div class="step-content">
-                                <h4>Kiểm Tra</h4>
-                                <p>Kỹ thuật viên kiểm tra tình trạng và xác định nguyên nhân hỏng hóc.</p>
+                        
+                        <h5 class="text-secondary mb-3">1.3. Quy Trình Bảo Hành</h5>
+                        <div class="timeline">
+                            <div class="timeline-item mb-3">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" 
+                                             style="width: 40px; height: 40px;">
+                                            <strong>1</strong>
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="mb-1">Liên Hệ Hotline</h6>
+                                        <p class="text-muted mb-0">
+                                            Gọi <strong class="text-primary">0337.273.932</strong> - Cung cấp thông tin: Họ tên, SĐT, địa chỉ, mã sản phẩm
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="step">
-                            <span class="step-number">3</span>
-                            <div class="step-content">
-                                <h4>Xử Lý</h4>
-                                <p>Sửa chữa (nếu có thể) hoặc đổi sản phẩm mới tùy theo mức độ hỏng hóc.</p>
+                            
+                            <div class="timeline-item mb-3">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" 
+                                             style="width: 40px; height: 40px;">
+                                            <strong>2</strong>
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="mb-1">Kỹ Thuật Viên Đến Kiểm Tra</h6>
+                                        <p class="text-muted mb-0">
+                                            Trong vòng <strong>2-4 giờ</strong> (nội thành) hoặc <strong>24 giờ</strong> (ngoại thành)
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="step">
-                            <span class="step-number">4</span>
-                            <div class="step-content">
-                                <h4>Giao Hàng</h4>
-                                <p>Nhận lại ắc quy đã được xử lý. Thời gian xử lý: 1-3 ngày làm việc.</p>
+                            
+                            <div class="timeline-item mb-3">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" 
+                                             style="width: 40px; height: 40px;">
+                                            <strong>3</strong>
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="mb-1">Xác Định Lỗi & Giải Quyết</h6>
+                                        <p class="text-muted mb-0">
+                                            Nếu đủ điều kiện BH → <strong>Đổi mới ngay</strong> hoặc <strong>Sửa chữa miễn phí</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center" 
+                                             style="width: 40px; height: 40px;">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h6 class="mb-1">Hoàn Tất</h6>
+                                        <p class="text-muted mb-0">
+                                            Ắc quy được thay mới hoặc sửa xong → Tiếp tục sử dụng
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </article>
-
-                <article class="policy-item">
-                    <h3>5. Dịch Vụ Hỗ Trợ</h3>
-                    <ul>
-                        <li>Hỗ trợ kỹ thuật miễn phí trong thời gian bảo hành</li>
-                        <li>Kiểm tra hệ thống điện xe miễn phí</li>
-                        <li>Hướng dẫn sử dụng và bảo quản ắc quy đúng cách</li>
-                        <li>Nhắc lịch kiểm tra định kỳ qua SMS/Zalo</li>
-                        <li>Hỗ trợ cứu hộ ắc quy tận nơi (phí dịch vụ tùy khu vực)</li>
-                    </ul>
-                </article>
-
-                <article class="policy-item">
-                    <h3>6. Chính Sách Đổi Trả</h3>
-                    <ul>
-                        <li><strong>Đổi mới trong 7 ngày:</strong> Nếu phát hiện lỗi do nhà sản xuất</li>
-                        <li><strong>Đổi hư sang mới:</strong> Bồi thường theo tỷ lệ thời gian sử dụng</li>
-                        <li><strong>Hoàn tiền:</strong> Áp dụng khi không còn sản phẩm thay thế tương tự</li>
-                    </ul>
-                    <p class="note">* Khách hàng cần mang theo ắc quy cũ khi đổi mới</p>
-                </article>
-            </div>
-        </section>
-
-    </div>
+                </section>
+                
+                <!-- ============================================= -->
+                <!-- SECTION 2: CHÍNH SÁCH ĐỔI TRẢ -->
+                <!-- ============================================= -->
+                <section id="return-policy" class="mb-5 scroll-mt-5">
+                    <div class="bg-white rounded shadow-sm p-4">
+                        <h2 class="text-primary mb-4 pb-3 border-bottom">
+                            <i class="fas fa-undo me-2"></i>
+                            2. Chính Sách Đổi Trả
+                        </h2>
+                        
+                        <div class="alert alert-warning">
+                            <h6 class="alert-heading">
+                                <i class="fas fa-clock me-2"></i>
+                                Thời Gian Đổi Trả
+                            </h6>
+                            <ul class="mb-0">
+                                <li><strong>Trong 7 ngày đầu:</strong> Đổi mới 100% nếu có lỗi kỹ thuật</li>
+                                <li><strong>Trong 24 giờ đầu:</strong> Đổi trả nếu không vừa xe (sai thông số)</li>
+                            </ul>
+                        </div>
+                        
+                        <h5 class="text-secondary mb-3">2.1. Điều Kiện Đổi Trả</h5>
+                        <ul class="mb-4">
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Sản phẩm <strong>chưa qua sử dụng</strong> hoặc mới lắp dưới 24 giờ
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Còn <strong>đầy đủ tem, niêm phong, hộp</strong> (nếu có)
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Có <strong>hóa đơn mua hàng</strong> gốc
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Lỗi do <strong>nhà sản xuất</strong>, không phải do người dùng
+                            </li>
+                        </ul>
+                        
+                        <h5 class="text-secondary mb-3">2.2. Quy Trình Đổi Trả</h5>
+                        <ol>
+                            <li class="mb-2">Gọi hotline <strong>0337.273.932</strong> thông báo đổi trả</li>
+                            <li class="mb-2">Kỹ thuật viên đến kiểm tra tình trạng sản phẩm</li>
+                            <li class="mb-2">Nếu đủ điều kiện → Đổi sản phẩm mới ngay hoặc hoàn tiền 100%</li>
+                            <li class="mb-2">Thời gian xử lý: <strong>2-4 giờ</strong></li>
+                        </ol>
+                        
+                        <div class="alert alert-info mb-0">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <strong>Lưu ý:</strong> Chi phí vận chuyển đổi trả do shop chịu nếu lỗi từ sản phẩm
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- ============================================= -->
+                <!-- SECTION 3: CHÍNH SÁCH VẬN CHUYỂN -->
+                <!-- ============================================= -->
+                <section id="shipping-policy" class="mb-5 scroll-mt-5">
+                    <div class="bg-white rounded shadow-sm p-4">
+                        <h2 class="text-primary mb-4 pb-3 border-bottom">
+                            <i class="fas fa-shipping-fast me-2"></i>
+                            3. Chính Sách Vận Chuyển
+                        </h2>
+                        
+                        <h5 class="text-secondary mb-3">3.1. Phí Vận Chuyển</h5>
+                        <div class="table-responsive mb-4">
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Khu Vực</th>
+                                        <th>Khoảng Cách</th>
+                                        <th>Thời Gian</th>
+                                        <th>Phí Ship</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Nội thành HP<br><small class="text-muted">(Lê Chân, Ngô Quyền, Hồng Bàng, Kiến An)</small></td>
+                                        <td>< 10km</td>
+                                        <td><strong class="text-success">30-60 phút</strong></td>
+                                        <td><span class="badge bg-success">MIỄN PHÍ</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ngoại thành<br><small class="text-muted">(Đồ Sơn, Vĩnh Bảo, An Dương)</small></td>
+                                        <td>10-20km</td>
+                                        <td><strong class="text-primary">1-2 giờ</strong></td>
+                                        <td><strong>30.000đ</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Huyện xa<br><small class="text-muted">(Tiên Lãng, Cát Hải, Thủy Nguyên)</small></td>
+                                        <td>> 20km</td>
+                                        <td><strong class="text-warning">2-4 giờ</strong></td>
+                                        <td><strong>50.000đ</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <h5 class="text-secondary mb-3">3.2. Dịch Vụ Thay Lắp Tận Nơi</h5>
+                        <ul class="mb-4">
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success me-2"></i>
+                                <strong>Miễn phí 100%</strong> khi mua ắc quy (khu vực nội thành)
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Kỹ thuật viên <strong>mang theo dụng cụ chuyên dụng</strong>
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success me-2"></i>
+                                <strong>Kiểm tra hệ thống điện</strong> miễn phí (12 hạng mục)
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success me-2"></i>
+                                <strong>Thu hồi ắc quy cũ</strong> và trừ tiền ngay
+                            </li>
+                        </ul>
+                        
+                        <div class="alert alert-primary mb-0">
+                            <i class="fas fa-bolt me-2"></i>
+                            <strong>Cứu hộ khẩn cấp 24/7:</strong> Phục vụ cả đêm, T7, CN và ngày lễ
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- ============================================= -->
+                <!-- SECTION 4: CHÍNH SÁCH THANH TOÁN -->
+                <!-- ============================================= -->
+                <section id="payment-policy" class="mb-5 scroll-mt-5">
+                    <div class="bg-white rounded shadow-sm p-4">
+                        <h2 class="text-primary mb-4 pb-3 border-bottom">
+                            <i class="fas fa-credit-card me-2"></i>
+                            4. Chính Sách Thanh Toán
+                        </h2>
+                        
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-4">
+                                <div class="text-center p-3 border rounded h-100">
+                                    <i class="fas fa-money-bill-wave fa-3x text-success mb-3"></i>
+                                    <h6>Tiền Mặt</h6>
+                                    <p class="small text-muted mb-0">
+                                        Thanh toán khi nhận hàng<br>
+                                        <strong>Không phụ thu</strong>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="text-center p-3 border rounded h-100">
+                                    <i class="fas fa-university fa-3x text-primary mb-3"></i>
+                                    <h6>Chuyển Khoản</h6>
+                                    <p class="small text-muted mb-0">
+                                        Techcombank / Vietcombank<br>
+                                        <strong>Giảm 2%</strong>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="text-center p-3 border rounded h-100">
+                                    <i class="fas fa-mobile-alt fa-3x text-warning mb-3"></i>
+                                    <h6>Ví Điện Tử</h6>
+                                    <p class="small text-muted mb-0">
+                                        MoMo / ZaloPay / VNPay<br>
+                                        <strong>Thuận tiện</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <h5 class="text-secondary mb-3">4.2. Hóa Đơn VAT</h5>
+                        <ul class="mb-0">
+                            <li class="mb-2">Xuất hóa đơn VAT theo yêu cầu (thông báo trước khi mua)</li>
+                            <li class="mb-2">Thời gian xuất: <strong>1-2 ngày làm việc</strong></li>
+                            <li class="mb-2">Không tính phụ thu VAT</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <!-- ============================================= -->
+                <!-- SECTION 5: QUY TRÌNH KHIẾU NẠI -->
+                <!-- ============================================= -->
+                <!-- <section id="complaint-process" class="mb-5 scroll-mt-5">
+                    <div class="bg-white rounded shadow-sm p-4">
+                        <h2 class="text-primary mb-4 pb-3 border-bottom">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            5. Quy Trình Khiếu Nại
+                        </h2>
+                        
+                        <div class="alert alert-danger">
+                            <h6 class="alert-heading">
+                                <i class="fas fa-headset me-2"></i>
+                                Hotline Khiếu Nại Nhanh
+                            </h6>
+                            <p class="mb-2">
+                                <strong class="fs-5">0337.273.932</strong> (24/7)
+                            </p>
+                            <small class="mb-0">Cam kết giải quyết trong vòng -->
+            </div></div></div></div>
 </main>
 
 
