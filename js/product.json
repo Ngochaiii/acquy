@@ -93,7 +93,7 @@
           "voltage": "12V",
           "capacity": "78Ah",
           "CCA": "640A",
-          "dimensions": "278 x 175 x 190mm",
+          "dimensions": "278 x 174 x 190mm",
           "weight": "20kg",
           "brand": "Động Nai"
         },
@@ -136,8 +136,8 @@
           "voltage": "12V",
           "capacity": "90Ah",
           "CCA": "950A",
-          "dimensions": "513 x 223 x 223mm",
-          "weight": "45kg",
+          "dimensions": "353 x 174 x 190mm",
+          "weight": "35kg",
           "brand": "Động Nai"
         },
         "usage": "Dành cho ô tô, xe tải nhỏ, xe khách"
@@ -179,7 +179,7 @@
           "voltage": "12V",
           "capacity": "50Ah",
           "CCA": "950A",
-          "dimensions": "513 x 223 x 223mm",
+          "dimensions": "207 x 174 x 190mm",
           "weight": "35kg",
           "brand": "Động Nai"
         },
@@ -222,7 +222,7 @@
           "type": "Deep Cycle",
           "voltage": "12V",
           "capacity": "165Ah",
-          "dimensions": "518 x 276 x 242mm",
+          "dimensions": "508 x 220 x 213mm",
           "weight": "65kg",
           "brand": "Động Nai"
         },
@@ -264,7 +264,7 @@
           "type": "Deep Cycle",
           "voltage": "12V",
           "capacity": "65Ah",
-          "dimensions": "485 x 240 x 242mm",
+          "dimensions": "232 x 173 x 203mm",
           "weight": "32kg",
           "brand": "Động Nai"
         },
@@ -307,7 +307,7 @@
           "voltage": "12V",
           "capacity": "110Ah",
           "CCA": "70A",
-          "dimensions": "113 x 70 x 85mm",
+          "dimensions": "353 x 174 x 190mm",
           "weight": "1.5kg",
           "brand": "GS Battery"
         },
@@ -350,8 +350,8 @@
           "voltage": "12V",
           "capacity": "80Ah",
           "CCA": "135A",
-          "dimensions": "152 x 88 x 106mm",
-          "weight": "2.8kg",
+          "dimensions": "277 x 174 x 190mm",
+          "weight": "28kg",
           "brand": "Yuasa"
         },
         "usage": "Phù hợp cho xe máy Ô tô xe điện, xe đạp điện"
@@ -392,7 +392,7 @@
           "type": "Deep Cycle VRLA",
           "voltage": "12V",
           "capacity": "70Ah",
-          "dimensions": "181 x 77 x 167mm",
+          "dimensions": "277 x 174 x 190mm",
           "weight": "6.5kg",
           "brand": "Pinaco"
         },
@@ -434,7 +434,7 @@
           "type": "Deep Cycle VRLA",
           "voltage": "12V",
           "capacity": "65Ah",
-          "dimensions": "151 x 98 x 95mm",
+          "dimensions": "242 x 174 x 190mm",
           "weight": "23.8kg",
           "brand": "Rocket"
         },
@@ -476,7 +476,7 @@
           "type": "Deep Cycle VRLA",
           "voltage": "12V",
           "capacity": "65Ah",
-          "dimensions": "151 x 98 x 95mm",
+          "dimensions": "277 x 174 x 175mm",
           "weight": "23.8kg",
           "brand": "Rocket"
         },
@@ -519,7 +519,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "65Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "242 x 174 x 175mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -561,7 +561,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "80Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "258 x 174 x 203mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -603,7 +603,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "60Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "258 x 174 x 203mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -645,7 +645,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "110Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "350 x 174 x 190mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -687,7 +687,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "52Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "236 x 129 x 200mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -729,7 +729,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "236 x 129 x 200mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -771,7 +771,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "110Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "303 x 174 x 203mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -813,7 +813,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "90Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "303 x 174 x 203mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -855,7 +855,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "80Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "303 x 174 x 203mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -897,7 +897,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "65Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "232 x 171 x 200mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -939,7 +939,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "60Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "232 x 171 x 200mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -981,7 +981,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "43Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "196 x 136 x 200mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1023,7 +1023,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "35Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "207 x 174 x 175mm",
           "weight": "6.5kg",
           "brand": "GS Battery"
         },
@@ -1065,7 +1065,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "43Ah",
-          "dimensions": "350 x 167 x 174mm",
+          "dimensions": "207 x 174 x 175mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1107,7 +1107,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "75Ah",
-          "dimensions": "303 x 171 x 200 x 224mm",
+          "dimensions": "303 x 171 x 200mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1149,7 +1149,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "60Ah",
-          "dimensions": "242 x 174 x 190 x 190mm",
+          "dimensions": "350 x 174 x 190mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1191,7 +1191,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "100Ah",
-          "dimensions": "242 x 174 x 190 x 190mm",
+          "dimensions": "350 x 174 x 190mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1233,7 +1233,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "88Ah",
-          "dimensions": "242 x 174 x 190 x 190mm",
+          "dimensions": "350 x 174 x 190mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1275,7 +1275,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "100Ah",
-          "dimensions": "406 x 175 x 209 x 234mm",
+          "dimensions": "406 x 175 x 209mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1317,7 +1317,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "75Ah",
-          "dimensions": "406 x 175 x 209 x 234mm",
+          "dimensions": "277 x 174 x 190mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1359,7 +1359,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "90Ah",
-          "dimensions": "330 x 171 x 210 x 234mm",
+          "dimensions": "330 x 171 x 210mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1401,7 +1401,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "65Ah",
-          "dimensions": "277 x 174 x 175 x 175mm",
+          "dimensions": "277 x 174 x 175mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1443,7 +1443,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "85Ah",
-          "dimensions": "303 x 171 x 200 x 224mm",
+          "dimensions": "303 x 171 x 200 x 234mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1569,7 +1569,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "60Ah",
-          "dimensions": "303 x 171 x 200 x 224mm",
+          "dimensions": "242 x 174 x 190 x 190mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1611,7 +1611,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "303 x 171 x 200 x 224mm",
+          "dimensions": "242 x 174 x 175 x 175mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1653,7 +1653,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "303 x 171 x 200 x 224mm",
+          "dimensions": "207 x 174 x 190 x 190mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1863,7 +1863,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "236 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1905,7 +1905,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "236 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1947,7 +1947,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "236 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -1989,7 +1989,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "236 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -2031,7 +2031,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "40Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "196 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -2073,7 +2073,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "40Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "196 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -2115,7 +2115,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "35Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "196 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -2157,7 +2157,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "35Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "196 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -2199,7 +2199,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "35Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "196 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -2241,7 +2241,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "35Ah",
-          "dimensions": "259 x 171 x 199 x 223mm",
+          "dimensions": "196 x 127 x 199 x 223mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -2325,7 +2325,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "150Ah",
-          "dimensions": "508 x 220 x 213 x 237mm",
+          "dimensions": "505 x 220 x 210 x 255mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2367,7 +2367,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "135Ah",
-          "dimensions": "508 x 220 x 213 x 237mm",
+          "dimensions": "514 x 222 x 209 x 234mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2451,7 +2451,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "100Ah",
-          "dimensions": "502 x 180 x 209 x 254mm",
+          "dimensions": "406 x 175 x 209 x 234mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2493,7 +2493,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "90Ah",
-          "dimensions": "502 x 180 x 209 x 254mm",
+          "dimensions": "330 x 171 x 210 x 223mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2535,7 +2535,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "85Ah",
-          "dimensions": "502 x 180 x 209 x 254mm",
+          "dimensions": "303-171-224mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2661,7 +2661,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "200Ah",
-          "dimensions": "518 x 276 x 214 x 267mm",
+          "dimensions": "518x275x214x267mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2703,7 +2703,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "180Ah",
-          "dimensions": "518 x 276 x 214 x 267mm",
+          "dimensions": "508 x 273 x 215 x 243mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2745,7 +2745,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "150Ah",
-          "dimensions": "518 x 276 x 214 x 267mm",
+          "dimensions": "328 x 180 x 247 x 289mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2787,7 +2787,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "190Ah",
-          "dimensions": "518 x 276 x 214 x 267mm",
+          "dimensions": "260 x 180 x 247 x 289mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2829,7 +2829,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "260Ah",
-          "dimensions": "518 x 276 x 214 x 267mm",
+          "dimensions": "260 x 180 x 247 x 289mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2871,7 +2871,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "23Ah",
-          "dimensions": "518 x 276 x 214 x 267mm",
+          "dimensions": "181 x 77 x 166 x 171mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2913,7 +2913,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "13.2Ah",
-          "dimensions": "518 x 276 x 214 x 267mm",
+          "dimensions": "151 x 98 x 98 x 102mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2955,7 +2955,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "30Ah",
-          "dimensions": "518 x 276 x 214 x 267mm",
+          "dimensions": "288 x 99 x 160 x 180mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -2997,7 +2997,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "28Ah",
-          "dimensions": "518 x 276 x 214 x 267mm",
+          "dimensions": "246 x 96 x 160mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -3081,7 +3081,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "20Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "232 x 91 x 165 x 185mm",
           "weight": "65kg",
           "brand": "GS Battery"
         },
@@ -3123,7 +3123,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "7.2Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "151 x 66 x 94 x 100mm",
           "weight": "21kg",
           "brand": "GS Battery"
         },
@@ -3152,7 +3152,7 @@
       "stock_status": "in_stock",
       "rating": 4.3,
       "reviews_count": 16,
-      "short_description": "Ắc Quy GS MF 115D33C/V (12V-100AH",
+      "short_description": "Ắc Quy GS MF 115D33C/V 12V-100AH",
       "detailed_description": {
         "overview": "Ắc quy GS MF 115D33C/V (12V-100AH) là một loại ắc quy khô, miễn bảo dưỡng, kín khí, là loại ắc quy 12V có dung lượng bình ắc quy 100AH sử dụng công nghệ Calcium.",
         "features": [
@@ -3165,7 +3165,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "100Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "330 * 171 * 234mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3207,7 +3207,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "236 x 129 x 200mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3249,7 +3249,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "236 x 129 x 200mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3291,7 +3291,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "100Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "350 * 175 * 190mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3333,7 +3333,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "60Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "242 x 175 x 175mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3375,7 +3375,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "80Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "242 x 175 x 175mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3417,7 +3417,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "120Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "505 x 182 x 257mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3459,7 +3459,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "60Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "232 x 173 x 225mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3501,7 +3501,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "200Ah",
-          "dimensions": "246 x 96 x 160 x 180mm",
+          "dimensions": "521 x 278 x 270mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3585,7 +3585,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "75Ah",
-          "dimensions": "302 x 171 x 202mm",
+          "dimensions": "260*173*204*225mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3627,7 +3627,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "100Ah",
-          "dimensions": "302 x 171 x 202mm",
+          "dimensions": "406 x 175 x 209 x 234mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3669,7 +3669,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "100Ah",
-          "dimensions": "302 x 171 x 202mm",
+          "dimensions": "406 x 175 x 209 x 234mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -3963,7 +3963,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "90Ah",
-          "dimensions": "232 x 173 x 225mm",
+          "dimensions": "306*173*204*225mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -4089,7 +4089,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "200Ah",
-          "dimensions": "508 x 222 x 257mm",
+          "dimensions": "521 x 278 x 270mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -4131,7 +4131,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "120Ah",
-          "dimensions": "508 x 222 x 257mm",
+          "dimensions": "505 x 182 x 257mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
@@ -4215,7 +4215,7 @@
           "type": "VRLA AGM",
           "voltage": "12V",
           "capacity": "45Ah",
-          "dimensions": "207mm x 175mm x 175mm",
+          "dimensions": "207 x 175 x 175mm",
           "weight": "32kg",
           "brand": "GS Battery"
         },
