@@ -83,6 +83,13 @@
 
   gtag('config', 'AW-17610733312');
 </script>
+<!-- EmailJS Library -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("STNMDUPvppMAFyH0x"); // Thay YOUR_PUBLIC_KEY
+   })();
+</script>
 </head>
 
 <body>
@@ -258,8 +265,11 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="tel:0337273932" class="btn btn-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0"><i
-                                class="fa fa-mobile-alt me-2"></i> 0337.273.932</a>
+                        <a href="tel:0337273932" 
+                        class="btn btn-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0"
+                        onclick="gtag('event', 'click_tel', {event_category: 'contact', event_label: 'navbar_button'})">
+                            <i class="fa fa-mobile-alt me-2"></i> 0337.273.932
+                        </a>
                     </div>
                 </nav>
             </div>
@@ -268,194 +278,467 @@
     <!-- Navbar & Hero End -->
 
     <!-- Carousel Start -->
-<div class="container-fluid carousel bg-light px-0">
-    <div class="row g-0 justify-content-end">
-        <div class="col-12 col-lg-7 col-xl-9">
-            <div class="header-carousel owl-carousel bg-light py-3 py-lg-5">
-                <!-- Slide 1 -->
-                <div class="row g-0 header-carousel-item align-items-center">
-                    <div class="col-xl-6 carousel-img wow fadeInLeft" data-wow-delay="0.1s">
-                        <img src="img/carousel-1.png" class="img-fluid w-100" alt="Image">
-                    </div>
-                    <div class="col-xl-6 carousel-content p-3 p-md-4 text-center text-xl-start">
-                        <h4 class="text-uppercase fw-bold mb-2 mb-md-3 mb-lg-4 wow fadeInRight fs-6 fs-md-5"
-                            data-wow-delay="0.1s"
-                            style="letter-spacing: 2px;">
-                            Dịch Vụ 24/7
-                        </h4>
-                        <h1 class="text-capitalize mb-2 mb-md-3 mb-lg-4 wow fadeInRight fs-4 fs-md-3 fs-lg-2 fs-xl-1 fw-bold lh-sm"
-                            data-wow-delay="0.3s">
-                            Thay Ắc Quy Tận Nơi Miễn Phí Toàn Hải Phòng
-                        </h1>
-                        <p class="text-dark wow fadeInRight mb-3 mb-md-4 fs-6 fs-md-5"
-                            data-wow-delay="0.5s">
-                            Kỹ thuật viên chuyên nghiệp | Phục vụ nhanh chóng
-                        </p>
-                        <a class="btn btn-primary rounded-pill py-2 py-md-3 px-4 px-md-5 wow fadeInRight fs-6 fs-md-5"
-                            data-wow-delay="0.7s"
-                            href="tel:0337273932">
-                            <i class="fas fa-phone-alt me-2"></i>
-                            Gọi Ngay: 0337.273.932
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="row g-0 header-carousel-item align-items-center">
-                    <div class="col-xl-6 carousel-img wow fadeInLeft" data-wow-delay="0.1s">
-                        <img src="img/carousel-2.png" class="img-fluid w-100" alt="Image">
-                    </div>
-                    <div class="col-xl-6 carousel-content p-3 p-md-4 text-center text-xl-start">
-                        <h4 class="text-uppercase fw-bold mb-2 mb-md-3 mb-lg-4 wow fadeInRight fs-6 fs-md-5"
-                            data-wow-delay="0.1s"
-                            style="letter-spacing: 2px;">
-                            Cam Kết 100%
-                        </h4>
-                        <h1 class="text-capitalize mb-2 mb-md-3 mb-lg-4 wow fadeInRight fs-4 fs-md-3 fs-lg-2 fs-xl-1 fw-bold lh-sm"
-                            data-wow-delay="0.3s">
-                            Ắc Quy Chính Hãng GS,Đồng Nai,Huyndai, Giá Tốt Nhất
-                        </h1>
-                        <p class="text-dark wow fadeInRight mb-3 mb-md-4 fs-6 fs-md-5"
-                            data-wow-delay="0.5s">
-                            Kiểm tra miễn phí | Tư vấn chọn ắc quy phù hợp
-                        </p>
-                        <a class="btn btn-primary rounded-pill py-2 py-md-3 px-4 px-md-5 wow fadeInRight fs-6 fs-md-5"
-                            data-wow-delay="0.7s"
-                            href="/shop.html">
-                            <i class="fas fa-shopping-cart me-2"></i>
-                            Xem sản phẩm 
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Banner bên phải -->
-        <div class="col-12 col-lg-5 col-xl-3 wow fadeInRight mt-3 mt-lg-0" data-wow-delay="0.1s">
-            <div class="carousel-header-banner h-100 position-relative">
-                <img src="img/header-img.jpg" class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 300px;" alt="Image">
-                
-                <!-- Badge 24/7 -->
-                <div class="carousel-banner-offer position-absolute top-0 end-0 m-3 d-flex align-items-center">
-                    <p class="bg-danger text-white rounded fs-6 fs-md-5 py-2 px-3 mb-0 me-2">
-                        24/7
-                    </p>
-                    <p class="text-danger fs-6 fs-md-5 fw-bold mb-0 text-nowrap">
-                        Cứu Hộ Khẩn
-                    </p>
-                </div>
-
-                <!-- Banner content -->
-                <div class="carousel-banner position-absolute bottom-0 start-0 end-0">
-                    <div class="carousel-banner-content text-center p-3 p-md-4">
-                        <a href="#" class="d-block mb-2 text-white-50 fs-6">Dịch Vụ Khẩn Cấp</a>
-                        <a href="#" class="d-block text-white fs-5 fs-md-4 fw-bold mb-2">
-                            Cứu Hộ Ắc Quy <br> Toàn Hải Phòng
-                        </a>
-                        <div class="mb-3">
-                            <span class="me-2 text-white fs-6">Từ</span>
-                            <span class="text-primary fs-5 fs-md-4 fw-bold">200.000đ</span>
+    <div class="container-fluid carousel bg-light px-0">
+        <div class="row g-0 justify-content-end">
+            <div class="col-12 col-lg-7 col-xl-9">
+                <div class="header-carousel owl-carousel bg-light py-3 py-lg-5">
+                    <!-- Slide 1 -->
+                    <div class="row g-0 header-carousel-item align-items-center">
+                        <div class="col-xl-6 carousel-img wow fadeInLeft" data-wow-delay="0.1s">
+                            <img src="img/carousel-1.png" class="img-fluid w-100" alt="Image">
                         </div>
-                        <a href="tel:0337273932" class="btn btn-danger rounded-pill py-2 px-3 px-md-4 fs-6">
-                            <i class="fas fa-phone-volume me-2"></i>
-                            <span class="d-none d-sm-inline">Gọi Ngay: </span>0337.273.932
-                        </a>
+                        <div class="col-xl-6 carousel-content p-3 p-md-4 text-center text-xl-start">
+                            <h4 class="text-uppercase fw-bold mb-2 mb-md-3 mb-lg-4 wow fadeInRight fs-6 fs-md-5"
+                                data-wow-delay="0.1s"
+                                style="letter-spacing: 2px;">
+                                Dịch Vụ 24/7
+                            </h4>
+                            <h1 class="text-capitalize mb-2 mb-md-3 mb-lg-4 wow fadeInRight fs-4 fs-md-3 fs-lg-2 fs-xl-1 fw-bold lh-sm"
+                                data-wow-delay="0.3s">
+                                Thay Ắc Quy Tận Nơi Miễn Phí Toàn Hải Phòng
+                            </h1>
+                            <p class="text-dark wow fadeInRight mb-3 mb-md-4 fs-6 fs-md-5"
+                                data-wow-delay="0.5s">
+                                Kỹ thuật viên chuyên nghiệp | Phục vụ nhanh chóng
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 py-md-3 px-4 px-md-5 wow fadeInRight fs-6 fs-md-5"
+                            data-wow-delay="0.7s"
+                            href="tel:0337273932"
+                            onclick="gtag('event', 'click_tel', {event_category: 'contact', event_label: 'hero_slide1'})"></i>
+                                Gọi Ngay: 0337.273.932
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="row g-0 header-carousel-item align-items-center">
+                        <div class="col-xl-6 carousel-img wow fadeInLeft" data-wow-delay="0.1s">
+                            <img src="img/carousel-2.png" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="col-xl-6 carousel-content p-3 p-md-4 text-center text-xl-start">
+                            <h4 class="text-uppercase fw-bold mb-2 mb-md-3 mb-lg-4 wow fadeInRight fs-6 fs-md-5"
+                                data-wow-delay="0.1s"
+                                style="letter-spacing: 2px;">
+                                Cam Kết 100%
+                            </h4>
+                            <h1 class="text-capitalize mb-2 mb-md-3 mb-lg-4 wow fadeInRight fs-4 fs-md-3 fs-lg-2 fs-xl-1 fw-bold lh-sm"
+                                data-wow-delay="0.3s">
+                                Ắc Quy Chính Hãng GS,Đồng Nai,Huyndai, Giá Tốt Nhất
+                            </h1>
+                            <p class="text-dark wow fadeInRight mb-3 mb-md-4 fs-6 fs-md-5"
+                                data-wow-delay="0.5s">
+                                Kiểm tra miễn phí | Tư vấn chọn ắc quy phù hợp
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 py-md-3 px-4 px-md-5 wow fadeInRight fs-6 fs-md-5"
+                                data-wow-delay="0.7s"
+                                href="/shop.html">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                Xem sản phẩm 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Banner bên phải -->
+            <div class="col-12 col-lg-5 col-xl-3 wow fadeInRight mt-3 mt-lg-0" data-wow-delay="0.1s">
+                <div class="carousel-header-banner h-100 position-relative">
+                    <img src="img/header-img.jpg" class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 300px;" alt="Image">
+                    
+                    <!-- Badge 24/7 -->
+                    <div class="carousel-banner-offer position-absolute top-0 end-0 m-3 d-flex align-items-center">
+                        <p class="bg-danger text-white rounded fs-6 fs-md-5 py-2 px-3 mb-0 me-2">
+                            24/7
+                        </p>
+                        <p class="text-danger fs-6 fs-md-5 fw-bold mb-0 text-nowrap">
+                            Cứu Hộ Khẩn
+                        </p>
+                    </div>
+
+                    <!-- Banner content -->
+                    <div class="carousel-banner position-absolute bottom-0 start-0 end-0">
+                        <div class="carousel-banner-content text-center p-3 p-md-4">
+                            <a href="#" class="d-block mb-2 text-white-50 fs-6">Dịch Vụ Khẩn Cấp</a>
+                            <a href="#" class="d-block text-white fs-5 fs-md-4 fw-bold mb-2">
+                                Cứu Hộ Ắc Quy <br> Toàn Hải Phòng
+                            </a>
+                            <div class="mb-3">
+                                <span class="me-2 text-white fs-6">Từ</span>
+                                <span class="text-primary fs-5 fs-md-4 fw-bold">200.000đ</span>
+                            </div>
+                            <a href="tel:0337273932" 
+                                class="btn btn-danger rounded-pill py-2 px-3 px-md-4 fs-6"
+                                onclick="gtag('event', 'click_tel', {event_category: 'contact', event_label: 'hero_banner'})">
+                                <i class="fas fa-phone-volume me-2"></i>
+                                <span class="d-none d-sm-inline">Gọi Ngay: </span>0337.273.932
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Carousel End -->
+    <!-- Carousel End -->
 
-<!-- Services Start -->
-<div class="container-fluid px-0 mt-4 mt-lg-5">
-    <div class="row g-0">
-        <!-- Service Item 1 -->
-        <div class="col-6 col-md-4 col-lg-2 border-start border-end wow fadeInUp" data-wow-delay="0.1s">
-            <div class="p-2 p-md-3 p-lg-4">
-                <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
-                    <i class="fas fa-tools fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
-                    <div class="ms-lg-3">
-                        <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Thay Lắp Tại Nhà</h6>
-                        <p class="mb-0 small">Kỹ thuật viên chuyên nghiệp</p>
+    <!-- Services Start -->
+    <div class="container-fluid px-0 mt-4 mt-lg-5">
+        <div class="row g-0">
+            <!-- Service Item 1 -->
+            <div class="col-6 col-md-4 col-lg-2 border-start border-end wow fadeInUp" data-wow-delay="0.1s">
+                <div class="p-2 p-md-3 p-lg-4">
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
+                        <i class="fas fa-tools fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
+                        <div class="ms-lg-3">
+                            <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Thay Lắp Tại Nhà</h6>
+                            <p class="mb-0 small">Kỹ thuật viên chuyên nghiệp</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Service Item 2 -->
-        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.2s">
-            <div class="p-2 p-md-3 p-lg-4">
-                <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
-                    <i class="fas fa-truck fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
-                    <div class="ms-lg-3">
-                        <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Giao Hàng Nhanh</h6>
-                        <p class="mb-0 small">Trong vòng 2 giờ</p>
+            <!-- Service Item 2 -->
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.2s">
+                <div class="p-2 p-md-3 p-lg-4">
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
+                        <i class="fas fa-truck fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
+                        <div class="ms-lg-3">
+                            <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Giao Hàng Nhanh</h6>
+                            <p class="mb-0 small">Trong vòng 2 giờ</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Service Item 3 -->
-        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.3s">
-            <div class="p-2 p-md-3 p-lg-4">
-                <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
-                    <i class="fas fa-certificate fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
-                    <div class="ms-lg-3">
-                        <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">100% Chính Hãng</h6>
-                        <p class="mb-0 small">Tem chống giả, CO/CQ</p>
+            <!-- Service Item 3 -->
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.3s">
+                <div class="p-2 p-md-3 p-lg-4">
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
+                        <i class="fas fa-certificate fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
+                        <div class="ms-lg-3">
+                            <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">100% Chính Hãng</h6>
+                            <p class="mb-0 small">Tem chống giả, CO/CQ</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Service Item 4 -->
-        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.4s">
-            <div class="p-2 p-md-3 p-lg-4">
-                <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
-                    <i class="fas fa-battery-full fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
-                    <div class="ms-lg-3">
-                        <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Test Miễn Phí</h6>
-                        <p class="mb-0 small">Kiểm tra tình trạng ắc quy</p>
+            <!-- Service Item 4 -->
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.4s">
+                <div class="p-2 p-md-3 p-lg-4">
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
+                        <i class="fas fa-battery-full fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
+                        <div class="ms-lg-3">
+                            <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Test Miễn Phí</h6>
+                            <p class="mb-0 small">Kiểm tra tình trạng ắc quy</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Service Item 5 -->
-        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.5s">
-            <div class="p-2 p-md-3 p-lg-4">
-                <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
-                    <i class="fas fa-recycle fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
-                    <div class="ms-lg-3">
-                        <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Thu Hồi Ắc Quy Cũ</h6>
-                        <p class="mb-0 small">Giá cao, xử lý đúng quy trình</p>
+            <!-- Service Item 5 -->
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.5s">
+                <div class="p-2 p-md-3 p-lg-4">
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
+                        <i class="fas fa-recycle fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
+                        <div class="ms-lg-3">
+                            <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Thu Hồi Ắc Quy Cũ</h6>
+                            <p class="mb-0 small">Giá cao, xử lý đúng quy trình</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Service Item 6 -->
-        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.6s">
-            <div class="p-2 p-md-3 p-lg-4">
-                <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
-                    <i class="fas fa-handshake fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
-                    <div class="ms-lg-3">
-                        <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Ưu Đãi Doanh Nghiệp</h6>
-                        <p class="mb-0 small">Chiết khấu cao cho đơn lớn</p>
+            <!-- Service Item 6 -->
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.6s">
+                <div class="p-2 p-md-3 p-lg-4">
+                    <div class="d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
+                        <i class="fas fa-handshake fa-2x fa-lg-2x text-primary mb-2 mb-lg-0"></i>
+                        <div class="ms-lg-3">
+                            <h6 class="text-uppercase mb-1 mb-lg-2 fs-6 fw-bold">Ưu Đãi Doanh Nghiệp</h6>
+                            <p class="mb-0 small">Chiết khấu cao cho đơn lớn</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Services End -->
-
+    <!-- Services End -->
+    <!-- Lead Form Section -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="bg-white rounded shadow-lg p-4 p-md-5">
+                        <div class="text-center mb-4">
+                            <h2 class="text-primary fw-bold mb-2">
+                                <i class="fas fa-gift text-warning me-2"></i>
+                                Nhận Báo Giá & Tư Vấn Miễn Phí
+                            </h2>
+                            <p class="text-muted mb-0">
+                                <i class="fas fa-headset text-primary me-2"></i>
+                                Chúng tôi sẽ gọi lại trong <strong class="text-danger">5 phút</strong>
+                            </p>
+                        </div>
+                        
+                        <form id="heroLeadForm" class="row g-3">
+                            <div class="col-md-4">
+                                <input type="text" 
+                                    class="form-control form-control-lg" 
+                                    name="customerName" 
+                                    placeholder="Họ và tên *" 
+                                    required>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="tel" 
+                                    class="form-control form-control-lg" 
+                                    name="customerPhone" 
+                                    placeholder="Số điện thoại *" 
+                                    pattern="[0-9]{10,11}"
+                                    title="Nhập 10-11 chữ số"
+                                    required>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select form-control-lg" name="vehicleType" required>
+                                    <option value="">Loại xe / Điện áp *</option>
+                                    <option value="Ô tô 12V">Ô tô 12V</option>
+                                    <option value="Xe máy 12V">Xe máy 12V</option>
+                                    <option value="Xe tải 24V">Xe tải 24V</option>
+                                    <option value="Tàu thuyền">Tàu thuyền</option>
+                                    <option value="Xe điện">Xe điện</option>
+                                    <option value="Dân dụng">Dân dụng</option>
+                                </select>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-danger btn-lg px-5 py-3 rounded-pill">
+                                    <i class="fas fa-phone-volume me-2"></i>
+                                    <strong>Gọi Lại Trong 5 Phút</strong>
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <div class="text-center mt-3">
+                            <small class="text-muted">
+                                <i class="fas fa-shield-alt text-success me-1"></i>
+                                Thông tin của bạn được bảo mật 100%
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Searvices End -->
-
+    <!-- Trust & Credibility Section -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i>
+                    Tại Sao Chọn Chúng Tôi?
+                </h2>
+                <p class="text-muted">Hơn 10 năm kinh nghiệm phục vụ khách hàng Hải Phòng</p>
+            </div>
+            
+            <div class="row g-4 align-items-center">
+                <!-- Cột 1: Ảnh thật -->
+                <div class="col-lg-4 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="text-center">
+                        <h5 class="text-primary mb-3">
+                            <i class="fas fa-tools me-2"></i>
+                            Đội Ngũ Chuyên Nghiệp
+                        </h5>
+                        <div class="position-relative rounded overflow-hidden shadow-lg mb-3">
+                            <img src="img/technician-placeholder.jpg" 
+                                class="img-fluid w-100" 
+                                alt="Kỹ thuật viên thay ắc quy"
+                                style="min-height: 250px; object-fit: cover; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                                style="background: rgba(0,0,0,0.3);">
+                                <div class="text-white text-center">
+                                    <i class="fas fa-camera fa-3x mb-2 opacity-75"></i>
+                                    <p class="mb-0 small">Ảnh thực tế đang cập nhật</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted mb-0">
+                            <i class="fas fa-check text-success me-2"></i>
+                            Kỹ thuật viên 5+ năm kinh nghiệm
+                        </p>
+                        <p class="text-muted mb-0">
+                            <i class="fas fa-check text-success me-2"></i>
+                            Trang bị đầy đủ dụng cụ chuyên dụng
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Cột 2: Logo các hãng -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="text-center">
+                        <h5 class="text-primary mb-3">
+                            <i class="fas fa-award me-2"></i>
+                            Thương Hiệu Uy Tín
+                        </h5>
+                        <div class="bg-light rounded p-4 shadow">
+                            <p class="text-muted mb-3 small">Đại lý chính thức các hãng:</p>
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="bg-white rounded p-3 h-100 d-flex align-items-center justify-content-center">
+                                        
+                                        <span class="fw-bold text-dark">GS</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="bg-white rounded p-3 h-100 d-flex align-items-center justify-content-center">
+                                        <span class="fw-bold text-primary">ĐỒNG NAI</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="bg-white rounded p-3 h-100 d-flex align-items-center justify-content-center">
+                                        <span class="fw-bold text-danger">VARTA</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="bg-white rounded p-3 h-100 d-flex align-items-center justify-content-center">
+                                        <span class="fw-bold text-success">BOSCH</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="bg-white rounded p-3 h-100 d-flex align-items-center justify-content-center">
+                                        <span class="fw-bold text-warning">ROCKET</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="bg-white rounded p-3 h-100 d-flex align-items-center justify-content-center">
+                                        <span class="fw-bold text-info">AMARON</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-3 mb-0 small">
+                                <i class="fas fa-certificate text-warning me-1"></i>
+                                100% chính hãng - Tem chống giả
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cột 3: Review khách hàng -->
+                <div class="col-lg-4 wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="text-center">
+                        <h5 class="text-primary mb-3">
+                            <i class="fas fa-star me-2"></i>
+                            Khách Hàng Nói Gì
+                        </h5>
+                        
+                        <!-- Review 1 -->
+                        <div class="bg-light rounded p-3 mb-3 text-start shadow-sm">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-2"
+                                    style="width: 40px; height: 40px; font-weight: bold;">
+                                    A
+                                </div>
+                                <div>
+                                    <p class="mb-0 fw-bold small">Anh Tuấn - Lê Chân</p>
+                                    <div class="text-warning small">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0 text-muted small">
+                                "Thay ắc quy nhanh, giá rẻ hơn ngoài tiệm. Anh thợ nhiệt tình, kiểm tra kỹ. Sẽ giới thiệu bạn bè."
+                            </p>
+                        </div>
+                        
+                        <!-- Review 2 -->
+                        <div class="bg-light rounded p-3 mb-3 text-start shadow-sm">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center me-2"
+                                    style="width: 40px; height: 40px; font-weight: bold;">
+                                    H
+                                </div>
+                                <div>
+                                    <p class="mb-0 fw-bold small">Chị Hương - Ngô Quyền</p>
+                                    <div class="text-warning small">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0 text-muted small">
+                                "Gọi là đến ngay, thay xong trong 30 phút. Giá cả minh bạch, không chặt chém. Rất hài lòng!"
+                            </p>
+                        </div>
+                        
+                        <!-- Review 3 -->
+                        <div class="bg-light rounded p-3 text-start shadow-sm">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="rounded-circle bg-warning text-dark d-flex align-items-center justify-content-center me-2"
+                                    style="width: 40px; height: 40px; font-weight: bold;">
+                                    M
+                                </div>
+                                <div>
+                                    <p class="mb-0 fw-bold small">Anh Minh - Kiến An</p>
+                                    <div class="text-warning small">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0 text-muted small">
+                                "Ắc quy GS dùng 2 năm vẫn tốt. Bảo hành chu đáo. Shop uy tín, đáng tin cậy!"
+                            </p>
+                        </div>
+                        
+                        <div class="text-center mt-3">
+                            <p class="text-primary mb-0 fw-bold">
+                                <i class="fas fa-users me-2"></i>
+                                5,000+ Khách hàng hài lòng
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Số liệu thống kê -->
+            <div class="row g-4 mt-4">
+                <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-light rounded p-3">
+                        <h3 class="text-primary fw-bold mb-1">10+</h3>
+                        <p class="text-muted mb-0 small">Năm Kinh Nghiệm</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="bg-light rounded p-3">
+                        <h3 class="text-primary fw-bold mb-1">5000+</h3>
+                        <p class="text-muted mb-0 small">Khách Hàng</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-light rounded p-3">
+                        <h3 class="text-primary fw-bold mb-1">24/7</h3>
+                        <p class="text-muted mb-0 small">Hỗ Trợ Liên Tục</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="bg-light rounded p-3">
+                        <h3 class="text-primary fw-bold mb-1">100%</h3>
+                        <p class="text-muted mb-0 small">Chính Hãng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Products Offer Start -->
     <div class="container-fluid bg-light py-5 mt-5">
         <div class="container">
@@ -482,7 +765,11 @@
                             <h4 class="mb-3">Ắc Quy Xe Máy Sale</h4>
                             <p class="text-muted mb-3">Giảm 15% tất cả ắc quy xe máy + Thay miễn phí</p>
                             <h3 class="text-danger">Từ 399.000đ</h3>
-                            <a href="tel:0337273932" class="btn btn-primary rounded-pill mt-3">Đặt Ngay</a>
+                            <a href="tel:0337273932" 
+                            class="btn btn-primary rounded-pill mt-3"
+                            onclick="gtag('event', 'click_tel', {event_category: 'offers', event_label: 'xe_may_sale'})">
+                                Đặt Ngay
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -493,7 +780,11 @@
                             <h4 class="mb-3">Ưu Đãi Khách Hàng VIP</h4>
                             <p class="text-muted mb-3">Tích điểm đổi quà + Bảo dưỡng định kỳ miễn phí</p>
                             <h3 class="text-danger">Giảm đến 40%</h3>
-                            <a href="/shop.html" class="btn btn-primary rounded-pill mt-3">Xem Ngay</a>
+                            <a href="shop.html" 
+                            class="btn btn-primary rounded-pill mt-3"
+                            onclick="gtag('event', 'view_promotion', {event_category: 'offers', event_label: 'vip_customer'})">
+                                Xem Ngay
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -645,10 +936,15 @@
         <div class="container products-mini py-5">
             <div class="mx-auto text-center mb-5" style="max-width: 700px;">
                 <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius wow fadeInUp"
-                    data-wow-delay="0.1s">Bestseller Products</h4>
-                <p class="mb-0 wow fadeInUp" data-wow-delay="0.2s">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Modi, asperiores ducimus sint quos tempore officia similique quia? Libero, pariatur
-                    consectetur?</p>
+                    data-wow-delay="0.1s">
+                    <i class="fas fa-fire me-2"></i>
+                    Sản Phẩm Bán Chạy Nhất
+                </h4>
+                <p class="mb-0 wow fadeInUp text-muted" data-wow-delay="0.2s">
+                    Top 8 bình ắc quy được khách hàng Hải Phòng tin dùng nhiều nhất. 
+                    <strong class="text-primary">Cam kết chính hãng 100%</strong> - 
+                    Bảo hành dài hạn - Thay tại nhà miễn phí.
+                </p>
             </div>
             <!-- HTML structure với các ID phân biệt -->
 
@@ -698,7 +994,13 @@
                         </div>
                         <div>
                             <h4 class="text-white">Điện thoại</h4>
-                            <p class="mb-2">0337273932</p>
+                            <p class="mb-2">
+                                <a href="tel:0337273932" 
+                                class="text-white text-decoration-none"
+                                onclick="gtag('event', 'click_tel', {event_category: 'contact', event_label: 'footer'})">
+                                    0337.273.932
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -710,7 +1012,13 @@
                         </div>
                         <div>
                             <h4 class="text-white">acquyhaiphonggiare.com</h4>
-                            <p class="mb-2">0337273932</p>
+                            <p class="mb-2">
+                                <a href="tel:0337273932" 
+                                class="text-white text-decoration-none"
+                                onclick="gtag('event', 'click_tel', {event_category: 'contact', event_label: 'footer'})">
+                                    0337.273.932
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -718,53 +1026,51 @@
             <div class="row g-5">
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
-                        <div class="footer-item">
-                            <h4 class="text-primary mb-4">Newsletter</h4>
-                            <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit
-                                amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-                            <div class="position-relative mx-auto rounded-pill">
-                                <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
-                                    placeholder="Enter your email">
-                                <button type="button"
-                                    class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
-                            </div>
+                        <h4 class="text-primary mb-4">Về Ắc Quy Cường Anh</h4>
+                        <p class="mb-3">Chuyên cung cấp ắc quy chính hãng tại Hải Phòng với dịch vụ thay lắp tận nơi 24/7. Cam kết giá tốt nhất, bảo hành dài hạn.</p>
+                        <div class="d-flex gap-2">
+                            <a href="https://www.facebook.com/people/%E1%BA%AEc-Quy-C%C6%B0%E1%BB%9Dng-anh/61581454550320/" class="btn btn-light btn-sm rounded-circle" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://zalo.me/0337273932" class="btn btn-light btn-sm rounded-circle" target="_blank">
+                                <i class="fas fa-comment"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
-                        <h4 class="text-primary mb-4">Customer Service</h4>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Returns</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Order History</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Site Map</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Testimonials</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> My Account</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Unsubscribe Notification</a>
+                        <h4 class="text-primary mb-4">Danh Mục Sản Phẩm</h4>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Ô Tô</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Xe Máy</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Xe Tải</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Tàu Thuyền</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Xe Điện</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Dân Dụng</a>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
-                        <h4 class="text-primary mb-4">Information</h4>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> About Us</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Delivery infomation</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Warranty</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> FAQ</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Seller Login</a>
+                        <h4 class="text-primary mb-4">Chính Sách</h4>
+                        <a href="chinh-sach-bao-hanh.html" class=""><i class="fas fa-angle-right me-2"></i> Chính Sách Bảo Hành</a>
+                        <a href="chinh-sach-bao-hanh.html" class=""><i class="fas fa-angle-right me-2"></i> Chính Sách Đổi Trả</a>
+                        <a href="chinh-sach-bao-hanh.html" class=""><i class="fas fa-angle-right me-2"></i> Chính Sách Vận Chuyển</a>
+                        <a href="chinh-sach-bao-hanh.html" class=""><i class="fas fa-angle-right me-2"></i> Chính Sách Thanh Toán</a>
+                        <a href="contact.html" class=""><i class="fas fa-angle-right me-2"></i> Liên Hệ & Hỗ Trợ</a>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
-                        <h4 class="text-primary mb-4">Extras</h4>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Brands</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Gift Vouchers</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Affiliates</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Wishlist</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Order History</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Track Your Order</a>
-                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Track Your Order</a>
+                        <h4 class="text-primary mb-4">Thương Hiệu</h4>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy GS</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Đồng Nai</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Varta</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Bosch</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Rocket</a>
+                        <a href="shop.html" class=""><i class="fas fa-angle-right me-2"></i> Ắc Quy Amaron</a>
                     </div>
                 </div>
             </div>
@@ -787,8 +1093,23 @@
     </div>
     <!-- Copyright End -->
 
-
     <!-- Back to Top -->
+     <!-- Mobile Floating Buttons - CHỈ HIỆN TRÊN MOBILE -->
+    <div class="mobile-cta-bar d-lg-none">
+        <a href="tel:0337273932" 
+        class="mobile-cta-btn btn-call"
+        onclick="gtag('event', 'click_tel', {event_category: 'mobile_cta', event_label: 'floating_button'})">
+            <i class="fas fa-phone-alt me-2"></i>
+            <span>Gọi Ngay</span>
+        </a>
+        <a href="https://zalo.me/0337273932" 
+        class="mobile-cta-btn btn-zalo"
+        target="_blank"
+        onclick="gtag('event', 'click_zalo', {event_category: 'mobile_cta', event_label: 'floating_button'})">
+            <i class="fas fa-comment me-2"></i>
+            <span>Chat Zalo</span>
+        </a>
+    </div>
     <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
     <div class="social-icons">
         <!-- Facebook -->
@@ -813,7 +1134,11 @@
         </a>
 
         <!-- Zalo -->
-        <a href="https://zalo.me/0337273932" target="_blank" class="icon-link zalo" title="Zalo">
+        <a href="https://zalo.me/0337273932" 
+        target="_blank" 
+        class="icon-link zalo" 
+        title="Zalo"
+        onclick="gtag('event', 'click_zalo', {event_category: 'social', event_label: 'sidebar_zalo'})">
             <span class="zalo-text">Zalo</span>
         </a>
     </div>
@@ -836,6 +1161,7 @@
     <script src="js/google-sheet-handler.js"></script>
     <!-- <script src="js/product-unified.js"></script> -->
      <script src="js/product-search.js"></script>
+     <script src="js/form-contact.js"></script>
 <script>
 // Fix các sự kiện search và price slider
 document.addEventListener('DOMContentLoaded', function() {
@@ -998,6 +1324,19 @@ function scrollToProducts() {
     50% { background-color: rgba(255, 193, 7, 0.08); }
 }
 </style>
+
+
+<style>
+@keyframes slideIn {
+    from { transform: translateX(400px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+@keyframes slideOut {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(400px); opacity: 0; }
+}
+</style>
+
 </body>
 
 </html>

@@ -1107,3 +1107,60 @@
         border-right: none !important;
     }
 }
+/* Mobile CTA Bar - Floating buttons */
+.mobile-cta-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 0;
+    z-index: 9998;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mobile-cta-btn {
+    flex: 1;
+    padding: 16px 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.mobile-cta-btn i {
+    font-size: 18px;
+}
+
+.btn-call {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+}
+
+.btn-call:hover {
+    background: linear-gradient(135deg, #c82333 0%, #bd2130 100%);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-zalo {
+    background: linear-gradient(135deg, #0068ff 0%, #0052cc 100%);
+}
+
+.btn-zalo:hover {
+    background: linear-gradient(135deg, #0052cc 0%, #003d99 100%);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Đẩy nội dung lên để không bị che bởi floating bar */
+@media (max-width: 991.98px) {
+    body {
+        padding-bottom: 65px;
+    }
+}
