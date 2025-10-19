@@ -1,0 +1,140 @@
+# ================================================
+# robots.txt - Ắc Quy Hải Phòng Giá Rẻ
+# Website: https://acquyhaiphonggiare.com
+# Cập nhật: 19/01/2025
+# ================================================
+
+# Cho phép tất cả các công cụ tìm kiếm crawl
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# ================================================
+# CHẶN CÁC THỦ MỤC/FILE HỆ THỐNG
+# ================================================
+
+# Thư mục VSCode settings (không cần index)
+Disallow: /.vscode/
+
+# File hệ thống
+Disallow: /*.json$
+Disallow: /*.txt$
+Disallow: /*.md$
+Disallow: /LICENSE.txt
+Disallow: /READ-ME.txt
+Disallow: /README.md
+
+# Thư mục SCSS source (không cần index)
+Disallow: /scss/
+
+# Thư mục lib (thư viện bên thứ 3)
+Disallow: /lib/
+
+# ================================================
+# CHẶN TRANG KHÔNG CẦN INDEX
+# ================================================
+
+# Trang lỗi
+Disallow: /404.html
+
+# Trang giỏ hàng & checkout (không cần SEO)
+Disallow: /cart.html
+Disallow: /cheackout.html
+
+# Trang template mẫu
+Disallow: /electronics-website-template.jpg
+
+# ================================================
+# CHO PHÉP GOOGLEBOT ĐỌC RESOURCES
+# ================================================
+
+User-agent: Googlebot
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# ================================================
+# CHO PHÉP BINGBOT ĐỌC RESOURCES
+# ================================================
+
+User-agent: Bingbot
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# ================================================
+# CHẶN CÁC BOT AI SCRAPING
+# ================================================
+
+# OpenAI GPT
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# Google Extended (Bard/Gemini)
+User-agent: Google-Extended
+Disallow: /
+
+# Meta AI
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# ByteDance/TikTok
+User-agent: Bytespider
+Disallow: /
+
+# Các bot scraper khác
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# ================================================
+# SITEMAP
+# ================================================
+
+Sitemap: https://acquyhaiphonggiare.com/sitemap.xml
+
+# ================================================
+# GHI CHÚ:
+# - Chặn các file hệ thống (.vscode, .json, .md)
+# - Chặn trang giỏ hàng/checkout (không cần SEO)
+# - Cho phép index tất cả trang còn lại
+# - Chặn AI bots để bảo vệ nội dung
+# ================================================
