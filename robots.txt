@@ -13,7 +13,7 @@ Crawl-delay: 1
 # CHẶN CÁC THỦ MỤC/FILE HỆ THỐNG
 # ================================================
 
-# Thư mục VSCode settings (không cần index)
+# Thư mục VSCode settings
 Disallow: /.vscode/
 
 # File hệ thống
@@ -24,10 +24,10 @@ Disallow: /LICENSE.txt
 Disallow: /READ-ME.txt
 Disallow: /README.md
 
-# Thư mục SCSS source (không cần index)
+# Thư mục SCSS source
 Disallow: /scss/
 
-# Thư mục lib (thư viện bên thứ 3)
+# Thư mục lib
 Disallow: /lib/
 
 # ================================================
@@ -37,12 +37,9 @@ Disallow: /lib/
 # Trang lỗi
 Disallow: /404.html
 
-# Trang giỏ hàng & checkout (không cần SEO)
+# Trang giỏ hàng & checkout
 Disallow: /cart.html
 Disallow: /cheackout.html
-
-# Trang template mẫu
-Disallow: /electronics-website-template.jpg
 
 # ================================================
 # CHO PHÉP GOOGLEBOT ĐỌC RESOURCES
@@ -73,40 +70,30 @@ Allow: /img/
 # CHẶN CÁC BOT AI SCRAPING
 # ================================================
 
-# OpenAI GPT
 User-agent: GPTBot
 Disallow: /
 
 User-agent: ChatGPT-User
 Disallow: /
 
-# Common Crawl
 User-agent: CCBot
 Disallow: /
 
-# Anthropic Claude
 User-agent: anthropic-ai
 Disallow: /
 
 User-agent: ClaudeBot
 Disallow: /
 
-# Google Extended (Bard/Gemini)
 User-agent: Google-Extended
 Disallow: /
 
-# Meta AI
 User-agent: FacebookBot
 Disallow: /
 
-User-agent: Meta-ExternalAgent
-Disallow: /
-
-# ByteDance/TikTok
 User-agent: Bytespider
 Disallow: /
 
-# Các bot scraper khác
 User-agent: Omgilibot
 Disallow: /
 
@@ -130,11 +117,3 @@ Disallow: /
 # ================================================
 
 Sitemap: https://acquyhaiphonggiare.com/sitemap.xml
-
-# ================================================
-# GHI CHÚ:
-# - Chặn các file hệ thống (.vscode, .json, .md)
-# - Chặn trang giỏ hàng/checkout (không cần SEO)
-# - Cho phép index tất cả trang còn lại
-# - Chặn AI bots để bảo vệ nội dung
-# ================================================
