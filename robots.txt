@@ -1,7 +1,7 @@
 # ================================================
 # robots.txt - Ắc Quy Hải Phòng Giá Rẻ
 # Website: https://acquyhaiphonggiare.com
-# Cập nhật: 19/01/2025
+# Cập nhật: 20/10/2025
 # ================================================
 
 # Cho phép tất cả các công cụ tìm kiếm crawl
